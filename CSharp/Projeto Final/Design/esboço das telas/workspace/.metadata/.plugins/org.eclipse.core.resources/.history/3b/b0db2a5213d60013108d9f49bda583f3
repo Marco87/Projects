@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="33" x="240" y="392" width="524" height="394" measuredWidth="524" measuredHeight="394"/>
+  <widgets xsi:type="model:Icon" id="1" x="536" y="44" width="105" height="75" measuredWidth="105" measuredHeight="75" icon="car (large)"/>
+  <widgets xsi:type="model:Label" id="2" x="299" y="48" text="Carrópolis" measuredWidth="198" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Menu" id="3" x="299" y="144" text="&amp;Home,&amp;Cliente,&amp;Veículo,&amp;Estacionar,~&amp;Sobre~" measuredWidth="258" measuredHeight="27">
+    <items x="5" y="0" width="44" height="27" text="&amp;Home"/>
+    <items x="49" y="0" width="48" height="27" text="&amp;Cliente"/>
+    <items x="97" y="0" width="50" height="27" text="&amp;Veículo"/>
+    <items x="147" y="0" width="65" height="27" text="&amp;Estacionar"/>
+    <items x="212" y="0" width="41" height="27" text="~&amp;Sobre~"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="280" y="294" text="Veículo" measuredWidth="45" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="280" y="248" text="Cliente" measuredWidth="43" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="14" x="360" y="352" width="34" text="OK" measuredWidth="34" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="16" x="360" y="248" width="169" text="Cliente" measuredWidth="169" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="17" x="360" y="294" width="169" text="Veículo" measuredWidth="169" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="19" x="464" y="424" width="166" text="Data e Hora da Entrada" measuredWidth="166" measuredHeight="23"/>
+  <widgets xsi:type="model:DateField" id="20" x="464" y="472" width="166" text="Data e Hora da Saída" measuredWidth="166" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="21" x="321" y="568" text="Veículo" measuredWidth="45" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="22" x="464" y="568" width="169" text="Veículo" measuredWidth="169" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="321" y="424" text="Entrada" measuredWidth="46" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="321" y="472" text="Saída" measuredWidth="34" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="321" y="664" text="Valor" measuredWidth="33" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="26" x="464" y="664" width="169" text="Valor" measuredWidth="169" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="321" y="618" text="Tipo de Estacionamento" measuredWidth="134" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="30" x="464" y="720" width="169" text="Confirmar saída do veículo" measuredWidth="169" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="31" x="321" y="520" text="Cliente" measuredWidth="43" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="32" x="464" y="520" width="169" text="Cliente" measuredWidth="169" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="34" x="464" y="618" width="169" text="Tipo de Estacionamento" measuredWidth="169" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

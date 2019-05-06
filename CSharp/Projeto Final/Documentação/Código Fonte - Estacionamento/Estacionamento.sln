@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estacionamento", "Estacionamento\Estacionamento.csproj", "{8FAE5208-1565-40C2-A5EF-59D819D0B588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FAE5208-1565-40C2-A5EF-59D819D0B588}.Debug|x86.ActiveCfg = Debug|x86
+		{8FAE5208-1565-40C2-A5EF-59D819D0B588}.Debug|x86.Build.0 = Debug|x86
+		{8FAE5208-1565-40C2-A5EF-59D819D0B588}.Release|x86.ActiveCfg = Release|x86
+		{8FAE5208-1565-40C2-A5EF-59D819D0B588}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

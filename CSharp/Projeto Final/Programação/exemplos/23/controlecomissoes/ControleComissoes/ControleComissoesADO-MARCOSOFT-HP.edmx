@@ -1,0 +1,829 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="controle_comissoesModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="controle_comissoesModelStoreContainer">
+          <EntitySet Name="administrador" EntityType="controle_comissoesModel.Store.administrador" store:Type="Tables" Schema="controle_comissoes" />
+          <EntitySet Name="cliente_pf" EntityType="controle_comissoesModel.Store.cliente_pf" store:Type="Tables" Schema="controle_comissoes" />
+          <EntitySet Name="cliente_pj" EntityType="controle_comissoesModel.Store.cliente_pj" store:Type="Tables" Schema="controle_comissoes" />
+          <EntitySet Name="item_venda" EntityType="controle_comissoesModel.Store.item_venda" store:Type="Tables" Schema="controle_comissoes" />
+          <EntitySet Name="pessoa" EntityType="controle_comissoesModel.Store.pessoa" store:Type="Tables" Schema="controle_comissoes" />
+          <EntitySet Name="plano" EntityType="controle_comissoesModel.Store.plano" store:Type="Tables" Schema="controle_comissoes" />
+          <EntitySet Name="plano_comissao" EntityType="controle_comissoesModel.Store.plano_comissao" store:Type="Tables" Schema="controle_comissoes" />
+          <EntitySet Name="venda" EntityType="controle_comissoesModel.Store.venda" store:Type="Tables" Schema="controle_comissoes" />
+          <EntitySet Name="vendedor" EntityType="controle_comissoesModel.Store.vendedor" store:Type="Tables" Schema="controle_comissoes" />
+          <EntitySet Name="vendedor_comissao" EntityType="controle_comissoesModel.Store.vendedor_comissao" store:Type="Tables" Schema="controle_comissoes" />
+          <AssociationSet Name="cod_adm" Association="controle_comissoesModel.Store.cod_adm">
+            <End Role="pessoa" EntitySet="pessoa" />
+            <End Role="administrador" EntitySet="administrador" />
+          </AssociationSet>
+          <AssociationSet Name="cod_pf" Association="controle_comissoesModel.Store.cod_pf">
+            <End Role="pessoa" EntitySet="pessoa" />
+            <End Role="cliente_pf" EntitySet="cliente_pf" />
+          </AssociationSet>
+          <AssociationSet Name="cod_pj" Association="controle_comissoesModel.Store.cod_pj">
+            <End Role="pessoa" EntitySet="pessoa" />
+            <End Role="cliente_pj" EntitySet="cliente_pj" />
+          </AssociationSet>
+          <AssociationSet Name="cod_plano_item" Association="controle_comissoesModel.Store.cod_plano_item">
+            <End Role="plano" EntitySet="plano" />
+            <End Role="item_venda" EntitySet="item_venda" />
+          </AssociationSet>
+          <AssociationSet Name="cod_vend" Association="controle_comissoesModel.Store.cod_vend">
+            <End Role="vendedor" EntitySet="vendedor" />
+            <End Role="vendedor_comissao" EntitySet="vendedor_comissao" />
+          </AssociationSet>
+          <AssociationSet Name="cod_venda" Association="controle_comissoesModel.Store.cod_venda">
+            <End Role="venda" EntitySet="venda" />
+            <End Role="vendedor_comissao" EntitySet="vendedor_comissao" />
+          </AssociationSet>
+          <AssociationSet Name="cod_venda_item" Association="controle_comissoesModel.Store.cod_venda_item">
+            <End Role="venda" EntitySet="venda" />
+            <End Role="item_venda" EntitySet="item_venda" />
+          </AssociationSet>
+          <AssociationSet Name="cod_vendedor" Association="controle_comissoesModel.Store.cod_vendedor">
+            <End Role="pessoa" EntitySet="pessoa" />
+            <End Role="vendedor" EntitySet="vendedor" />
+          </AssociationSet>
+          <AssociationSet Name="codigo_pf" Association="controle_comissoesModel.Store.codigo_pf">
+            <End Role="cliente_pf" EntitySet="cliente_pf" />
+            <End Role="venda" EntitySet="venda" />
+          </AssociationSet>
+          <AssociationSet Name="codigo_pj" Association="controle_comissoesModel.Store.codigo_pj">
+            <End Role="cliente_pj" EntitySet="cliente_pj" />
+            <End Role="venda" EntitySet="venda" />
+          </AssociationSet>
+          <AssociationSet Name="codigo_plano" Association="controle_comissoesModel.Store.codigo_plano">
+            <End Role="plano" EntitySet="plano" />
+            <End Role="plano_comissao" EntitySet="plano_comissao" />
+          </AssociationSet>
+          <AssociationSet Name="codigo_vend" Association="controle_comissoesModel.Store.codigo_vend">
+            <End Role="vendedor" EntitySet="vendedor" />
+            <End Role="venda" EntitySet="venda" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="administrador">
+          <Key>
+            <PropertyRef Name="codigo_adm" />
+          </Key>
+          <Property Name="codigo_adm" Type="int" Nullable="false" />
+          <Property Name="nome" Type="varchar" MaxLength="50" />
+          <Property Name="cpf" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="cliente_pf">
+          <Key>
+            <PropertyRef Name="codigo_pf" />
+          </Key>
+          <Property Name="codigo_pf" Type="int" Nullable="false" />
+          <Property Name="nome" Type="varchar" MaxLength="20" />
+          <Property Name="cpf" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="cliente_pj">
+          <Key>
+            <PropertyRef Name="codigo_pj" />
+          </Key>
+          <Property Name="codigo_pj" Type="int" Nullable="false" />
+          <Property Name="razao_social" Type="varchar" MaxLength="50" />
+          <Property Name="cnpj" Type="varchar" MaxLength="25" />
+        </EntityType>
+        <EntityType Name="item_venda">
+          <Key>
+            <PropertyRef Name="codigo_venda" />
+            <PropertyRef Name="codigo_plano" />
+          </Key>
+          <Property Name="codigo_venda" Type="int" Nullable="false" />
+          <Property Name="codigo_plano" Type="int" Nullable="false" />
+          <Property Name="quantidade" Type="int" />
+          <Property Name="valor" Type="float" />
+        </EntityType>
+        <EntityType Name="pessoa">
+          <Key>
+            <PropertyRef Name="codigo_pessoa" />
+          </Key>
+          <Property Name="codigo_pessoa" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="endereco" Type="varchar" MaxLength="100" />
+          <Property Name="telefone" Type="varchar" MaxLength="20" />
+          <Property Name="tipo" Type="int" />
+          <Property Name="login" Type="varchar" MaxLength="20" />
+          <Property Name="senha" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="plano">
+          <Key>
+            <PropertyRef Name="codigo_plano" />
+          </Key>
+          <Property Name="codigo_plano" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="descricao" Type="varchar" MaxLength="200" />
+          <Property Name="tipo" Type="int" />
+          <Property Name="valor" Type="float" />
+        </EntityType>
+        <EntityType Name="plano_comissao">
+          <Key>
+            <PropertyRef Name="codigo_plano_comissao" />
+          </Key>
+          <Property Name="codigo_plano_comissao" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="comissao" Type="float" />
+          <Property Name="data" Type="datetime" />
+          <Property Name="faixa_inicial" Type="int" />
+          <Property Name="faixa_final" Type="int" />
+          <Property Name="cod_plano" Type="int" />
+        </EntityType>
+        <EntityType Name="venda">
+          <Key>
+            <PropertyRef Name="codigo_venda" />
+          </Key>
+          <Property Name="codigo_venda" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="data" Type="datetime" />
+          <Property Name="cod_vendedor" Type="int" />
+          <Property Name="cod_pf" Type="int" />
+          <Property Name="cod_pj" Type="int" />
+          <Property Name="total" Type="float" />
+        </EntityType>
+        <EntityType Name="vendedor">
+          <Key>
+            <PropertyRef Name="codigo_vendedor" />
+          </Key>
+          <Property Name="codigo_vendedor" Type="int" Nullable="false" />
+          <Property Name="nome" Type="varchar" MaxLength="50" />
+          <Property Name="cpf" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="vendedor_comissao">
+          <Key>
+            <PropertyRef Name="codigo_venda" />
+            <PropertyRef Name="codigo_vendedor" />
+          </Key>
+          <Property Name="codigo_venda" Type="int" Nullable="false" />
+          <Property Name="codigo_vendedor" Type="int" Nullable="false" />
+          <Property Name="valor_comissao" Type="float" />
+        </EntityType>
+        <Association Name="cod_adm">
+          <End Role="pessoa" Type="controle_comissoesModel.Store.pessoa" Multiplicity="1" />
+          <End Role="administrador" Type="controle_comissoesModel.Store.administrador" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="pessoa">
+              <PropertyRef Name="codigo_pessoa" />
+            </Principal>
+            <Dependent Role="administrador">
+              <PropertyRef Name="codigo_adm" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cod_pf">
+          <End Role="pessoa" Type="controle_comissoesModel.Store.pessoa" Multiplicity="1" />
+          <End Role="cliente_pf" Type="controle_comissoesModel.Store.cliente_pf" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="pessoa">
+              <PropertyRef Name="codigo_pessoa" />
+            </Principal>
+            <Dependent Role="cliente_pf">
+              <PropertyRef Name="codigo_pf" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cod_pj">
+          <End Role="pessoa" Type="controle_comissoesModel.Store.pessoa" Multiplicity="1" />
+          <End Role="cliente_pj" Type="controle_comissoesModel.Store.cliente_pj" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="pessoa">
+              <PropertyRef Name="codigo_pessoa" />
+            </Principal>
+            <Dependent Role="cliente_pj">
+              <PropertyRef Name="codigo_pj" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cod_plano_item">
+          <End Role="plano" Type="controle_comissoesModel.Store.plano" Multiplicity="1" />
+          <End Role="item_venda" Type="controle_comissoesModel.Store.item_venda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="plano">
+              <PropertyRef Name="codigo_plano" />
+            </Principal>
+            <Dependent Role="item_venda">
+              <PropertyRef Name="codigo_plano" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cod_vend">
+          <End Role="vendedor" Type="controle_comissoesModel.Store.vendedor" Multiplicity="1" />
+          <End Role="vendedor_comissao" Type="controle_comissoesModel.Store.vendedor_comissao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="vendedor">
+              <PropertyRef Name="codigo_vendedor" />
+            </Principal>
+            <Dependent Role="vendedor_comissao">
+              <PropertyRef Name="codigo_vendedor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cod_venda">
+          <End Role="venda" Type="controle_comissoesModel.Store.venda" Multiplicity="1" />
+          <End Role="vendedor_comissao" Type="controle_comissoesModel.Store.vendedor_comissao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="venda">
+              <PropertyRef Name="codigo_venda" />
+            </Principal>
+            <Dependent Role="vendedor_comissao">
+              <PropertyRef Name="codigo_venda" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cod_venda_item">
+          <End Role="venda" Type="controle_comissoesModel.Store.venda" Multiplicity="1" />
+          <End Role="item_venda" Type="controle_comissoesModel.Store.item_venda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="venda">
+              <PropertyRef Name="codigo_venda" />
+            </Principal>
+            <Dependent Role="item_venda">
+              <PropertyRef Name="codigo_venda" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cod_vendedor">
+          <End Role="pessoa" Type="controle_comissoesModel.Store.pessoa" Multiplicity="1" />
+          <End Role="vendedor" Type="controle_comissoesModel.Store.vendedor" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="pessoa">
+              <PropertyRef Name="codigo_pessoa" />
+            </Principal>
+            <Dependent Role="vendedor">
+              <PropertyRef Name="codigo_vendedor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="codigo_pf">
+          <End Role="cliente_pf" Type="controle_comissoesModel.Store.cliente_pf" Multiplicity="0..1" />
+          <End Role="venda" Type="controle_comissoesModel.Store.venda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cliente_pf">
+              <PropertyRef Name="codigo_pf" />
+            </Principal>
+            <Dependent Role="venda">
+              <PropertyRef Name="cod_pf" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="codigo_pj">
+          <End Role="cliente_pj" Type="controle_comissoesModel.Store.cliente_pj" Multiplicity="0..1" />
+          <End Role="venda" Type="controle_comissoesModel.Store.venda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cliente_pj">
+              <PropertyRef Name="codigo_pj" />
+            </Principal>
+            <Dependent Role="venda">
+              <PropertyRef Name="cod_pj" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="codigo_plano">
+          <End Role="plano" Type="controle_comissoesModel.Store.plano" Multiplicity="0..1" />
+          <End Role="plano_comissao" Type="controle_comissoesModel.Store.plano_comissao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="plano">
+              <PropertyRef Name="codigo_plano" />
+            </Principal>
+            <Dependent Role="plano_comissao">
+              <PropertyRef Name="cod_plano" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="codigo_vend">
+          <End Role="vendedor" Type="controle_comissoesModel.Store.vendedor" Multiplicity="0..1" />
+          <End Role="venda" Type="controle_comissoesModel.Store.venda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="vendedor">
+              <PropertyRef Name="codigo_vendedor" />
+            </Principal>
+            <Dependent Role="venda">
+              <PropertyRef Name="cod_vendedor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="controle_comissoesModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="controle_comissoesEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="administrador" EntityType="controle_comissoesModel.administrador" />
+          <EntitySet Name="cliente_pf" EntityType="controle_comissoesModel.cliente_pf" />
+          <EntitySet Name="cliente_pj" EntityType="controle_comissoesModel.cliente_pj" />
+          <EntitySet Name="item_venda" EntityType="controle_comissoesModel.item_venda" />
+          <EntitySet Name="pessoa" EntityType="controle_comissoesModel.pessoa" />
+          <EntitySet Name="plano" EntityType="controle_comissoesModel.plano" />
+          <EntitySet Name="plano_comissao" EntityType="controle_comissoesModel.plano_comissao" />
+          <EntitySet Name="venda" EntityType="controle_comissoesModel.venda" />
+          <EntitySet Name="vendedor" EntityType="controle_comissoesModel.vendedor" />
+          <EntitySet Name="vendedor_comissao" EntityType="controle_comissoesModel.vendedor_comissao" />
+          <AssociationSet Name="cod_adm" Association="controle_comissoesModel.cod_adm">
+            <End Role="pessoa" EntitySet="pessoa" />
+            <End Role="administrador" EntitySet="administrador" />
+          </AssociationSet>
+          <AssociationSet Name="cod_pf" Association="controle_comissoesModel.cod_pf">
+            <End Role="pessoa" EntitySet="pessoa" />
+            <End Role="cliente_pf" EntitySet="cliente_pf" />
+          </AssociationSet>
+          <AssociationSet Name="codigo_pf" Association="controle_comissoesModel.codigo_pf">
+            <End Role="cliente_pf" EntitySet="cliente_pf" />
+            <End Role="venda" EntitySet="venda" />
+          </AssociationSet>
+          <AssociationSet Name="cod_pj" Association="controle_comissoesModel.cod_pj">
+            <End Role="pessoa" EntitySet="pessoa" />
+            <End Role="cliente_pj" EntitySet="cliente_pj" />
+          </AssociationSet>
+          <AssociationSet Name="codigo_pj" Association="controle_comissoesModel.codigo_pj">
+            <End Role="cliente_pj" EntitySet="cliente_pj" />
+            <End Role="venda" EntitySet="venda" />
+          </AssociationSet>
+          <AssociationSet Name="cod_plano_item" Association="controle_comissoesModel.cod_plano_item">
+            <End Role="plano" EntitySet="plano" />
+            <End Role="item_venda" EntitySet="item_venda" />
+          </AssociationSet>
+          <AssociationSet Name="cod_venda_item" Association="controle_comissoesModel.cod_venda_item">
+            <End Role="venda" EntitySet="venda" />
+            <End Role="item_venda" EntitySet="item_venda" />
+          </AssociationSet>
+          <AssociationSet Name="cod_vendedor" Association="controle_comissoesModel.cod_vendedor">
+            <End Role="pessoa" EntitySet="pessoa" />
+            <End Role="vendedor" EntitySet="vendedor" />
+          </AssociationSet>
+          <AssociationSet Name="codigo_plano" Association="controle_comissoesModel.codigo_plano">
+            <End Role="plano" EntitySet="plano" />
+            <End Role="plano_comissao" EntitySet="plano_comissao" />
+          </AssociationSet>
+          <AssociationSet Name="cod_venda" Association="controle_comissoesModel.cod_venda">
+            <End Role="venda" EntitySet="venda" />
+            <End Role="vendedor_comissao" EntitySet="vendedor_comissao" />
+          </AssociationSet>
+          <AssociationSet Name="codigo_vend" Association="controle_comissoesModel.codigo_vend">
+            <End Role="vendedor" EntitySet="vendedor" />
+            <End Role="venda" EntitySet="venda" />
+          </AssociationSet>
+          <AssociationSet Name="cod_vend" Association="controle_comissoesModel.cod_vend">
+            <End Role="vendedor" EntitySet="vendedor" />
+            <End Role="vendedor_comissao" EntitySet="vendedor_comissao" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="administrador">
+          <Key>
+            <PropertyRef Name="codigo_adm" />
+          </Key>
+          <Property Name="codigo_adm" Type="Int32" Nullable="false" />
+          <Property Name="nome" Type="String" />
+          <Property Name="cpf" Type="String" />
+          <NavigationProperty Name="pessoa" Relationship="controle_comissoesModel.cod_adm" FromRole="administrador" ToRole="pessoa" />
+        </EntityType>
+        <EntityType Name="cliente_pf">
+          <Key>
+            <PropertyRef Name="codigo_pf" />
+          </Key>
+          <Property Name="codigo_pf" Type="Int32" Nullable="false" />
+          <Property Name="nome" Type="String" />
+          <Property Name="cpf" Type="String" />
+          <NavigationProperty Name="pessoa" Relationship="controle_comissoesModel.cod_pf" FromRole="cliente_pf" ToRole="pessoa" />
+          <NavigationProperty Name="venda" Relationship="controle_comissoesModel.codigo_pf" FromRole="cliente_pf" ToRole="venda" />
+        </EntityType>
+        <EntityType Name="cliente_pj">
+          <Key>
+            <PropertyRef Name="codigo_pj" />
+          </Key>
+          <Property Name="codigo_pj" Type="Int32" Nullable="false" />
+          <Property Name="razao_social" Type="String" />
+          <Property Name="cnpj" Type="String" />
+          <NavigationProperty Name="pessoa" Relationship="controle_comissoesModel.cod_pj" FromRole="cliente_pj" ToRole="pessoa" />
+          <NavigationProperty Name="venda" Relationship="controle_comissoesModel.codigo_pj" FromRole="cliente_pj" ToRole="venda" />
+        </EntityType>
+        <EntityType Name="item_venda">
+          <Key>
+            <PropertyRef Name="codigo_venda" />
+            <PropertyRef Name="codigo_plano" />
+          </Key>
+          <Property Name="codigo_venda" Type="Int32" Nullable="false" />
+          <Property Name="codigo_plano" Type="Int32" Nullable="false" />
+          <Property Name="quantidade" Type="Int32" />
+          <Property Name="valor" Type="Single" />
+          <NavigationProperty Name="plano" Relationship="controle_comissoesModel.cod_plano_item" FromRole="item_venda" ToRole="plano" />
+          <NavigationProperty Name="venda" Relationship="controle_comissoesModel.cod_venda_item" FromRole="item_venda" ToRole="venda" />
+        </EntityType>
+        <EntityType Name="pessoa">
+          <Key>
+            <PropertyRef Name="codigo_pessoa" />
+          </Key>
+          <Property Name="codigo_pessoa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="endereco" Type="String" />
+          <Property Name="telefone" Type="String" />
+          <Property Name="tipo" Type="Int32" />
+          <NavigationProperty Name="administrador" Relationship="controle_comissoesModel.cod_adm" FromRole="pessoa" ToRole="administrador" />
+          <NavigationProperty Name="cliente_pf" Relationship="controle_comissoesModel.cod_pf" FromRole="pessoa" ToRole="cliente_pf" />
+          <NavigationProperty Name="cliente_pj" Relationship="controle_comissoesModel.cod_pj" FromRole="pessoa" ToRole="cliente_pj" />
+          <NavigationProperty Name="vendedor" Relationship="controle_comissoesModel.cod_vendedor" FromRole="pessoa" ToRole="vendedor" />
+          <Property Type="String" Name="login" />
+          <Property Type="String" Name="senha" />
+        </EntityType>
+        <EntityType Name="plano">
+          <Key>
+            <PropertyRef Name="codigo_plano" />
+          </Key>
+          <Property Name="codigo_plano" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="descricao" Type="String" />
+          <Property Name="tipo" Type="Int32" />
+          <Property Name="valor" Type="Single" />
+          <NavigationProperty Name="item_venda" Relationship="controle_comissoesModel.cod_plano_item" FromRole="plano" ToRole="item_venda" />
+          <NavigationProperty Name="plano_comissao" Relationship="controle_comissoesModel.codigo_plano" FromRole="plano" ToRole="plano_comissao" />
+        </EntityType>
+        <EntityType Name="plano_comissao">
+          <Key>
+            <PropertyRef Name="codigo_plano_comissao" />
+          </Key>
+          <Property Name="codigo_plano_comissao" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="cod_plano" Type="Int32" />
+          <Property Name="comissao" Type="Single" />
+          <Property Name="data" Type="DateTime" />
+          <Property Name="faixa_inicial" Type="Int32" />
+          <Property Name="faixa_final" Type="Int32" />
+          <NavigationProperty Name="plano" Relationship="controle_comissoesModel.codigo_plano" FromRole="plano_comissao" ToRole="plano" />
+        </EntityType>
+        <EntityType Name="venda">
+          <Key>
+            <PropertyRef Name="codigo_venda" />
+          </Key>
+          <Property Name="codigo_venda" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="data" Type="DateTime" />
+          <Property Name="cod_vendedor" Type="Int32" />
+          <Property Name="cod_pf" Type="Int32" />
+          <Property Name="cod_pj" Type="Int32" />
+          <Property Name="total" Type="Single" />
+          <NavigationProperty Name="cliente_pf" Relationship="controle_comissoesModel.codigo_pf" FromRole="venda" ToRole="cliente_pf" />
+          <NavigationProperty Name="cliente_pj" Relationship="controle_comissoesModel.codigo_pj" FromRole="venda" ToRole="cliente_pj" />
+          <NavigationProperty Name="item_venda" Relationship="controle_comissoesModel.cod_venda_item" FromRole="venda" ToRole="item_venda" />
+          <NavigationProperty Name="vendedor_comissao" Relationship="controle_comissoesModel.cod_venda" FromRole="venda" ToRole="vendedor_comissao" />
+          <NavigationProperty Name="vendedor" Relationship="controle_comissoesModel.codigo_vend" FromRole="venda" ToRole="vendedor" />
+        </EntityType>
+        <EntityType Name="vendedor">
+          <Key>
+            <PropertyRef Name="codigo_vendedor" />
+          </Key>
+          <Property Name="codigo_vendedor" Type="Int32" Nullable="false" />
+          <Property Name="nome" Type="String" />
+          <Property Name="cpf" Type="String" />
+          <NavigationProperty Name="pessoa" Relationship="controle_comissoesModel.cod_vendedor" FromRole="vendedor" ToRole="pessoa" />
+          <NavigationProperty Name="venda" Relationship="controle_comissoesModel.codigo_vend" FromRole="vendedor" ToRole="venda" />
+          <NavigationProperty Name="vendedor_comissao" Relationship="controle_comissoesModel.cod_vend" FromRole="vendedor" ToRole="vendedor_comissao" />
+        </EntityType>
+        <EntityType Name="vendedor_comissao">
+          <Key>
+            <PropertyRef Name="codigo_venda" />
+            <PropertyRef Name="codigo_vendedor" />
+          </Key>
+          <Property Name="codigo_venda" Type="Int32" Nullable="false" />
+          <Property Name="codigo_vendedor" Type="Int32" Nullable="false" />
+          <Property Name="valor_comissao" Type="Single" />
+          <NavigationProperty Name="venda" Relationship="controle_comissoesModel.cod_venda" FromRole="vendedor_comissao" ToRole="venda" />
+          <NavigationProperty Name="vendedor" Relationship="controle_comissoesModel.cod_vend" FromRole="vendedor_comissao" ToRole="vendedor" />
+        </EntityType>
+        <Association Name="cod_adm">
+          <End Role="pessoa" Type="controle_comissoesModel.pessoa" Multiplicity="1" />
+          <End Role="administrador" Type="controle_comissoesModel.administrador" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="pessoa">
+              <PropertyRef Name="codigo_pessoa" />
+            </Principal>
+            <Dependent Role="administrador">
+              <PropertyRef Name="codigo_adm" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cod_pf">
+          <End Role="pessoa" Type="controle_comissoesModel.pessoa" Multiplicity="1" />
+          <End Role="cliente_pf" Type="controle_comissoesModel.cliente_pf" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="pessoa">
+              <PropertyRef Name="codigo_pessoa" />
+            </Principal>
+            <Dependent Role="cliente_pf">
+              <PropertyRef Name="codigo_pf" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="codigo_pf">
+          <End Role="cliente_pf" Type="controle_comissoesModel.cliente_pf" Multiplicity="0..1" />
+          <End Role="venda" Type="controle_comissoesModel.venda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cliente_pf">
+              <PropertyRef Name="codigo_pf" />
+            </Principal>
+            <Dependent Role="venda">
+              <PropertyRef Name="cod_pf" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cod_pj">
+          <End Role="pessoa" Type="controle_comissoesModel.pessoa" Multiplicity="1" />
+          <End Role="cliente_pj" Type="controle_comissoesModel.cliente_pj" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="pessoa">
+              <PropertyRef Name="codigo_pessoa" />
+            </Principal>
+            <Dependent Role="cliente_pj">
+              <PropertyRef Name="codigo_pj" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="codigo_pj">
+          <End Role="cliente_pj" Type="controle_comissoesModel.cliente_pj" Multiplicity="0..1" />
+          <End Role="venda" Type="controle_comissoesModel.venda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cliente_pj">
+              <PropertyRef Name="codigo_pj" />
+            </Principal>
+            <Dependent Role="venda">
+              <PropertyRef Name="cod_pj" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cod_plano_item">
+          <End Role="plano" Type="controle_comissoesModel.plano" Multiplicity="1" />
+          <End Role="item_venda" Type="controle_comissoesModel.item_venda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="plano">
+              <PropertyRef Name="codigo_plano" />
+            </Principal>
+            <Dependent Role="item_venda">
+              <PropertyRef Name="codigo_plano" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cod_venda_item">
+          <End Role="venda" Type="controle_comissoesModel.venda" Multiplicity="1" />
+          <End Role="item_venda" Type="controle_comissoesModel.item_venda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="venda">
+              <PropertyRef Name="codigo_venda" />
+            </Principal>
+            <Dependent Role="item_venda">
+              <PropertyRef Name="codigo_venda" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cod_vendedor">
+          <End Role="pessoa" Type="controle_comissoesModel.pessoa" Multiplicity="1" />
+          <End Role="vendedor" Type="controle_comissoesModel.vendedor" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="pessoa">
+              <PropertyRef Name="codigo_pessoa" />
+            </Principal>
+            <Dependent Role="vendedor">
+              <PropertyRef Name="codigo_vendedor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="codigo_plano">
+          <End Role="plano" Type="controle_comissoesModel.plano" Multiplicity="0..1" />
+          <End Role="plano_comissao" Type="controle_comissoesModel.plano_comissao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="plano">
+              <PropertyRef Name="codigo_plano" />
+            </Principal>
+            <Dependent Role="plano_comissao">
+              <PropertyRef Name="cod_plano" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cod_venda">
+          <End Role="venda" Type="controle_comissoesModel.venda" Multiplicity="1" />
+          <End Role="vendedor_comissao" Type="controle_comissoesModel.vendedor_comissao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="venda">
+              <PropertyRef Name="codigo_venda" />
+            </Principal>
+            <Dependent Role="vendedor_comissao">
+              <PropertyRef Name="codigo_venda" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="codigo_vend">
+          <End Role="vendedor" Type="controle_comissoesModel.vendedor" Multiplicity="0..1" />
+          <End Role="venda" Type="controle_comissoesModel.venda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="vendedor">
+              <PropertyRef Name="codigo_vendedor" />
+            </Principal>
+            <Dependent Role="venda">
+              <PropertyRef Name="cod_vendedor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cod_vend">
+          <End Role="vendedor" Type="controle_comissoesModel.vendedor" Multiplicity="1" />
+          <End Role="vendedor_comissao" Type="controle_comissoesModel.vendedor_comissao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="vendedor">
+              <PropertyRef Name="codigo_vendedor" />
+            </Principal>
+            <Dependent Role="vendedor_comissao">
+              <PropertyRef Name="codigo_vendedor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="controle_comissoesModelStoreContainer" CdmEntityContainer="controle_comissoesEntities">
+          <EntitySetMapping Name="administrador">
+            <EntityTypeMapping TypeName="controle_comissoesModel.administrador">
+              <MappingFragment StoreEntitySet="administrador">
+                <ScalarProperty Name="codigo_adm" ColumnName="codigo_adm" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="cpf" ColumnName="cpf" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="cliente_pf">
+            <EntityTypeMapping TypeName="controle_comissoesModel.cliente_pf">
+              <MappingFragment StoreEntitySet="cliente_pf">
+                <ScalarProperty Name="codigo_pf" ColumnName="codigo_pf" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="cpf" ColumnName="cpf" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="cliente_pj">
+            <EntityTypeMapping TypeName="controle_comissoesModel.cliente_pj">
+              <MappingFragment StoreEntitySet="cliente_pj">
+                <ScalarProperty Name="codigo_pj" ColumnName="codigo_pj" />
+                <ScalarProperty Name="razao_social" ColumnName="razao_social" />
+                <ScalarProperty Name="cnpj" ColumnName="cnpj" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="item_venda">
+            <EntityTypeMapping TypeName="controle_comissoesModel.item_venda">
+              <MappingFragment StoreEntitySet="item_venda">
+                <ScalarProperty Name="codigo_venda" ColumnName="codigo_venda" />
+                <ScalarProperty Name="codigo_plano" ColumnName="codigo_plano" />
+                <ScalarProperty Name="quantidade" ColumnName="quantidade" />
+                <ScalarProperty Name="valor" ColumnName="valor" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="pessoa">
+            <EntityTypeMapping TypeName="controle_comissoesModel.pessoa">
+              <MappingFragment StoreEntitySet="pessoa">
+                <ScalarProperty Name="senha" ColumnName="senha" />
+                <ScalarProperty Name="login" ColumnName="login" />
+                <ScalarProperty Name="codigo_pessoa" ColumnName="codigo_pessoa" />
+                <ScalarProperty Name="endereco" ColumnName="endereco" />
+                <ScalarProperty Name="telefone" ColumnName="telefone" />
+                <ScalarProperty Name="tipo" ColumnName="tipo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="plano">
+            <EntityTypeMapping TypeName="controle_comissoesModel.plano">
+              <MappingFragment StoreEntitySet="plano">
+                <ScalarProperty Name="codigo_plano" ColumnName="codigo_plano" />
+                <ScalarProperty Name="descricao" ColumnName="descricao" />
+                <ScalarProperty Name="tipo" ColumnName="tipo" />
+                <ScalarProperty Name="valor" ColumnName="valor" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="plano_comissao">
+            <EntityTypeMapping TypeName="controle_comissoesModel.plano_comissao">
+              <MappingFragment StoreEntitySet="plano_comissao">
+                <ScalarProperty Name="codigo_plano_comissao" ColumnName="codigo_plano_comissao" />
+                <ScalarProperty Name="cod_plano" ColumnName="cod_plano" />
+                <ScalarProperty Name="comissao" ColumnName="comissao" />
+                <ScalarProperty Name="data" ColumnName="data" />
+                <ScalarProperty Name="faixa_inicial" ColumnName="faixa_inicial" />
+                <ScalarProperty Name="faixa_final" ColumnName="faixa_final" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="venda">
+            <EntityTypeMapping TypeName="controle_comissoesModel.venda">
+              <MappingFragment StoreEntitySet="venda">
+                <ScalarProperty Name="codigo_venda" ColumnName="codigo_venda" />
+                <ScalarProperty Name="data" ColumnName="data" />
+                <ScalarProperty Name="cod_vendedor" ColumnName="cod_vendedor" />
+                <ScalarProperty Name="cod_pf" ColumnName="cod_pf" />
+                <ScalarProperty Name="cod_pj" ColumnName="cod_pj" />
+                <ScalarProperty Name="total" ColumnName="total" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vendedor">
+            <EntityTypeMapping TypeName="controle_comissoesModel.vendedor">
+              <MappingFragment StoreEntitySet="vendedor">
+                <ScalarProperty Name="codigo_vendedor" ColumnName="codigo_vendedor" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="cpf" ColumnName="cpf" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vendedor_comissao">
+            <EntityTypeMapping TypeName="controle_comissoesModel.vendedor_comissao">
+              <MappingFragment StoreEntitySet="vendedor_comissao">
+                <ScalarProperty Name="codigo_venda" ColumnName="codigo_venda" />
+                <ScalarProperty Name="codigo_vendedor" ColumnName="codigo_vendedor" />
+                <ScalarProperty Name="valor_comissao" ColumnName="valor_comissao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="ControleComissoesADO">
+        <EntityTypeShape EntityType="controle_comissoesModel.administrador" Width="1.5" PointX="3" PointY="3" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="controle_comissoesModel.cliente_pf" Width="1.5" PointX="3" PointY="5.5" Height="1.9802864583333335" IsExpanded="true" />
+        <EntityTypeShape EntityType="controle_comissoesModel.cliente_pj" Width="1.5" PointX="3" PointY="8.25" Height="1.9802864583333317" IsExpanded="true" />
+        <EntityTypeShape EntityType="controle_comissoesModel.item_venda" Width="1.5" PointX="7.5" PointY="8.25" Height="2.1725878906249996" IsExpanded="true" />
+        <EntityTypeShape EntityType="controle_comissoesModel.pessoa" Width="1.5" PointX="0.75" PointY="6.75" Height="2.5571907552083344" IsExpanded="true" />
+        <EntityTypeShape EntityType="controle_comissoesModel.plano" Width="1.5" PointX="5.25" PointY="4.25" Height="2.1725878906249996" IsExpanded="true" />
+        <EntityTypeShape EntityType="controle_comissoesModel.plano_comissao" Width="1.5" PointX="7.5" PointY="4.125" Height="2.3648893229166674" IsExpanded="true" />
+        <EntityTypeShape EntityType="controle_comissoesModel.venda" Width="1.5" PointX="5.25" PointY="7.75" Height="3.1340950520833317" IsExpanded="true" />
+        <EntityTypeShape EntityType="controle_comissoesModel.vendedor" Width="1.5" PointX="3" PointY="11" Height="2.1725878906249996" IsExpanded="true" />
+        <EntityTypeShape EntityType="controle_comissoesModel.vendedor_comissao" Width="1.5" PointX="7.5" PointY="11.375" Height="1.9802864583333317" IsExpanded="true" />
+        <AssociationConnector Association="controle_comissoesModel.cod_adm" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.5" PointY="6.75" />
+          <ConnectorPoint PointX="1.5" PointY="3.8939925130208337" />
+          <ConnectorPoint PointX="3" PointY="3.8939925130208337" />
+        </AssociationConnector>
+        <AssociationConnector Association="controle_comissoesModel.cod_pf" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="7.1151432291666667" />
+          <ConnectorPoint PointX="3" PointY="7.1151432291666667" />
+        </AssociationConnector>
+        <AssociationConnector Association="controle_comissoesModel.codigo_pf" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="7.4802864583333335" />
+          <ConnectorPoint PointX="4.875" PointY="7.8552864583333335" />
+          <ConnectorPoint PointX="4.875" PointY="7.375" />
+          <ConnectorPoint PointX="5.25" PointY="7.75" />
+        </AssociationConnector>
+        <AssociationConnector Association="controle_comissoesModel.cod_pj" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="8.7785953776041676" />
+          <ConnectorPoint PointX="3" PointY="8.7785953776041676" />
+        </AssociationConnector>
+        <AssociationConnector Association="controle_comissoesModel.codigo_pj" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="9.2401432291666659" />
+          <ConnectorPoint PointX="5.25" PointY="9.2401432291666659" />
+        </AssociationConnector>
+        <AssociationConnector Association="controle_comissoesModel.cod_plano_item" ManuallyRouted="false">
+          <ConnectorPoint PointX="6.75" PointY="6.422587890625" />
+          <ConnectorPoint PointX="7.125" PointY="6.797587890625" />
+          <ConnectorPoint PointX="7.125" PointY="9.3362939453125" />
+          <ConnectorPoint PointX="7.5" PointY="9.3362939453125" />
+        </AssociationConnector>
+        <AssociationConnector Association="controle_comissoesModel.cod_venda_item" ManuallyRouted="false">
+          <ConnectorPoint PointX="6.75" PointY="8.730646972656249" />
+          <ConnectorPoint PointX="7.041666666666667" PointY="8.730646972656249" />
+          <ConnectorPoint PointX="7.208333333333333" PointY="8.730646972656249" />
+          <ConnectorPoint PointX="7.5" PointY="8.730646972656249" />
+        </AssociationConnector>
+        <AssociationConnector Association="controle_comissoesModel.cod_vendedor" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.5" PointY="9.3071907552083353" />
+          <ConnectorPoint PointX="1.5" PointY="12.0862939453125" />
+          <ConnectorPoint PointX="3" PointY="12.0862939453125" />
+        </AssociationConnector>
+        <AssociationConnector Association="controle_comissoesModel.codigo_plano" ManuallyRouted="false">
+          <ConnectorPoint PointX="6.75" PointY="5.305041445312499" />
+          <ConnectorPoint PointX="7.5" PointY="5.305041445312499" />
+        </AssociationConnector>
+        <AssociationConnector Association="controle_comissoesModel.cod_venda" ManuallyRouted="false">
+          <ConnectorPoint PointX="6" PointY="10.884095052083332" />
+          <ConnectorPoint PointX="6" PointY="12.365143229166666" />
+          <ConnectorPoint PointX="7.5" PointY="12.365143229166666" />
+        </AssociationConnector>
+        <AssociationConnector Association="controle_comissoesModel.codigo_vend" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="11.682571614583333" />
+          <ConnectorPoint PointX="5.5937475" PointY="11.682571614583333" />
+          <ConnectorPoint PointX="5.5937475" PointY="10.884095052083332" />
+        </AssociationConnector>
+        <AssociationConnector Association="controle_comissoesModel.cod_vend" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="12.831365559895833" />
+          <ConnectorPoint PointX="7.5" PointY="12.831365559895833" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

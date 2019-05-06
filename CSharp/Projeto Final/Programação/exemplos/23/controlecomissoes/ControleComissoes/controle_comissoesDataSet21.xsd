@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="controle_comissoesDataSet2" targetNamespace="http://tempuri.org/controle_comissoesDataSet21.xsd" xmlns:mstns="http://tempuri.org/controle_comissoesDataSet21.xsd" xmlns="http://tempuri.org/controle_comissoesDataSet21.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="controle_comissoesConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="controle_comissoesConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ControleComissoes.Properties.Settings.GlobalReference.Default.controle_comissoesConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_clipjTableAdapter" GeneratorDataComponentClassName="view_clipjTableAdapter" Name="view_clipj" UserDataComponentName="view_clipjTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="controle_comissoesConnectionString (Settings)" DbObjectName="controle_comissoes.view_clipj" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `codigo_pj`, `razao_social`, `cnpj`, `endereco`, `telefone`, `login`, `senha` FROM `controle_comissoes`.`view_clipj`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="codigo_pj" DataSetColumn="codigo_pj" />
+              <Mapping SourceColumn="razao_social" DataSetColumn="razao_social" />
+              <Mapping SourceColumn="cnpj" DataSetColumn="cnpj" />
+              <Mapping SourceColumn="endereco" DataSetColumn="endereco" />
+              <Mapping SourceColumn="telefone" DataSetColumn="telefone" />
+              <Mapping SourceColumn="login" DataSetColumn="login" />
+              <Mapping SourceColumn="senha" DataSetColumn="senha" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="controle_comissoesDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="controle_comissoesDataSet2" msprop:Generator_UserDSName="controle_comissoesDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="view_clipj" msprop:Generator_TableClassName="view_clipjDataTable" msprop:Generator_TableVarName="tableview_clipj" msprop:Generator_TablePropName="view_clipj" msprop:Generator_RowDeletingName="view_clipjRowDeleting" msprop:Generator_RowChangingName="view_clipjRowChanging" msprop:Generator_RowEvHandlerName="view_clipjRowChangeEventHandler" msprop:Generator_RowDeletedName="view_clipjRowDeleted" msprop:Generator_UserTableName="view_clipj" msprop:Generator_RowChangedName="view_clipjRowChanged" msprop:Generator_RowEvArgName="view_clipjRowChangeEvent" msprop:Generator_RowClassName="view_clipjRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo_pj" msprop:Generator_ColumnVarNameInTable="columncodigo_pj" msprop:Generator_ColumnPropNameInRow="codigo_pj" msprop:Generator_ColumnPropNameInTable="codigo_pjColumn" msprop:Generator_UserColumnName="codigo_pj" type="xs:int" />
+              <xs:element name="razao_social" msprop:Generator_ColumnVarNameInTable="columnrazao_social" msprop:Generator_ColumnPropNameInRow="razao_social" msprop:Generator_ColumnPropNameInTable="razao_socialColumn" msprop:Generator_UserColumnName="razao_social" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cnpj" msprop:Generator_ColumnVarNameInTable="columncnpj" msprop:Generator_ColumnPropNameInRow="cnpj" msprop:Generator_ColumnPropNameInTable="cnpjColumn" msprop:Generator_UserColumnName="cnpj" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="endereco" msprop:Generator_ColumnVarNameInTable="columnendereco" msprop:Generator_ColumnPropNameInRow="endereco" msprop:Generator_ColumnPropNameInTable="enderecoColumn" msprop:Generator_UserColumnName="endereco" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="telefone" msprop:Generator_ColumnVarNameInTable="columntelefone" msprop:Generator_ColumnPropNameInRow="telefone" msprop:Generator_ColumnPropNameInTable="telefoneColumn" msprop:Generator_UserColumnName="telefone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="login" msprop:Generator_ColumnVarNameInTable="columnlogin" msprop:Generator_ColumnPropNameInRow="login" msprop:Generator_ColumnPropNameInTable="loginColumn" msprop:Generator_UserColumnName="login" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="senha" msprop:Generator_ColumnVarNameInTable="columnsenha" msprop:Generator_ColumnPropNameInRow="senha" msprop:Generator_ColumnPropNameInTable="senhaColumn" msprop:Generator_UserColumnName="senha" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:view_clipj" />
+      <xs:field xpath="mstns:codigo_pj" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

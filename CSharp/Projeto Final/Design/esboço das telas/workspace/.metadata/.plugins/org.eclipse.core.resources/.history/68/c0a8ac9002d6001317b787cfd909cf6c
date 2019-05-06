@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Icon" id="1" x="536" y="44" width="105" height="75" measuredWidth="105" measuredHeight="75" icon="car (large)"/>
+  <widgets xsi:type="model:Label" id="2" x="299" y="48" text="Carrópolis" measuredWidth="198" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Menu" id="3" x="299" y="144" text="&amp;Home,&amp;Cliente,&amp;Veículo,&amp;Estacionar,~&amp;Sobre~,&amp;Contato" measuredWidth="312" measuredHeight="27">
+    <items x="5" y="0" width="44" height="27" text="&amp;Home"/>
+    <items x="49" y="0" width="48" height="27" text="&amp;Cliente"/>
+    <items x="97" y="0" width="50" height="27" text="&amp;Veículo"/>
+    <items x="147" y="0" width="65" height="27" text="&amp;Estacionar"/>
+    <items x="212" y="0" width="41" height="27" text="~&amp;Sobre~"/>
+    <items x="253" y="0" width="54" height="27" text="&amp;Contato"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="4" x="299" y="256" width="400" height="230" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&#xD;&#xA;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="400" measuredHeight="230">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

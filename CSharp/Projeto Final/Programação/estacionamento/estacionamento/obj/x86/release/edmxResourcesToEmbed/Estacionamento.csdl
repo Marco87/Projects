@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="estrelaoriental3Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="estrelaoriental3Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cliente" EntityType="estrelaoriental3Model.cliente" />
+    <EntitySet Name="dependente" EntityType="estrelaoriental3Model.dependente" />
+    <EntitySet Name="pessoafisica" EntityType="estrelaoriental3Model.pessoafisica" />
+    <EntitySet Name="pessoajuridica" EntityType="estrelaoriental3Model.pessoajuridica" />
+    <EntitySet Name="registroentsai" EntityType="estrelaoriental3Model.registroentsai" />
+    <EntitySet Name="tipoestacionamento" EntityType="estrelaoriental3Model.tipoestacionamento" />
+    <EntitySet Name="usuario" EntityType="estrelaoriental3Model.usuario" />
+    <EntitySet Name="vaga" EntityType="estrelaoriental3Model.vaga" />
+    <EntitySet Name="veiculo" EntityType="estrelaoriental3Model.veiculo" />
+    <AssociationSet Name="idCliente" Association="estrelaoriental3Model.idCliente">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="veiculo" EntitySet="veiculo" />
+    </AssociationSet>
+    <AssociationSet Name="idClientePF" Association="estrelaoriental3Model.idClientePF">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="pessoafisica" EntitySet="pessoafisica" />
+    </AssociationSet>
+    <AssociationSet Name="idClientePJ" Association="estrelaoriental3Model.idClientePJ">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="pessoajuridica" EntitySet="pessoajuridica" />
+    </AssociationSet>
+    <AssociationSet Name="idDependente" Association="estrelaoriental3Model.idDependente">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="dependente" EntitySet="dependente" />
+    </AssociationSet>
+    <AssociationSet Name="idTitular" Association="estrelaoriental3Model.idTitular">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="dependente" EntitySet="dependente" />
+    </AssociationSet>
+    <AssociationSet Name="idVeiculo" Association="estrelaoriental3Model.idVeiculo">
+      <End Role="veiculo" EntitySet="veiculo" />
+      <End Role="registroentsai" EntitySet="registroentsai" />
+    </AssociationSet>
+    <AssociationSet Name="idTipoEstacionamento" Association="estrelaoriental3Model.idTipoEstacionamento">
+      <End Role="tipoestacionamento" EntitySet="tipoestacionamento" />
+      <End Role="veiculo" EntitySet="veiculo" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="cliente">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="telefone" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="Celular" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="email" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="endereco" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="situacao" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="vencimento" Type="DateTime" />
+    <NavigationProperty Name="veiculo" Relationship="estrelaoriental3Model.idCliente" FromRole="cliente" ToRole="veiculo" />
+    <NavigationProperty Name="pessoafisica" Relationship="estrelaoriental3Model.idClientePF" FromRole="cliente" ToRole="pessoafisica" />
+    <NavigationProperty Name="pessoajuridica" Relationship="estrelaoriental3Model.idClientePJ" FromRole="cliente" ToRole="pessoajuridica" />
+    <NavigationProperty Name="dependente" Relationship="estrelaoriental3Model.idDependente" FromRole="cliente" ToRole="dependente" />
+    <NavigationProperty Name="dependente1" Relationship="estrelaoriental3Model.idTitular" FromRole="cliente" ToRole="dependente" />
+  </EntityType>
+  <EntityType Name="dependente">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="Int32" Nullable="false" />
+    <Property Name="idTitular" Type="Int32" Nullable="false" />
+    <Property Name="Nome" Type="Int32" />
+    <NavigationProperty Name="cliente" Relationship="estrelaoriental3Model.idDependente" FromRole="dependente" ToRole="cliente" />
+    <NavigationProperty Name="cliente1" Relationship="estrelaoriental3Model.idTitular" FromRole="dependente" ToRole="cliente" />
+  </EntityType>
+  <EntityType Name="pessoafisica">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="Int32" Nullable="false" />
+    <Property Name="nome" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="cliente" Relationship="estrelaoriental3Model.idClientePF" FromRole="pessoafisica" ToRole="cliente" />
+  </EntityType>
+  <EntityType Name="pessoajuridica">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="Int32" Nullable="false" />
+    <Property Name="razaoSocial" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="cliente" Relationship="estrelaoriental3Model.idClientePJ" FromRole="pessoajuridica" ToRole="cliente" />
+  </EntityType>
+  <EntityType Name="registroentsai">
+    <Key>
+      <PropertyRef Name="idRegistroEntSai" />
+    </Key>
+    <Property Name="idRegistroEntSai" Type="Int32" Nullable="false" />
+    <Property Name="dataHoraEntrada" Type="DateTime" />
+    <Property Name="dataHoraSaida" Type="DateTime" />
+    <Property Name="idVeiculo" Type="Int32" />
+    <Property Name="valor" Type="Single" />
+    <NavigationProperty Name="veiculo" Relationship="estrelaoriental3Model.idVeiculo" FromRole="registroentsai" ToRole="veiculo" />
+  </EntityType>
+  <EntityType Name="tipoestacionamento">
+    <Key>
+      <PropertyRef Name="idTipoEstacionamento" />
+    </Key>
+    <Property Name="idTipoEstacionamento" Type="Int32" Nullable="false" />
+    <Property Name="descricao" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="valor" Type="Single" />
+    <NavigationProperty Name="veiculo" Relationship="estrelaoriental3Model.idTipoEstacionamento" FromRole="tipoestacionamento" ToRole="veiculo" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="idusuario" />
+    </Key>
+    <Property Name="idusuario" Type="Int32" Nullable="false" />
+    <Property Name="nome" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="telefone" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="celular" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="email" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="endereco" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="tipoUsuario" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="login" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="senha" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vaga">
+    <Key>
+      <PropertyRef Name="idVaga" />
+    </Key>
+    <Property Name="idVaga" Type="Int32" Nullable="false" />
+    <Property Name="descricao" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="veiculo">
+    <Key>
+      <PropertyRef Name="idVeiculo" />
+    </Key>
+    <Property Name="idVeiculo" Type="Int32" Nullable="false" />
+    <Property Name="placa" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="marca" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="modelo" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="ano" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="idCliente" Type="Int32" Nullable="false" />
+    <Property Name="idTipoEstacionamento" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="cliente" Relationship="estrelaoriental3Model.idCliente" FromRole="veiculo" ToRole="cliente" />
+    <NavigationProperty Name="registroentsai" Relationship="estrelaoriental3Model.idVeiculo" FromRole="veiculo" ToRole="registroentsai" />
+    <NavigationProperty Name="tipoestacionamento" Relationship="estrelaoriental3Model.idTipoEstacionamento" FromRole="veiculo" ToRole="tipoestacionamento" />
+  </EntityType>
+  <Association Name="idCliente">
+    <End Role="cliente" Type="estrelaoriental3Model.cliente" Multiplicity="1" />
+    <End Role="veiculo" Type="estrelaoriental3Model.veiculo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="veiculo">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idClientePF">
+    <End Role="cliente" Type="estrelaoriental3Model.cliente" Multiplicity="1" />
+    <End Role="pessoafisica" Type="estrelaoriental3Model.pessoafisica" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="pessoafisica">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idClientePJ">
+    <End Role="cliente" Type="estrelaoriental3Model.cliente" Multiplicity="1" />
+    <End Role="pessoajuridica" Type="estrelaoriental3Model.pessoajuridica" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="pessoajuridica">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idDependente">
+    <End Role="cliente" Type="estrelaoriental3Model.cliente" Multiplicity="1" />
+    <End Role="dependente" Type="estrelaoriental3Model.dependente" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="dependente">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idTitular">
+    <End Role="cliente" Type="estrelaoriental3Model.cliente" Multiplicity="1" />
+    <End Role="dependente" Type="estrelaoriental3Model.dependente" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="dependente">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idVeiculo">
+    <End Role="veiculo" Type="estrelaoriental3Model.veiculo" Multiplicity="0..1" />
+    <End Role="registroentsai" Type="estrelaoriental3Model.registroentsai" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="veiculo">
+        <PropertyRef Name="idVeiculo" />
+      </Principal>
+      <Dependent Role="registroentsai">
+        <PropertyRef Name="idVeiculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idTipoEstacionamento">
+    <End Role="tipoestacionamento" Type="estrelaoriental3Model.tipoestacionamento" Multiplicity="1" />
+    <End Role="veiculo" Type="estrelaoriental3Model.veiculo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tipoestacionamento">
+        <PropertyRef Name="idTipoEstacionamento" />
+      </Principal>
+      <Dependent Role="veiculo">
+        <PropertyRef Name="idTipoEstacionamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

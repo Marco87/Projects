@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="17" x="289" y="416" width="417" height="225" measuredWidth="417" measuredHeight="225"/>
+  <widgets xsi:type="model:Panel" id="9" x="299" y="280" width="417" height="65" measuredWidth="417" measuredHeight="65"/>
+  <widgets xsi:type="model:Icon" id="1" x="536" y="44" width="105" height="75" measuredWidth="105" measuredHeight="75" icon="car (large)"/>
+  <widgets xsi:type="model:Label" id="2" x="299" y="48" text="Carrópolis" measuredWidth="198" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Menu" id="3" x="320" y="144" text="&amp;Home,&amp;Cliente,&amp;Veículo,&amp;Estacionar,~&amp;Sobre~" measuredWidth="258" measuredHeight="27">
+    <items x="5" y="0" width="44" height="27" text="&amp;Home"/>
+    <items x="49" y="0" width="48" height="27" text="&amp;Cliente"/>
+    <items x="97" y="0" width="50" height="27" text="&amp;Veículo"/>
+    <items x="147" y="0" width="65" height="27" text="&amp;Estacionar"/>
+    <items x="212" y="0" width="41" height="27" text="~&amp;Sobre~"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="256" y="200" text="Descrição da vaga" measuredWidth="101" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="5" x="388" y="200" width="277" text="Dados da vaga" measuredWidth="277" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="6" x="388" y="232" width="65" text="OK" measuredWidth="65" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="333" y="290" width="38" text="Vaga" measuredWidth="38" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="465" y="290" width="105" text="Situação da vaga" measuredWidth="105" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="13" x="597" y="287" text="Alterar situação" measuredWidth="109" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="256" y="376" text="Procurar vaga por situação" measuredWidth="147" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="15" x="428" y="376" text="Situação" measuredWidth="72" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="16" x="335" y="440" text="Name,Last\nName,=. Age v,(w:30). Kids,Likes,(align:center). Actions&#xA;Peter,Severin,37,[x],{computer},[Edit] [View]&#xA;Henri,Severin,(bg:lightGreen).7,[],{train},[Edit] [View]&#xA;Olga,Severin,62,[x],{note},[Edit] [View]&#xA;[-] You can even&#xA;  [+] Make a&#xA;  [+] Tree table" measuredWidth="330" measuredHeight="172" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="18" x="597" y="312" width="109" text="Excluir vaga" measuredWidth="109" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

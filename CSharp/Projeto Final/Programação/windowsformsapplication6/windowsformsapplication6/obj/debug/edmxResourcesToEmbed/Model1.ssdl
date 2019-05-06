@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="estacionamentoModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="estacionamentoModelStoreContainer">
+    <EntitySet Name="cliente" EntityType="estacionamentoModel.Store.cliente" store:Type="Tables" Schema="estacionamento" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="controle_registro" EntityType="estacionamentoModel.Store.controle_registro" store:Type="Tables" Schema="estacionamento" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="dependente" EntityType="estacionamentoModel.Store.dependente" store:Type="Tables" Schema="estacionamento" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="tipo_estacionamento" EntityType="estacionamentoModel.Store.tipo_estacionamento" store:Type="Tables" Schema="estacionamento" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="usuario" EntityType="estacionamentoModel.Store.usuario" store:Type="Tables" Schema="estacionamento" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="vaga" EntityType="estacionamentoModel.Store.vaga" store:Type="Tables" Schema="estacionamento" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="veiculo" EntityType="estacionamentoModel.Store.veiculo" store:Type="Tables" Schema="estacionamento" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <AssociationSet Name="idCliente" Association="estacionamentoModel.Store.idCliente">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="veiculo" EntitySet="veiculo" />
+    </AssociationSet>
+    <AssociationSet Name="idDependente" Association="estacionamentoModel.Store.idDependente">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="dependente" EntitySet="dependente" />
+    </AssociationSet>
+    <AssociationSet Name="idTipoEstacionamento" Association="estacionamentoModel.Store.idTipoEstacionamento">
+      <End Role="tipo_estacionamento" EntitySet="tipo_estacionamento" />
+      <End Role="veiculo" EntitySet="veiculo" />
+    </AssociationSet>
+    <AssociationSet Name="idTitular" Association="estacionamentoModel.Store.idTitular">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="dependente" EntitySet="dependente" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="cliente">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nome" Type="varchar" MaxLength="45" />
+    <Property Name="telefone" Type="varchar" MaxLength="45" />
+    <Property Name="Celular" Type="varchar" MaxLength="45" />
+    <Property Name="email" Type="varchar" MaxLength="45" />
+    <Property Name="endereco" Type="varchar" MaxLength="45" />
+    <Property Name="situacao" Type="varchar" MaxLength="45" />
+    <Property Name="primeiroVencimento" Type="datetime" />
+    <Property Name="tipoCliente" Type="varchar" MaxLength="2" />
+    <Property Name="mesesPagos" Type="int" />
+  </EntityType>
+  <EntityType Name="controle_registro">
+    <Key>
+      <PropertyRef Name="idControle_Registro" />
+    </Key>
+    <Property Name="idControle_Registro" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="dataHoraEntrada" Type="datetime" />
+    <Property Name="dataHoraSaida" Type="datetime" />
+    <Property Name="idVeiculo" Type="int" />
+    <Property Name="valor" Type="float" />
+  </EntityType>
+  <EntityType Name="dependente">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="int" Nullable="false" />
+    <Property Name="idTitular" Type="int" Nullable="false" />
+    <Property Name="Nome" Type="int" />
+  </EntityType>
+  <EntityType Name="tipo_estacionamento">
+    <Key>
+      <PropertyRef Name="idTipoEstacionamento" />
+    </Key>
+    <Property Name="idTipoEstacionamento" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="descricao" Type="varchar" MaxLength="45" />
+    <Property Name="valor" Type="float" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="idusuario" />
+    </Key>
+    <Property Name="idusuario" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nome" Type="varchar" MaxLength="45" />
+    <Property Name="telefone" Type="varchar" MaxLength="45" />
+    <Property Name="celular" Type="varchar" MaxLength="45" />
+    <Property Name="email" Type="varchar" MaxLength="45" />
+    <Property Name="endereco" Type="varchar" MaxLength="45" />
+    <Property Name="tipoUsuario" Type="varchar" MaxLength="45" />
+    <Property Name="login" Type="varchar" MaxLength="45" />
+    <Property Name="senha" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="vaga">
+    <Key>
+      <PropertyRef Name="idVaga" />
+    </Key>
+    <Property Name="idVaga" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="andar" Type="varchar" MaxLength="45" />
+    <Property Name="corredor" Type="varchar" MaxLength="45" />
+    <Property Name="coluna" Type="varchar" MaxLength="45" />
+    <Property Name="vaga" Type="varchar" MaxLength="45" />
+    <Property Name="situacao" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="veiculo">
+    <Key>
+      <PropertyRef Name="idVeiculo" />
+    </Key>
+    <Property Name="idVeiculo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="placa" Type="varchar" MaxLength="45" />
+    <Property Name="marca" Type="varchar" MaxLength="45" />
+    <Property Name="modelo" Type="varchar" MaxLength="45" />
+    <Property Name="ano" Type="varchar" MaxLength="6" />
+    <Property Name="idCliente" Type="int" Nullable="false" />
+    <Property Name="idTipoEstacionamento" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="idCliente">
+    <End Role="cliente" Type="estacionamentoModel.Store.cliente" Multiplicity="1" />
+    <End Role="veiculo" Type="estacionamentoModel.Store.veiculo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="veiculo">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idDependente">
+    <End Role="cliente" Type="estacionamentoModel.Store.cliente" Multiplicity="1" />
+    <End Role="dependente" Type="estacionamentoModel.Store.dependente" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="dependente">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idTipoEstacionamento">
+    <End Role="tipo_estacionamento" Type="estacionamentoModel.Store.tipo_estacionamento" Multiplicity="1" />
+    <End Role="veiculo" Type="estacionamentoModel.Store.veiculo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tipo_estacionamento">
+        <PropertyRef Name="idTipoEstacionamento" />
+      </Principal>
+      <Dependent Role="veiculo">
+        <PropertyRef Name="idTipoEstacionamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idTitular">
+    <End Role="cliente" Type="estacionamentoModel.Store.cliente" Multiplicity="1" />
+    <End Role="dependente" Type="estacionamentoModel.Store.dependente" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="dependente">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

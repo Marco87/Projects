@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="controle_comissoesDataSet8" targetNamespace="http://tempuri.org/controle_comissoesDataSet8.xsd" xmlns:mstns="http://tempuri.org/controle_comissoesDataSet8.xsd" xmlns="http://tempuri.org/controle_comissoesDataSet8.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="controle_comissoesConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="controle_comissoesConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ControleComissoes.Properties.Settings.GlobalReference.Default.controle_comissoesConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_planoTableAdapter" GeneratorDataComponentClassName="view_planoTableAdapter" Name="view_plano" UserDataComponentName="view_planoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="controle_comissoesConnectionString (Settings)" DbObjectName="controle_comissoes.view_plano" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `codigo_plano`, `descricao`, `valor`, `tipo_cliente`, `comissao`, `faixa_inicial`, `faixa_final` FROM `controle_comissoes`.`view_plano`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="codigo_plano" DataSetColumn="codigo_plano" />
+              <Mapping SourceColumn="descricao" DataSetColumn="descricao" />
+              <Mapping SourceColumn="valor" DataSetColumn="valor" />
+              <Mapping SourceColumn="tipo_cliente" DataSetColumn="tipo_cliente" />
+              <Mapping SourceColumn="comissao" DataSetColumn="comissao" />
+              <Mapping SourceColumn="faixa_inicial" DataSetColumn="faixa_inicial" />
+              <Mapping SourceColumn="faixa_final" DataSetColumn="faixa_final" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="controle_comissoesDataSet8" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="controle_comissoesDataSet8" msprop:Generator_UserDSName="controle_comissoesDataSet8">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="view_plano" msprop:Generator_TableClassName="view_planoDataTable" msprop:Generator_TableVarName="tableview_plano" msprop:Generator_TablePropName="view_plano" msprop:Generator_RowDeletingName="view_planoRowDeleting" msprop:Generator_RowChangingName="view_planoRowChanging" msprop:Generator_RowEvHandlerName="view_planoRowChangeEventHandler" msprop:Generator_RowDeletedName="view_planoRowDeleted" msprop:Generator_UserTableName="view_plano" msprop:Generator_RowChangedName="view_planoRowChanged" msprop:Generator_RowEvArgName="view_planoRowChangeEvent" msprop:Generator_RowClassName="view_planoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo_plano" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columncodigo_plano" msprop:Generator_ColumnPropNameInRow="codigo_plano" msprop:Generator_ColumnPropNameInTable="codigo_planoColumn" msprop:Generator_UserColumnName="codigo_plano" type="xs:int" />
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="valor" msprop:Generator_ColumnVarNameInTable="columnvalor" msprop:Generator_ColumnPropNameInRow="valor" msprop:Generator_ColumnPropNameInTable="valorColumn" msprop:Generator_UserColumnName="valor" type="xs:float" minOccurs="0" />
+              <xs:element name="tipo_cliente" msprop:Generator_ColumnVarNameInTable="columntipo_cliente" msprop:Generator_ColumnPropNameInRow="tipo_cliente" msprop:Generator_ColumnPropNameInTable="tipo_clienteColumn" msprop:Generator_UserColumnName="tipo_cliente" type="xs:int" minOccurs="0" />
+              <xs:element name="comissao" msprop:Generator_ColumnVarNameInTable="columncomissao" msprop:Generator_ColumnPropNameInRow="comissao" msprop:Generator_ColumnPropNameInTable="comissaoColumn" msprop:Generator_UserColumnName="comissao" type="xs:float" minOccurs="0" />
+              <xs:element name="faixa_inicial" msprop:Generator_ColumnVarNameInTable="columnfaixa_inicial" msprop:Generator_ColumnPropNameInRow="faixa_inicial" msprop:Generator_ColumnPropNameInTable="faixa_inicialColumn" msprop:Generator_UserColumnName="faixa_inicial" type="xs:int" minOccurs="0" />
+              <xs:element name="faixa_final" msprop:Generator_ColumnVarNameInTable="columnfaixa_final" msprop:Generator_ColumnPropNameInRow="faixa_final" msprop:Generator_ColumnPropNameInTable="faixa_finalColumn" msprop:Generator_UserColumnName="faixa_final" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:view_plano" />
+      <xs:field xpath="mstns:codigo_plano" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

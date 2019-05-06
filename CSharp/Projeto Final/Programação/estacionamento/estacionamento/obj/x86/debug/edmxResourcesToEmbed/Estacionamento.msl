@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="estrelaoriental3ModelStoreContainer" CdmEntityContainer="estrelaoriental3Entities">
+    <EntitySetMapping Name="cliente">
+      <EntityTypeMapping TypeName="estrelaoriental3Model.cliente">
+        <MappingFragment StoreEntitySet="cliente">
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="telefone" ColumnName="telefone" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="endereco" ColumnName="endereco" />
+          <ScalarProperty Name="situacao" ColumnName="situacao" />
+          <ScalarProperty Name="vencimento" ColumnName="vencimento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dependente">
+      <EntityTypeMapping TypeName="estrelaoriental3Model.dependente">
+        <MappingFragment StoreEntitySet="dependente">
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="idTitular" ColumnName="idTitular" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuario">
+      <EntityTypeMapping TypeName="estrelaoriental3Model.usuario">
+        <MappingFragment StoreEntitySet="usuario">
+          <ScalarProperty Name="idusuario" ColumnName="idusuario" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="telefone" ColumnName="telefone" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="endereco" ColumnName="endereco" />
+          <ScalarProperty Name="tipoUsuario" ColumnName="tipoUsuario" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vaga">
+      <EntityTypeMapping TypeName="estrelaoriental3Model.vaga">
+        <MappingFragment StoreEntitySet="vaga">
+          <ScalarProperty Name="vaga1" ColumnName="vaga" />
+          <ScalarProperty Name="corredor" ColumnName="corredor" />
+          <ScalarProperty Name="andar" ColumnName="andar" />
+          <ScalarProperty Name="idVaga" ColumnName="idVaga" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="veiculo">
+      <EntityTypeMapping TypeName="estrelaoriental3Model.veiculo">
+        <MappingFragment StoreEntitySet="veiculo">
+          <ScalarProperty Name="idVeiculo" ColumnName="idVeiculo" />
+          <ScalarProperty Name="placa" ColumnName="placa" />
+          <ScalarProperty Name="marca" ColumnName="marca" />
+          <ScalarProperty Name="modelo" ColumnName="modelo" />
+          <ScalarProperty Name="ano" ColumnName="ano" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="idTipoEstacionamento" ColumnName="idTipoEstacionamento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="controle_registro">
+      <EntityTypeMapping TypeName="estrelaoriental3Model.controle_registro">
+        <MappingFragment StoreEntitySet="controle_registro">
+          <ScalarProperty Name="valor" ColumnName="valor" />
+          <ScalarProperty Name="idVeiculo" ColumnName="idVeiculo" />
+          <ScalarProperty Name="dataHoraSaida" ColumnName="dataHoraSaida" />
+          <ScalarProperty Name="dataHoraEntrada" ColumnName="dataHoraEntrada" />
+          <ScalarProperty Name="idControle_Registro" ColumnName="idControle_Registro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pessoa_fisica">
+      <EntityTypeMapping TypeName="estrelaoriental3Model.pessoa_fisica">
+        <MappingFragment StoreEntitySet="pessoa_fisica">
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pessoa_juridica">
+      <EntityTypeMapping TypeName="estrelaoriental3Model.pessoa_juridica">
+        <MappingFragment StoreEntitySet="pessoa_juridica">
+          <ScalarProperty Name="razaoSocial" ColumnName="razaoSocial" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipo_estacionamento">
+      <EntityTypeMapping TypeName="estrelaoriental3Model.tipo_estacionamento">
+        <MappingFragment StoreEntitySet="tipo_estacionamento">
+          <ScalarProperty Name="valor" ColumnName="valor" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="idTipoEstacionamento" ColumnName="idTipoEstacionamento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

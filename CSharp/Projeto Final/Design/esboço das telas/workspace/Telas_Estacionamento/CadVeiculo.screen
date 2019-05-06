@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Icon" id="2" x="536" y="44" width="105" height="75" measuredWidth="105" measuredHeight="75" icon="car (large)"/>
+  <widgets xsi:type="model:Label" id="7" x="299" y="48" text="Carrópolis" measuredWidth="198" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Menu" id="8" x="299" y="144" text="&amp;Home,&amp;Cliente,&amp;Veículo,&amp;Estacionar,~&amp;Sobre~" measuredWidth="258" measuredHeight="27">
+    <items x="5" y="0" width="44" height="27" text="&amp;Home"/>
+    <items x="49" y="0" width="48" height="27" text="&amp;Cliente"/>
+    <items x="97" y="0" width="50" height="27" text="&amp;Veículo"/>
+    <items x="147" y="0" width="65" height="27" text="&amp;Estacionar"/>
+    <items x="212" y="0" width="41" height="27" text="~&amp;Sobre~"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="288" y="288" text="Modelo" measuredWidth="47" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="10" x="384" y="288" width="297" text="Modelo" measuredWidth="297" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="288" y="320" text="Marca" measuredWidth="39" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="12" x="384" y="320" width="297" text="Marca" measuredWidth="297" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="288" y="352" text="Ano" measuredWidth="28" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="14" x="384" y="352" width="297" text="Ano" measuredWidth="297" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="288" y="384" text="Placa" measuredWidth="34" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="16" x="384" y="384" width="297" text="Placa" measuredWidth="297" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="288" y="419" text="Cliente" measuredWidth="43" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="18" x="384" y="419" width="297" text="Cliente" measuredWidth="297" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="21" x="384" y="472" width="65" text="OK" measuredWidth="65" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="288" y="248" text="Tipo de Plano" measuredWidth="79" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="24" x="384" y="248" width="297" text="Tipo de plano" measuredWidth="297" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

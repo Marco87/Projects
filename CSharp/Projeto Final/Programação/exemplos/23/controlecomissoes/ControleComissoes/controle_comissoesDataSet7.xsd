@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="controle_comissoesDataSet7" targetNamespace="http://tempuri.org/controle_comissoesDataSet7.xsd" xmlns:mstns="http://tempuri.org/controle_comissoesDataSet7.xsd" xmlns="http://tempuri.org/controle_comissoesDataSet7.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="controle_comissoesConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="controle_comissoesConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ControleComissoes.Properties.Settings.GlobalReference.Default.controle_comissoesConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_itens_vendaTableAdapter" GeneratorDataComponentClassName="view_itens_vendaTableAdapter" Name="view_itens_venda" UserDataComponentName="view_itens_vendaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="controle_comissoesConnectionString (Settings)" DbObjectName="controle_comissoes.view_itens_venda" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `codigo_venda`, `descricao`, `quantidade`, `valor` FROM `controle_comissoes`.`view_itens_venda`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="codigo_venda" DataSetColumn="codigo_venda" />
+              <Mapping SourceColumn="descricao" DataSetColumn="descricao" />
+              <Mapping SourceColumn="quantidade" DataSetColumn="quantidade" />
+              <Mapping SourceColumn="valor" DataSetColumn="valor" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="controle_comissoesDataSet7" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="controle_comissoesDataSet7" msprop:Generator_UserDSName="controle_comissoesDataSet7">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="view_itens_venda" msprop:Generator_TableClassName="view_itens_vendaDataTable" msprop:Generator_TableVarName="tableview_itens_venda" msprop:Generator_TablePropName="view_itens_venda" msprop:Generator_RowDeletingName="view_itens_vendaRowDeleting" msprop:Generator_RowChangingName="view_itens_vendaRowChanging" msprop:Generator_RowEvHandlerName="view_itens_vendaRowChangeEventHandler" msprop:Generator_RowDeletedName="view_itens_vendaRowDeleted" msprop:Generator_UserTableName="view_itens_venda" msprop:Generator_RowChangedName="view_itens_vendaRowChanged" msprop:Generator_RowEvArgName="view_itens_vendaRowChangeEvent" msprop:Generator_RowClassName="view_itens_vendaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo_venda" msprop:Generator_ColumnVarNameInTable="columncodigo_venda" msprop:Generator_ColumnPropNameInRow="codigo_venda" msprop:Generator_ColumnPropNameInTable="codigo_vendaColumn" msprop:Generator_UserColumnName="codigo_venda" type="xs:int" />
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="quantidade" msprop:Generator_ColumnVarNameInTable="columnquantidade" msprop:Generator_ColumnPropNameInRow="quantidade" msprop:Generator_ColumnPropNameInTable="quantidadeColumn" msprop:Generator_UserColumnName="quantidade" type="xs:int" minOccurs="0" />
+              <xs:element name="valor" msprop:Generator_ColumnVarNameInTable="columnvalor" msprop:Generator_ColumnPropNameInRow="valor" msprop:Generator_ColumnPropNameInTable="valorColumn" msprop:Generator_UserColumnName="valor" type="xs:float" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:view_itens_venda" />
+      <xs:field xpath="mstns:codigo_venda" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

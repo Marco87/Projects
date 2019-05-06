@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="estacionamentoModelStoreContainer" CdmEntityContainer="estacionamentoEntities">
+    <EntitySetMapping Name="cliente">
+      <EntityTypeMapping TypeName="estacionamentoModel.cliente">
+        <MappingFragment StoreEntitySet="cliente">
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="telefone" ColumnName="telefone" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="endereco" ColumnName="endereco" />
+          <ScalarProperty Name="situacao" ColumnName="situacao" />
+          <ScalarProperty Name="primeiroVencimento" ColumnName="primeiroVencimento" />
+          <ScalarProperty Name="tipoCliente" ColumnName="tipoCliente" />
+          <ScalarProperty Name="mesesPagos" ColumnName="mesesPagos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="controle_registro">
+      <EntityTypeMapping TypeName="estacionamentoModel.controle_registro">
+        <MappingFragment StoreEntitySet="controle_registro">
+          <ScalarProperty Name="idControle_Registro" ColumnName="idControle_Registro" />
+          <ScalarProperty Name="dataHoraEntrada" ColumnName="dataHoraEntrada" />
+          <ScalarProperty Name="dataHoraSaida" ColumnName="dataHoraSaida" />
+          <ScalarProperty Name="idVeiculo" ColumnName="idVeiculo" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dependente">
+      <EntityTypeMapping TypeName="estacionamentoModel.dependente">
+        <MappingFragment StoreEntitySet="dependente">
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="idTitular" ColumnName="idTitular" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipo_estacionamento">
+      <EntityTypeMapping TypeName="estacionamentoModel.tipo_estacionamento">
+        <MappingFragment StoreEntitySet="tipo_estacionamento">
+          <ScalarProperty Name="idTipoEstacionamento" ColumnName="idTipoEstacionamento" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuario">
+      <EntityTypeMapping TypeName="estacionamentoModel.usuario">
+        <MappingFragment StoreEntitySet="usuario">
+          <ScalarProperty Name="idusuario" ColumnName="idusuario" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="telefone" ColumnName="telefone" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="endereco" ColumnName="endereco" />
+          <ScalarProperty Name="tipoUsuario" ColumnName="tipoUsuario" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vaga">
+      <EntityTypeMapping TypeName="estacionamentoModel.vaga">
+        <MappingFragment StoreEntitySet="vaga">
+          <ScalarProperty Name="idVaga" ColumnName="idVaga" />
+          <ScalarProperty Name="andar" ColumnName="andar" />
+          <ScalarProperty Name="corredor" ColumnName="corredor" />
+          <ScalarProperty Name="coluna" ColumnName="coluna" />
+          <ScalarProperty Name="vaga1" ColumnName="vaga" />
+          <ScalarProperty Name="situacao" ColumnName="situacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="veiculo">
+      <EntityTypeMapping TypeName="estacionamentoModel.veiculo">
+        <MappingFragment StoreEntitySet="veiculo">
+          <ScalarProperty Name="idVeiculo" ColumnName="idVeiculo" />
+          <ScalarProperty Name="placa" ColumnName="placa" />
+          <ScalarProperty Name="marca" ColumnName="marca" />
+          <ScalarProperty Name="modelo" ColumnName="modelo" />
+          <ScalarProperty Name="ano" ColumnName="ano" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="idTipoEstacionamento" ColumnName="idTipoEstacionamento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

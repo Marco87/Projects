@@ -1,0 +1,48 @@
+!SESSION 2014-05-07 12:34:55.085 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_26
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data F:\WireframeSketcherStudio-2.7.0-windows\Workspace
+
+!ENTRY org.eclipse.ui 4 4 2014-05-07 12:34:56.910
+!MESSAGE Unable to create menu item "org.eclipse.ui.update.findAndInstallUpdates", command "org.eclipse.ui.update.findAndInstallUpdates" not defined
+
+!ENTRY org.eclipse.ui 4 4 2014-05-07 12:34:56.941
+!MESSAGE Unable to create menu item "org.eclipse.ui.update.manageConfiguration", command "org.eclipse.ui.update.manageConfiguration" not defined
+
+!ENTRY com.wireframesketcher.ui 1 0 2014-05-07 12:34:57.644
+!MESSAGE WireframeSketcher v4.2.5 (trial)
+
+!ENTRY org.eclipse.ui 4 4 2014-05-07 12:34:57.690
+!MESSAGE Unable to find view with id: org.eclipse.jdt.ui.PackageExplorer, when creating perspective com.wireframesketcher.ui.perspective
+!SESSION 2014-05-07 13:04:02.074 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_26
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data F:\WireframeSketcherStudio-2.7.0-windows\Workspace
+
+!ENTRY org.eclipse.ui 4 4 2014-05-07 13:04:04.164
+!MESSAGE Unable to create menu item "org.eclipse.ui.update.findAndInstallUpdates", command "org.eclipse.ui.update.findAndInstallUpdates" not defined
+
+!ENTRY org.eclipse.ui 4 4 2014-05-07 13:04:04.179
+!MESSAGE Unable to create menu item "org.eclipse.ui.update.manageConfiguration", command "org.eclipse.ui.update.manageConfiguration" not defined
+
+!ENTRY com.wireframesketcher.ui 1 0 2014-05-07 13:04:04.819
+!MESSAGE WireframeSketcher v4.2.5 (trial)
+!SESSION 2014-05-07 15:04:58.004 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_26
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data F:\WireframeSketcherStudio-2.7.0-windows\Workspace
+
+!ENTRY org.eclipse.ui 4 4 2014-05-07 15:05:00.092
+!MESSAGE Unable to create menu item "org.eclipse.ui.update.findAndInstallUpdates", command "org.eclipse.ui.update.findAndInstallUpdates" not defined
+
+!ENTRY org.eclipse.ui 4 4 2014-05-07 15:05:00.108
+!MESSAGE Unable to create menu item "org.eclipse.ui.update.manageConfiguration", command "org.eclipse.ui.update.manageConfiguration" not defined
+
+!ENTRY com.wireframesketcher.ui 1 0 2014-05-07 15:05:00.763
+!MESSAGE WireframeSketcher v4.2.5 (trial)

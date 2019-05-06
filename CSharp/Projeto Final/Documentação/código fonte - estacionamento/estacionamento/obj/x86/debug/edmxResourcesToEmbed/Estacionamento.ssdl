@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="estrelaoriental3Model.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="estrelaoriental3ModelStoreContainer">
+    <EntitySet Name="cliente" EntityType="estrelaoriental3Model.Store.cliente" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="controle_registro" EntityType="estrelaoriental3Model.Store.controle_registro" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="dependente" EntityType="estrelaoriental3Model.Store.dependente" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="pessoa_fisica" EntityType="estrelaoriental3Model.Store.pessoa_fisica" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="pessoa_juridica" EntityType="estrelaoriental3Model.Store.pessoa_juridica" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="tipo_estacionamento" EntityType="estrelaoriental3Model.Store.tipo_estacionamento" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="usuario" EntityType="estrelaoriental3Model.Store.usuario" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="vaga" EntityType="estrelaoriental3Model.Store.vaga" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="veiculo" EntityType="estrelaoriental3Model.Store.veiculo" store:Type="Tables" Schema="estrelaoriental3" />
+    <AssociationSet Name="idCliente" Association="estrelaoriental3Model.Store.idCliente">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="veiculo" EntitySet="veiculo" />
+    </AssociationSet>
+    <AssociationSet Name="idClientePF" Association="estrelaoriental3Model.Store.idClientePF">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="pessoa_fisica" EntitySet="pessoa_fisica" />
+    </AssociationSet>
+    <AssociationSet Name="idClientePJ" Association="estrelaoriental3Model.Store.idClientePJ">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="pessoa_juridica" EntitySet="pessoa_juridica" />
+    </AssociationSet>
+    <AssociationSet Name="idDependente" Association="estrelaoriental3Model.Store.idDependente">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="dependente" EntitySet="dependente" />
+    </AssociationSet>
+    <AssociationSet Name="idTipoEstacionamento" Association="estrelaoriental3Model.Store.idTipoEstacionamento">
+      <End Role="tipo_estacionamento" EntitySet="tipo_estacionamento" />
+      <End Role="veiculo" EntitySet="veiculo" />
+    </AssociationSet>
+    <AssociationSet Name="idTitular" Association="estrelaoriental3Model.Store.idTitular">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="dependente" EntitySet="dependente" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="cliente">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nome" Type="varchar" MaxLength="45" />
+    <Property Name="telefone" Type="varchar" MaxLength="45" />
+    <Property Name="Celular" Type="varchar" MaxLength="45" />
+    <Property Name="email" Type="varchar" MaxLength="45" />
+    <Property Name="endereco" Type="varchar" MaxLength="45" />
+    <Property Name="situacao" Type="varchar" MaxLength="45" />
+    <Property Name="vencimento" Type="datetime" />
+  </EntityType>
+  <EntityType Name="controle_registro">
+    <Key>
+      <PropertyRef Name="idControle_Registro" />
+    </Key>
+    <Property Name="idControle_Registro" Type="int" Nullable="false" />
+    <Property Name="dataHoraEntrada" Type="datetime" />
+    <Property Name="dataHoraSaida" Type="datetime" />
+    <Property Name="idVeiculo" Type="int" />
+    <Property Name="valor" Type="float" />
+  </EntityType>
+  <EntityType Name="dependente">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="int" Nullable="false" />
+    <Property Name="idTitular" Type="int" Nullable="false" />
+    <Property Name="Nome" Type="int" />
+  </EntityType>
+  <EntityType Name="pessoa_fisica">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="int" Nullable="false" />
+    <Property Name="nome" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="pessoa_juridica">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="int" Nullable="false" />
+    <Property Name="razaoSocial" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tipo_estacionamento">
+    <Key>
+      <PropertyRef Name="idTipoEstacionamento" />
+    </Key>
+    <Property Name="idTipoEstacionamento" Type="int" Nullable="false" />
+    <Property Name="descricao" Type="varchar" MaxLength="45" />
+    <Property Name="valor" Type="float" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="idusuario" />
+    </Key>
+    <Property Name="idusuario" Type="int" Nullable="false" />
+    <Property Name="nome" Type="varchar" MaxLength="45" />
+    <Property Name="telefone" Type="varchar" MaxLength="45" />
+    <Property Name="celular" Type="varchar" MaxLength="45" />
+    <Property Name="email" Type="varchar" MaxLength="45" />
+    <Property Name="endereco" Type="varchar" MaxLength="45" />
+    <Property Name="tipoUsuario" Type="varchar" MaxLength="45" />
+    <Property Name="login" Type="varchar" MaxLength="45" />
+    <Property Name="senha" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="vaga">
+    <Key>
+      <PropertyRef Name="idVaga" />
+    </Key>
+    <Property Name="idVaga" Type="int" Nullable="false" />
+    <Property Name="andar" Type="varchar" MaxLength="45" />
+    <Property Name="corredor" Type="varchar" MaxLength="45" />
+    <Property Name="vaga" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="veiculo">
+    <Key>
+      <PropertyRef Name="idVeiculo" />
+    </Key>
+    <Property Name="idVeiculo" Type="int" Nullable="false" />
+    <Property Name="placa" Type="varchar" MaxLength="45" />
+    <Property Name="marca" Type="varchar" MaxLength="45" />
+    <Property Name="modelo" Type="varchar" MaxLength="45" />
+    <Property Name="ano" Type="varchar" MaxLength="6" />
+    <Property Name="idCliente" Type="int" Nullable="false" />
+    <Property Name="idTipoEstacionamento" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="idCliente">
+    <End Role="cliente" Type="estrelaoriental3Model.Store.cliente" Multiplicity="1" />
+    <End Role="veiculo" Type="estrelaoriental3Model.Store.veiculo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="veiculo">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idClientePF">
+    <End Role="cliente" Type="estrelaoriental3Model.Store.cliente" Multiplicity="1" />
+    <End Role="pessoa_fisica" Type="estrelaoriental3Model.Store.pessoa_fisica" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="pessoa_fisica">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idClientePJ">
+    <End Role="cliente" Type="estrelaoriental3Model.Store.cliente" Multiplicity="1" />
+    <End Role="pessoa_juridica" Type="estrelaoriental3Model.Store.pessoa_juridica" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="pessoa_juridica">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idDependente">
+    <End Role="cliente" Type="estrelaoriental3Model.Store.cliente" Multiplicity="1" />
+    <End Role="dependente" Type="estrelaoriental3Model.Store.dependente" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="dependente">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idTipoEstacionamento">
+    <End Role="tipo_estacionamento" Type="estrelaoriental3Model.Store.tipo_estacionamento" Multiplicity="1" />
+    <End Role="veiculo" Type="estrelaoriental3Model.Store.veiculo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tipo_estacionamento">
+        <PropertyRef Name="idTipoEstacionamento" />
+      </Principal>
+      <Dependent Role="veiculo">
+        <PropertyRef Name="idTipoEstacionamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idTitular">
+    <End Role="cliente" Type="estrelaoriental3Model.Store.cliente" Multiplicity="1" />
+    <End Role="dependente" Type="estrelaoriental3Model.Store.dependente" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="dependente">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

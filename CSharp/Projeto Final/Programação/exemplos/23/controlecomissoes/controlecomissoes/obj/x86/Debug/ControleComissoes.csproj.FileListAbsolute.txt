@@ -1,0 +1,445 @@
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\01\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\01\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\01\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\01\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\01\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\01\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\01\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\01\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\02\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\02\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\02\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\02\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\02\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\02\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\02\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\02\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\02\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\02\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\04\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\04\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\04\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\04\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\04\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\04\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\04\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\04\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\04\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\04\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\04\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\04\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\04\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\04\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\05\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\05\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\05\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\05\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\05\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\05\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\05\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\05\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\05\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\05\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\05\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\05\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\05\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\05\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\06\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\06\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\06\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\06\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\06\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\06\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\06\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\06\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\06\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\06\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\06\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\06\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\06\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\06\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\07\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\10\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\11\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.InserirVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.ItensVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\12\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Telas.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.InserirVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.ItensVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Telas.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\13\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.InserirVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Telas.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\14\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.InserirVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Telas.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\17\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.InserirVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Telas.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\18\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.InserirVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Telas.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelPessoas.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\19\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelPlanos.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.InserirVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Telas.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\20\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.InserirVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Telas.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelCliPF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelCliPJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelComissaoVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelItensVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendaPF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendaPJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\21\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.TelasVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.InserirVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelCliPF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelCliPJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelComissaoVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelItensVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendaPF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendaPJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Telas.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.TelasVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\22\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.InserirVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelAdm.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelCliPF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelCliPJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelComissaoVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelItensVenda.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelPlano.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendaPF.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendaPJ.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Telas.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.TelasVendedor.resources
+C:\Users\MARCOSOFT\SkyDrive\Gama Filho\Programação II\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.pdb
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.InserirVenda.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelAdm.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelCliPF.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelCliPJ.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelComissaoVendedor.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelItensVenda.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelPlano.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendaPF.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendaPJ.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendedor.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Telas.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.TelasVendedor.resources
+C:\Users\MARCOSOFT\Desktop\Aulas\Aulas\AV2\Controle de Comissões\Desktop\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.InserirVenda.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelAdm.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelCliPF.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelCliPJ.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelComissaoVendedor.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelItensVenda.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelPlano.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendaPF.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendaPJ.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendedor.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Telas.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.TelasVendedor.resources
+J:\Dropbox\Veiga de Almeida\Projeto Final\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\bin\Debug\ControleComissoes.exe.config
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.exe
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csprojResolveAssemblyReference.cache
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.ConsultarAlterarAdm.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarAdm.InserirAdm.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.ConsultarAlterarClientePF.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePF.InserirClientePF.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.ConsultarAlterarClientePJ.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarClientePJ.InserirClientePJ.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlano.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarPlano.InserirPlanoComissao.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVenda.InserirVenda.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.ConsultarAlterarVend.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.GerenciarVendedor.InserirVendedor.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Login.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Properties.Resources.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelAdm.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelCliPF.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelCliPJ.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelComissaoVendedor.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelItensVenda.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelPlano.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendaPF.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendaPJ.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Relatórios.RelVendedor.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.Telas.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.Views.TelasVendedor.resources
+E:\Dropbox\Projeto Final - Estacionamento\Programação\Exemplos\23\ControleComissoes\ControleComissoes\obj\x86\Debug\ControleComissoes.csproj.GenerateResource.Cache

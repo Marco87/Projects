@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="estrelaoriental3Model.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="estrelaoriental3ModelStoreContainer">
+    <EntitySet Name="cliente" EntityType="estrelaoriental3Model.Store.cliente" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="controle_estacionar" EntityType="estrelaoriental3Model.Store.controle_estacionar" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="gerenciar_situacao_pagamento" EntityType="estrelaoriental3Model.Store.gerenciar_situacao_pagamento" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="preco" EntityType="estrelaoriental3Model.Store.preco" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="tipo_plano_estacionamento" EntityType="estrelaoriental3Model.Store.tipo_plano_estacionamento" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="usuario" EntityType="estrelaoriental3Model.Store.usuario" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="vaga" EntityType="estrelaoriental3Model.Store.vaga" store:Type="Tables" Schema="estrelaoriental3" />
+    <EntitySet Name="veiculo" EntityType="estrelaoriental3Model.Store.veiculo" store:Type="Tables" Schema="estrelaoriental3" />
+    <AssociationSet Name="id_Cliente" Association="estrelaoriental3Model.Store.id_Cliente">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="gerenciar_situacao_pagamento" EntitySet="gerenciar_situacao_pagamento" />
+    </AssociationSet>
+    <AssociationSet Name="id_Veiculo" Association="estrelaoriental3Model.Store.id_Veiculo">
+      <End Role="veiculo" EntitySet="veiculo" />
+      <End Role="gerenciar_situacao_pagamento" EntitySet="gerenciar_situacao_pagamento" />
+    </AssociationSet>
+    <AssociationSet Name="idCliente" Association="estrelaoriental3Model.Store.idCliente">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="veiculo" EntitySet="veiculo" />
+    </AssociationSet>
+    <AssociationSet Name="idControleEstacionamento" Association="estrelaoriental3Model.Store.idControleEstacionamento">
+      <End Role="controle_estacionar" EntitySet="controle_estacionar" />
+      <End Role="preco" EntitySet="preco" />
+    </AssociationSet>
+    <AssociationSet Name="idGerenciarSituacaoPagamento" Association="estrelaoriental3Model.Store.idGerenciarSituacaoPagamento">
+      <End Role="gerenciar_situacao_pagamento" EntitySet="gerenciar_situacao_pagamento" />
+      <End Role="controle_estacionar" EntitySet="controle_estacionar" />
+    </AssociationSet>
+    <AssociationSet Name="idTipoPlanoEstacionamento" Association="estrelaoriental3Model.Store.idTipoPlanoEstacionamento">
+      <End Role="tipo_plano_estacionamento" EntitySet="tipo_plano_estacionamento" />
+      <End Role="gerenciar_situacao_pagamento" EntitySet="gerenciar_situacao_pagamento" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="cliente">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nome" Type="varchar" MaxLength="45" />
+    <Property Name="telefone" Type="varchar" MaxLength="45" />
+    <Property Name="Celular" Type="varchar" MaxLength="45" />
+    <Property Name="email" Type="varchar" MaxLength="45" />
+    <Property Name="endereco" Type="varchar" MaxLength="45" />
+    <Property Name="tipoCliente" Type="varchar" MaxLength="2" />
+    <Property Name="login" Type="varchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="controle_estacionar">
+    <Key>
+      <PropertyRef Name="idControle_Registro" />
+    </Key>
+    <Property Name="idControle_Registro" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="dataHoraEntrada" Type="datetime" />
+    <Property Name="dataHoraSaida" Type="datetime" />
+    <Property Name="valor" Type="float" />
+    <Property Name="idVaga" Type="int" />
+    <Property Name="idGerenciarSituacaoPagamento" Type="int" />
+  </EntityType>
+  <EntityType Name="gerenciar_situacao_pagamento">
+    <Key>
+      <PropertyRef Name="idGerenciarSituacaoPagamento" />
+    </Key>
+    <Property Name="idGerenciarSituacaoPagamento" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idCliente" Type="int" Nullable="false" />
+    <Property Name="idVeiculo" Type="int" Nullable="false" />
+    <Property Name="idTipoPlanoEstacionamento" Type="int" Nullable="false" />
+    <Property Name="situacaoPagamento" Type="varchar" MaxLength="45" />
+    <Property Name="vencimentoPagamento" Type="datetime" />
+    <Property Name="mesesPagos" Type="int" />
+  </EntityType>
+  <EntityType Name="preco">
+    <Key>
+      <PropertyRef Name="idPreco" />
+    </Key>
+    <Property Name="idPreco" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="valor" Type="float" />
+    <Property Name="descricao" Type="varchar" MaxLength="45" />
+    <Property Name="idControleEstacionamento" Type="int" />
+  </EntityType>
+  <EntityType Name="tipo_plano_estacionamento">
+    <Key>
+      <PropertyRef Name="idTipoEstacionamento" />
+    </Key>
+    <Property Name="idTipoEstacionamento" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="descricao" Type="varchar" MaxLength="45" />
+    <Property Name="valor" Type="float" />
+    <Property Name="mesesPlano" Type="int" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="idusuario" />
+    </Key>
+    <Property Name="idusuario" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nome" Type="varchar" MaxLength="45" />
+    <Property Name="telefone" Type="varchar" MaxLength="45" />
+    <Property Name="celular" Type="varchar" MaxLength="45" />
+    <Property Name="email" Type="varchar" MaxLength="45" />
+    <Property Name="endereco" Type="varchar" MaxLength="45" />
+    <Property Name="tipoUsuario" Type="varchar" MaxLength="45" />
+    <Property Name="login" Type="varchar" MaxLength="45" />
+    <Property Name="senha" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="vaga">
+    <Key>
+      <PropertyRef Name="idVaga" />
+    </Key>
+    <Property Name="idVaga" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="andar" Type="int" />
+    <Property Name="vaga" Type="varchar" MaxLength="45" />
+    <Property Name="tipo" Type="int" />
+    <Property Name="situacao" Type="varchar" MaxLength="45" />
+    <Property Name="posicao_x" Type="int" />
+    <Property Name="posicao_y" Type="int" />
+    <Property Name="angulo" Type="int" />
+    <Property Name="remove" Type="int" />
+  </EntityType>
+  <EntityType Name="veiculo">
+    <Key>
+      <PropertyRef Name="idVeiculo" />
+    </Key>
+    <Property Name="idVeiculo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="placa" Type="varchar" MaxLength="45" />
+    <Property Name="marca" Type="varchar" MaxLength="45" />
+    <Property Name="modelo" Type="varchar" MaxLength="45" />
+    <Property Name="ano" Type="varchar" MaxLength="6" />
+    <Property Name="idCliente" Type="int" Nullable="false" />
+    <Property Name="tipo" Type="int" />
+  </EntityType>
+  <Association Name="id_Cliente">
+    <End Role="cliente" Type="estrelaoriental3Model.Store.cliente" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="gerenciar_situacao_pagamento" Type="estrelaoriental3Model.Store.gerenciar_situacao_pagamento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="gerenciar_situacao_pagamento">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="id_Veiculo">
+    <End Role="veiculo" Type="estrelaoriental3Model.Store.veiculo" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="gerenciar_situacao_pagamento" Type="estrelaoriental3Model.Store.gerenciar_situacao_pagamento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="veiculo">
+        <PropertyRef Name="idVeiculo" />
+      </Principal>
+      <Dependent Role="gerenciar_situacao_pagamento">
+        <PropertyRef Name="idVeiculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idCliente">
+    <End Role="cliente" Type="estrelaoriental3Model.Store.cliente" Multiplicity="1" />
+    <End Role="veiculo" Type="estrelaoriental3Model.Store.veiculo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="veiculo">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idControleEstacionamento">
+    <End Role="controle_estacionar" Type="estrelaoriental3Model.Store.controle_estacionar" Multiplicity="0..1" />
+    <End Role="preco" Type="estrelaoriental3Model.Store.preco" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="controle_estacionar">
+        <PropertyRef Name="idControle_Registro" />
+      </Principal>
+      <Dependent Role="preco">
+        <PropertyRef Name="idControleEstacionamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idGerenciarSituacaoPagamento">
+    <End Role="gerenciar_situacao_pagamento" Type="estrelaoriental3Model.Store.gerenciar_situacao_pagamento" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="controle_estacionar" Type="estrelaoriental3Model.Store.controle_estacionar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="gerenciar_situacao_pagamento">
+        <PropertyRef Name="idGerenciarSituacaoPagamento" />
+      </Principal>
+      <Dependent Role="controle_estacionar">
+        <PropertyRef Name="idGerenciarSituacaoPagamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idTipoPlanoEstacionamento">
+    <End Role="tipo_plano_estacionamento" Type="estrelaoriental3Model.Store.tipo_plano_estacionamento" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="gerenciar_situacao_pagamento" Type="estrelaoriental3Model.Store.gerenciar_situacao_pagamento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tipo_plano_estacionamento">
+        <PropertyRef Name="idTipoEstacionamento" />
+      </Principal>
+      <Dependent Role="gerenciar_situacao_pagamento">
+        <PropertyRef Name="idTipoPlanoEstacionamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

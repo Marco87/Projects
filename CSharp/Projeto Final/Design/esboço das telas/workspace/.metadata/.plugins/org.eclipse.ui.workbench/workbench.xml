@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="11" version="2.0">
+<workbenchAdvisor/>
+<window height="1040" maximized="true" width="960" x="0" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="199" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.wireframesketcher.ui.editActionSet" itemType="typeToolBarContribution" x="169" y="22"/>
+<coolItem id="com.wireframesketcher.ui.objectActionSet" itemType="typeToolBarContribution" x="454" y="22"/>
+<coolItem id="com.wireframesketcher.ui.textActionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.wireframesketcher.ui.viewActionSet" itemType="typeToolBarContribution" x="92" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="91" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.wireframesketcher.ui.editors.ScreenEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - Wireframing">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="Login.screen" partName="Login.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/Login.screen" title="Login.screen" tooltip="Telas_Estacionamento/Login.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/Login.screen"/>
+</editor>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="CadCliente.screen" partName="CadCliente.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/CadCliente.screen" title="CadCliente.screen" tooltip="Telas_Estacionamento/CadCliente.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/CadCliente.screen"/>
+</editor>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="CadVeiculo.screen" partName="CadVeiculo.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/CadVeiculo.screen" title="CadVeiculo.screen" tooltip="Telas_Estacionamento/CadVeiculo.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/CadVeiculo.screen"/>
+</editor>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="GerenciarCliente.screen" partName="GerenciarCliente.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/GerenciarCliente.screen" title="GerenciarCliente.screen" tooltip="Telas_Estacionamento/GerenciarCliente.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/GerenciarCliente.screen"/>
+</editor>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="GerenciarVeiculo.screen" partName="GerenciarVeiculo.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/GerenciarVeiculo.screen" title="GerenciarVeiculo.screen" tooltip="Telas_Estacionamento/GerenciarVeiculo.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/GerenciarVeiculo.screen"/>
+</editor>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="Sobre.screen" partName="Sobre.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/Sobre.screen" title="Sobre.screen" tooltip="Telas_Estacionamento/Sobre.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/Sobre.screen"/>
+</editor>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="CadAdmin.screen" partName="CadAdmin.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/CadAdmin.screen" title="CadAdmin.screen" tooltip="Telas_Estacionamento/CadAdmin.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/CadAdmin.screen"/>
+</editor>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="CadOperador.screen" partName="CadOperador.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/CadOperador.screen" title="CadOperador.screen" tooltip="Telas_Estacionamento/CadOperador.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/CadOperador.screen"/>
+</editor>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="GerenciarAdmin.screen" partName="GerenciarAdmin.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/GerenciarAdmin.screen" title="GerenciarAdmin.screen" tooltip="Telas_Estacionamento/GerenciarAdmin.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/GerenciarAdmin.screen"/>
+</editor>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="GerenciarOperador.screen" partName="GerenciarOperador.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/GerenciarOperador.screen" title="GerenciarOperador.screen" tooltip="Telas_Estacionamento/GerenciarOperador.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/GerenciarOperador.screen"/>
+</editor>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="EstacionarEntrada.screen" partName="EstacionarEntrada.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/EstacionarEntrada.screen" title="EstacionarEntrada.screen" tooltip="Telas_Estacionamento/EstacionarEntrada.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/EstacionarEntrada.screen"/>
+</editor>
+<editor activePart="true" focus="true" id="com.wireframesketcher.ui.editors.ScreenEditor" name="EstacionarSaida.screen" partName="EstacionarSaida.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/EstacionarSaida.screen" title="EstacionarSaida.screen" tooltip="Telas_Estacionamento/EstacionarSaida.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/EstacionarSaida.screen"/>
+</editor>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="CadDependente.screen" partName="CadDependente.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/CadDependente.screen" title="CadDependente.screen" tooltip="Telas_Estacionamento/CadDependente.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/CadDependente.screen"/>
+</editor>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="GerenciarDependente.screen" partName="GerenciarDependente.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/GerenciarDependente.screen" title="GerenciarDependente.screen" tooltip="Telas_Estacionamento/GerenciarDependente.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/GerenciarDependente.screen"/>
+</editor>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="CadVaga.screen" partName="CadVaga.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/CadVaga.screen" title="CadVaga.screen" tooltip="Telas_Estacionamento/CadVaga.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/CadVaga.screen"/>
+</editor>
+<editor id="com.wireframesketcher.ui.editors.ScreenEditor" name="GerenciarVaga.screen" partName="GerenciarVaga.screen" path="F:/WireframeSketcherStudio-2.7.0-windows/Workspace/Telas_Estacionamento/GerenciarVaga.screen" title="GerenciarVaga.screen" tooltip="Telas_Estacionamento/GerenciarVaga.screen" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Telas_Estacionamento/GerenciarVaga.screen"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="com.wireframesketcher.ui.linkView" partName="Links"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.wireframesketcher.ui.perspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.wireframesketcher.ui.PerspectiveFactory" id="com.wireframesketcher.ui.perspective" label="Wireframing"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.wireframesketcher.ui.fileActionSet"/>
+<alwaysOnActionSet id="com.wireframesketcher.ui.editActionSet"/>
+<alwaysOnActionSet id="com.wireframesketcher.ui.viewActionSet"/>
+<alwaysOnActionSet id="com.wireframesketcher.ui.objectActionSet"/>
+<alwaysOnActionSet id="com.wireframesketcher.ui.textActionSet"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.gef.ui.palette_view"/>
+<show_view_action id="com.wireframesketcher.ui.linkView"/>
+<new_wizard_action id="com.wireframesketcher.ui.wizards.NewProjectWizard"/>
+<new_wizard_action id="com.wireframesketcher.ui.wizards.ScreenNewWizard"/>
+<new_wizard_action id="com.wireframesketcher.ui.wizards.StoryNewWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<hide_menu_item_id id="org.eclipse.ui.edit.addBookmark"/>
+<hide_menu_item_id id="org.eclipse.ui.window.closePerspective"/>
+<hide_menu_item_id id="navigate"/>
+<hide_menu_item_id id="org.eclipse.ui.window.previousView"/>
+<hide_menu_item_id id="org.eclipse.ui.file.revert"/>
+<hide_menu_item_id id="org.eclipse.ui.window.activateEditor"/>
+<hide_menu_item_id id="org.eclipse.ui.help.helpSearch"/>
+<hide_menu_item_id id="org.eclipse.ui.edit.text.openLocalFile"/>
+<hide_menu_item_id id="org.eclipse.ui.window.newEditor"/>
+<hide_menu_item_id id="org.eclipse.ui.window.closeAllPerspectives"/>
+<hide_menu_item_id id="org.eclipse.ui.window.previousPerspective"/>
+<hide_menu_item_id id="project"/>
+<hide_menu_item_id id="org.eclipse.ui.edit.findReplace"/>
+<hide_menu_item_id id="org.eclipse.ui.window.nextView"/>
+<hide_menu_item_id id="org.eclipse.ui.window.quickAccess"/>
+<hide_menu_item_id id="org.eclipse.ui.window.showKeyAssist"/>
+<hide_menu_item_id id="org.eclipse.ui.window.showViewMenu"/>
+<hide_menu_item_id id="org.eclipse.ui.window.showSystemMenu"/>
+<hide_menu_item_id id="org.eclipse.ui.window.savePerspective"/>
+<hide_menu_item_id id="org.eclipse.ui.window.nextPerspective"/>
+<hide_menu_item_id id="org.eclipse.ui.edit.addTask"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.backwardHistory"/>
+<hide_toolbar_item_id id="com.wireframesketcher.ui.fontUnderline"/>
+<hide_toolbar_item_id id="com.wireframesketcher.ui.fontItalic"/>
+<hide_toolbar_item_id id="com.wireframesketcher.ui.fontBold"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.delete"/>
+<hide_toolbar_item_id id="com.wireframesketcher.ui.textAlignRight"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.forwardHistory"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="com.wireframesketcher.ui.textAlignCenter"/>
+<hide_toolbar_item_id id="com.wireframesketcher.ui.textAlignLeft"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="com.wireframesketcher.ui.linkView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@e38fca" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.28" ratioLeft="280" ratioRight="720" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.gef.ui.palette_view" ratio="0.8388889" ratioLeft="604" ratioRight="116" relationship="2" relative="org.eclipse.ui.editorss"/>
+<info folder="true" part="bottomLeft" ratio="0.59969085" ratioLeft="388" ratioRight="259" relationship="4" relative="topLeft">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="middleLeft" ratio="0.5" ratioLeft="194" ratioRight="194" relationship="4" relative="topLeft">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="com.wireframesketcher.ui.linkView" label="Links"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" path="/Telas_Estacionamento/CadVeiculo.screen"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" path="/Telas_Estacionamento/CadCliente.screen"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" path="/Telas_Estacionamento/GerenciarCliente.screen"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" path="/Telas_Estacionamento/GerenciarVeiculo.screen"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" path="/Telas_Estacionamento/GerenciarAdmin.screen"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" path="/Telas_Estacionamento/CadDependente.screen"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" path="/Telas_Estacionamento/GerenciarDependente.screen"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" path="/Telas_Estacionamento/CadVaga.screen"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" path="/Telas_Estacionamento/GerenciarVaga.screen"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" path="/Telas_Estacionamento/CadVaga.screen"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" path="/Telas_Estacionamento/EstacionarEntrada.screen"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" path="/Telas_Estacionamento/EstacionarSaida.screen"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" path="/Telas_Estacionamento/GerenciarOperador.screen"/>
+</editors>
+<item historyLabel="CadVeiculo.screen" index="0"/>
+<item historyLabel="CadCliente.screen" index="1"/>
+<item historyLabel="CadDependente.screen" index="5"/>
+<item historyLabel="CadCliente.screen" index="1"/>
+<item historyLabel="CadDependente.screen" index="5"/>
+<item historyLabel="CadCliente.screen" index="1"/>
+<item historyLabel="CadVeiculo.screen" index="0"/>
+<item historyLabel="GerenciarCliente.screen" index="2"/>
+<item historyLabel="CadVeiculo.screen" index="0"/>
+<item historyLabel="CadDependente.screen" index="5"/>
+<item historyLabel="CadVeiculo.screen" index="0"/>
+<item historyLabel="GerenciarVeiculo.screen" index="3"/>
+<item historyLabel="CadDependente.screen" index="5"/>
+<item historyLabel="GerenciarDependente.screen" index="6"/>
+<item historyLabel="CadDependente.screen" index="5"/>
+<item historyLabel="GerenciarDependente.screen" index="6"/>
+<item historyLabel="GerenciarAdmin.screen" index="4"/>
+<item historyLabel="GerenciarDependente.screen" index="6"/>
+<item historyLabel="GerenciarVeiculo.screen" index="3"/>
+<item historyLabel="GerenciarDependente.screen" index="6"/>
+<item historyLabel="GerenciarCliente.screen" index="2"/>
+<item historyLabel="GerenciarDependente.screen" index="6"/>
+<item historyLabel="GerenciarVeiculo.screen" index="3"/>
+<item historyLabel="GerenciarDependente.screen" index="6"/>
+<item historyLabel="CadVaga.screen" index="7"/>
+<item historyLabel="GerenciarDependente.screen" index="6"/>
+<item historyLabel="CadVaga.screen" index="7"/>
+<item historyLabel="GerenciarDependente.screen" index="6"/>
+<item historyLabel="CadVaga.screen" index="7"/>
+<item historyLabel="GerenciarVaga.screen" index="8"/>
+<item historyLabel="CadVaga.screen" index="7"/>
+<item historyLabel="GerenciarVaga.screen" index="8"/>
+<item historyLabel="GerenciarDependente.screen" index="6"/>
+<item historyLabel="GerenciarVaga.screen" index="8"/>
+<item historyLabel="CadVaga.screen" index="7"/>
+<item historyLabel="GerenciarVaga.screen" index="8"/>
+<item historyLabel="GerenciarDependente.screen" index="6"/>
+<item historyLabel="GerenciarVaga.screen" index="8"/>
+<item historyLabel="CadVaga.screen" index="9"/>
+<item historyLabel="GerenciarVaga.screen" index="8"/>
+<item historyLabel="CadVaga.screen" index="9"/>
+<item historyLabel="EstacionarEntrada.screen" index="10"/>
+<item historyLabel="EstacionarSaida.screen" index="11"/>
+<item historyLabel="EstacionarEntrada.screen" index="10"/>
+<item historyLabel="EstacionarSaida.screen" index="11"/>
+<item historyLabel="GerenciarOperador.screen" index="12"/>
+<item historyLabel="GerenciarVaga.screen" index="8"/>
+<item historyLabel="CadVaga.screen" index="9"/>
+<item historyLabel="EstacionarEntrada.screen" index="10"/>
+<item active="true" historyLabel="EstacionarSaida.screen" index="11"/>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="GerenciarVaga.screen" tooltip="Telas_Estacionamento/GerenciarVaga.screen">
+<persistable path="/Telas_Estacionamento/GerenciarVaga.screen"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="CadVaga.screen" tooltip="Telas_Estacionamento/CadVaga.screen">
+<persistable path="/Telas_Estacionamento/CadVaga.screen"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="GerenciarDependente.screen" tooltip="Telas_Estacionamento/GerenciarDependente.screen">
+<persistable path="/Telas_Estacionamento/GerenciarDependente.screen"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="CadDependente.screen" tooltip="Telas_Estacionamento/CadDependente.screen">
+<persistable path="/Telas_Estacionamento/CadDependente.screen"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="GerenciarEstacionar.screen" tooltip="Telas_Estacionamento/GerenciarEstacionar.screen">
+<persistable path="/Telas_Estacionamento/GerenciarEstacionar.screen"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="Estacionar.screen" tooltip="Telas_Estacionamento/Estacionar.screen">
+<persistable path="/Telas_Estacionamento/Estacionar.screen"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="Contato.screen" tooltip="Telas_Estacionamento/Contato.screen">
+<persistable path="/Telas_Estacionamento/Contato.screen"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="GerenciarOperador.screen" tooltip="Telas_Estacionamento/GerenciarOperador.screen">
+<persistable path="/Telas_Estacionamento/GerenciarOperador.screen"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="GerenciarAdmin.screen" tooltip="Telas_Estacionamento/GerenciarAdmin.screen">
+<persistable path="/Telas_Estacionamento/GerenciarAdmin.screen"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="CadOperador.screen" tooltip="Telas_Estacionamento/CadOperador.screen">
+<persistable path="/Telas_Estacionamento/CadOperador.screen"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="CadAdmin.screen" tooltip="Telas_Estacionamento/CadAdmin.screen">
+<persistable path="/Telas_Estacionamento/CadAdmin.screen"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="Sobre.screen" tooltip="Telas_Estacionamento/Sobre.screen">
+<persistable path="/Telas_Estacionamento/Sobre.screen"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="GerenciarVeiculo.screen" tooltip="Telas_Estacionamento/GerenciarVeiculo.screen">
+<persistable path="/Telas_Estacionamento/GerenciarVeiculo.screen"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="GerenciarCliente.screen" tooltip="Telas_Estacionamento/GerenciarCliente.screen">
+<persistable path="/Telas_Estacionamento/GerenciarCliente.screen"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.wireframesketcher.ui.editors.ScreenEditor" name="CadVeiculo.screen" tooltip="Telas_Estacionamento/CadVeiculo.screen">
+<persistable path="/Telas_Estacionamento/CadVeiculo.screen"/>
+</file>
+</mruList>
+</workbench>

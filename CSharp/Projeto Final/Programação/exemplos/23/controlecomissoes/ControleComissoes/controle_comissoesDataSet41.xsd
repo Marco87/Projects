@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="controle_comissoesDataSet4" targetNamespace="http://tempuri.org/controle_comissoesDataSet41.xsd" xmlns:mstns="http://tempuri.org/controle_comissoesDataSet41.xsd" xmlns="http://tempuri.org/controle_comissoesDataSet41.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="controle_comissoesConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="controle_comissoesConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ControleComissoes.Properties.Settings.GlobalReference.Default.controle_comissoesConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_vendapfTableAdapter" GeneratorDataComponentClassName="view_vendapfTableAdapter" Name="view_vendapf" UserDataComponentName="view_vendapfTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="controle_comissoesConnectionString (Settings)" DbObjectName="controle_comissoes.view_vendapf" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `codigo_venda`, `data`, `nome`, `pessoaFisica`, `total` FROM `controle_comissoes`.`view_vendapf`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="codigo_venda" DataSetColumn="codigo_venda" />
+              <Mapping SourceColumn="data" DataSetColumn="data" />
+              <Mapping SourceColumn="nome" DataSetColumn="nome" />
+              <Mapping SourceColumn="pessoaFisica" DataSetColumn="pessoaFisica" />
+              <Mapping SourceColumn="total" DataSetColumn="total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="controle_comissoesDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="controle_comissoesDataSet4" msprop:Generator_UserDSName="controle_comissoesDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="view_vendapf" msprop:Generator_TableClassName="view_vendapfDataTable" msprop:Generator_TableVarName="tableview_vendapf" msprop:Generator_TablePropName="view_vendapf" msprop:Generator_RowDeletingName="view_vendapfRowDeleting" msprop:Generator_RowChangingName="view_vendapfRowChanging" msprop:Generator_RowEvHandlerName="view_vendapfRowChangeEventHandler" msprop:Generator_RowDeletedName="view_vendapfRowDeleted" msprop:Generator_UserTableName="view_vendapf" msprop:Generator_RowChangedName="view_vendapfRowChanged" msprop:Generator_RowEvArgName="view_vendapfRowChangeEvent" msprop:Generator_RowClassName="view_vendapfRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo_venda" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columncodigo_venda" msprop:Generator_ColumnPropNameInRow="codigo_venda" msprop:Generator_ColumnPropNameInTable="codigo_vendaColumn" msprop:Generator_UserColumnName="codigo_venda" type="xs:int" />
+              <xs:element name="data" msprop:Generator_ColumnVarNameInTable="columndata" msprop:Generator_ColumnPropNameInRow="data" msprop:Generator_ColumnPropNameInTable="dataColumn" msprop:Generator_UserColumnName="data" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="nome" msprop:Generator_ColumnVarNameInTable="columnnome" msprop:Generator_ColumnPropNameInRow="nome" msprop:Generator_ColumnPropNameInTable="nomeColumn" msprop:Generator_UserColumnName="nome" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pessoaFisica" msprop:Generator_ColumnVarNameInTable="columnpessoaFisica" msprop:Generator_ColumnPropNameInRow="pessoaFisica" msprop:Generator_ColumnPropNameInTable="pessoaFisicaColumn" msprop:Generator_UserColumnName="pessoaFisica" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:float" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:view_vendapf" />
+      <xs:field xpath="mstns:codigo_venda" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtX1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/x1"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/txtX2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/x2"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnSoma"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="@string/soma" />
+
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="@string/subtração" />
+
+    <Button
+        android:id="@+id/btnMult"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="@string/multiplicação" />
+
+    <Button
+        android:id="@+id/btnDiv"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="@string/divisão" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Resultado"
+        android:text="" />
+</LinearLayout>
