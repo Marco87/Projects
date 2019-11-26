@@ -1,0 +1,31 @@
+﻿X,Y,OBJECTID,Nome,Integra_Metro,Integra_Barcas,Integra_Onibus,Integra_Trem,Integra_Teleferico,Integra_Aeroporto,Linha_1,Linha_2,Linha_3,Em_operação
+684734.1025,7466691.0882,1,Gamboa,Não,Não,Não,Não,Não,Não,Sim,Sim,Não,Sim
+683911.568799999542534,7466607.411799999885,2,Rodoviária,Não,Não,Sim,Não,Não,Não,Sim,Sim,Não,Sim
+684238.5263,7466791.8112,3,Cordeiro da Graça,Não,Não,Não,Não,Não,Não,Sim,Sim,Não,Sim
+684643.023,7466983.718399999663,4,Santo Cristo,Não,Não,Não,Não,Não,Não,Sim,Sim,Não,Sim
+684485.914900000207126,7466839.4681,5,Pereira Reis,Não,Não,Não,Não,Não,Não,Sim,Sim,Não,Sim
+684701.136,7466569.9769,6,Vila Olímpica,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Sim
+683821.649600000120699,7466124.342199999839,7,Praia Formosa,Não,Não,Sim,Não,Não,Não,Sim,Sim,Não,Sim
+684173.172799999825656,7466705.120699999854,8,Equador,Não,Não,Não,Não,Não,Não,Sim,Sim,Não,Sim
+684990.850700000301003,7467106.532499999739,9,Cidade do Samba,Não,Não,Não,Não,Não,Não,Sim,Não,Não,Sim
+685674.307400000281632,7467218.257699999958,10,Utopia AquaRio,Não,Não,Não,Não,Não,Não,Sim,Não,Não,Sim
+685005.1036,7466739.768099999987,12,Providência,Não,Não,Não,Não,Sim,Não,Sim,Não,Não,Sim
+685548.523699999786913,7466925.313,13,Harmonia,Não,Não,Não,Não,Não,Não,Sim,Não,Não,Sim
+685986.328700000420213,7467098.7752,14,Parada dos Navios,Não,Não,Não,Não,Não,Não,Sim,Não,Não,Sim
+686520.016599999741,7466892.065899999812,15,Parada dos Museus,Não,Não,Não,Não,Não,Não,Sim,Não,Não,Sim
+686835.002600000239909,7466248.1841,16,Candelária,Não,Não,Não,Não,Não,Não,Sim,Não,Sim,Sim
+686968.062800000421703,7465849.938799999654,17,Sete de Setembro,Não,Não,Não,Não,Não,Não,Sim,Não,Sim,Sim
+687169.730499999597669,7465246.251299999654,18,Cinelândia,Sim,Não,Não,Não,Não,Não,Sim,Não,Sim,Sim
+687049.022199999541044,7465607.644899999723,19,Carioca,Sim,Não,Não,Não,Não,Não,Sim,Não,Sim,Sim
+685416.1968,7466157.1419,20,Central,Sim,Não,Sim,Sim,Sim,Não,Não,Sim,Sim,Sim
+685956.018500000238419,7465795.298499999568,21,Saara,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Sim
+686413.324099999852479,7465715.8836,22,Tiradentes,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Sim
+686911.4945,7465865.1129,23,Colombo,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Sim
+687418.407399999909,7466202.732599999756,24,Praça XV,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,Sim
+685901.4704,7466100.6731,25,Itamaraty,Não,Não,Não,Não,Não,Não,Não,Não,Sim,Sim
+686304.131799999624491,7466257.73199999984,26,Camerino,Não,Não,Não,Não,Não,Não,Não,Não,Sim,Sim
+686559.512199999764562,7466376.838299999945,27,Santa Rita,Não,Não,Não,Não,Não,Não,Não,Não,Sim,Sim
+687967.0504,7465064.3535,28,Santos Dumont,Não,Não,Não,Não,Não,Sim,Sim,Não,Sim,Sim
+687515.0937,7465177.5778,29,Antônio Carlos,Não,Não,Não,Não,Não,Não,Sim,Não,Sim,Sim
+686720.6557,7466590.382699999958,30,São Bento,Não,Não,Não,Não,Não,Não,Sim,Não,Não,Sim
+683760.175499999895692,7465691.239699999802,31,São Diogo,Não,Não,Não,Não,Não,Não,Sim,Sim,Não,Não
