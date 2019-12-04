@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 import random
+import getpass
 
 class InstagramBot:
     def __init__(self, username, password):
@@ -35,5 +36,7 @@ class InstagramBot:
 
 
 
-marcoBot = InstagramBot('pregandoemcena', 'paraquedista')
+login = input("Digite o seu login no Instagram: ")
+senha = getpass.getpass("Digite a sua senha: ")
+marcoBot = InstagramBot(login, senha)
 marcoBot.login()
