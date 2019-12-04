@@ -2,11 +2,11 @@
 Exercícios de introdução à linguagem Python
 
 
-Site:
+### Site:
 
 https://wiki.python.org.br/ListaDeExercicios
 
-Auxílio:
+### Auxílio:
 
 https://www.tutorialspoint.com/python/index.htm
 
@@ -18,10 +18,10 @@ https://www.concrete.com.br/2017/07/21/introducao-ao-python-com-jupyter/
 
 
 
-Atalhos do Jupyter:
+### Atalhos do Jupyter:
 
 
-Atalhos do teclado
+#### Atalhos do teclado
 
 Os seguintes atalhos estão implementados por default para célula no modo comando:
 
@@ -54,7 +54,7 @@ Z: desfaz o apagar célula; e
 L: ativa a enumeração das linhas.
 
 
-Os seguintes atalhos estão implementados por default para célula no modo de edição:
+#### Os seguintes atalhos estão implementados por default para célula no modo de edição:
 
 Tab: autocompleta durante a digitação; e
 
