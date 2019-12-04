@@ -14,6 +14,9 @@ https://github.com/selatotal/pythonBrasilExercicios
 
 https://letscode-academy.com/blog/introducao-ao-jupyter-notebook/
 
+https://www.concrete.com.br/2017/07/21/introducao-ao-python-com-jupyter/
+
+
 
 Atalhos do Jupyter:
 
@@ -49,8 +52,6 @@ D, D: deleta uma célula;
 Z: desfaz o apagar célula; e
 
 L: ativa a enumeração das linhas.
-
-
 
 
 Os seguintes atalhos estão implementados por default para célula no modo de edição:
