@@ -1,4 +1,7 @@
-## Relação dos exercícios:
+https://wiki.python.org.br/EstruturaSequencial
+
+
+## 01 - Estrutura Sequencial:
 
 
 1 - Faça um Programa que mostre a mensagem "Alo mundo" na tela.
