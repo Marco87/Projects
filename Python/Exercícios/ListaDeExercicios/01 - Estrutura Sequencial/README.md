@@ -17,6 +17,7 @@ https://letscode-academy.com/blog/introducao-ao-jupyter-notebook/
 
 Atalhos do Jupyter:
 
+
 Atalhos do teclado
 
 Os seguintes atalhos estão implementados por default para célula no modo comando:
@@ -48,6 +49,7 @@ D, D: deleta uma célula;
 Z: desfaz o apagar célula; e
 
 L: ativa a enumeração das linhas.
+
 
 
 
