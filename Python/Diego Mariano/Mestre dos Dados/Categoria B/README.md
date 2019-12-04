@@ -3,5 +3,7 @@
 Link dos cursos:
 
 https://www.udemy.com/course/intro_python/learn/
+
 https://www.udemy.com/course/visualizacao-de-dados-com-python/learn/
+
 https://www.udemy.com/course/python_para_bioinformatica/learn/
