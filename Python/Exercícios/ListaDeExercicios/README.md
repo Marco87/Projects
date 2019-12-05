@@ -10,8 +10,6 @@ https://wiki.python.org.br/ListaDeExercicios
 
 https://www.tutorialspoint.com/python/index.htm
 
-https://github.com/selatotal/pythonBrasilExercicios
-
 https://letscode-academy.com/blog/introducao-ao-jupyter-notebook/
 
 https://www.concrete.com.br/2017/07/21/introducao-ao-python-com-jupyter/
