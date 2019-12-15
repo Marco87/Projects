@@ -2,7 +2,7 @@
 
 Este repositório armazenará os projetos pessoais, sendo dividido nas seguintes sessões:
 
-### Android: <a href="Java" target="_blank">Repositório</a>
+### Android: <a href="Android">Repositório</a>
 
 ### C#: <a href="CSharp">Repositório</a>
 
