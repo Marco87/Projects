@@ -10,8 +10,8 @@ Este repositório armazenará os projetos pessoais, sendo dividido nas seguintes
 
 ### Excel: <a href="Excel">Repositório</a>
 
-### Java <a href="Java">Repositório</a>
+### Java: <a href="Java">Repositório</a>
 
-### Power BI <a href="Power BI">Repositório</a>
+### Power BI: <a href="Power BI">Repositório</a>
 
-### Python <a href="Python">Repositório</a>
+### Python: <a href="Python">Repositório</a>
