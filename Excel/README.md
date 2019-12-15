@@ -1,5 +1,5 @@
 # Excel
 
-<img src="https://http2.mlstatic.com/D_NQ_NP_535815-MLB25305185358_012017-O.jpg">
+<img src="https://img.ibxk.com.br/2015/10/08/08173114333801.jpg?w=1120&h=420&mode=crop&scale=both">
 
 Repositório criado para os projetos de Excel
