@@ -4,10 +4,12 @@ Este repositório armazenará os projetos pessoais, sendo dividido nas seguintes
 
 ### Android: <a href="Java">Repositório</a>
 
-### C#
+### C#: <a href="CSharp">Repositório</a>
 
-### Excel
+### Excel: <a href="Excel">Repositório</a>
 
-### Java
+### Java <a href="Java">Repositório</a>
 
-### Power BI
+### Power BI <a href="Power BI">Repositório</a>
+
+### Python <a href="Python">Repositório</a>
