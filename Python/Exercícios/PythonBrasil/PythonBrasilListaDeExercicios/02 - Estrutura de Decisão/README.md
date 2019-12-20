@@ -23,6 +23,7 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez.
 6 - Faça um Programa que leia três números e mostre o maior deles.
 
 7 - Faça um Programa que leia três números e mostre o maior e o menor deles.
+
 8 - Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
 
 9 - Faça um Programa que leia três números e mostre-os em ordem decrescente.
