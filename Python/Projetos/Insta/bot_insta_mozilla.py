@@ -38,5 +38,5 @@ class InstagramBot:
 
 login = input("Digite o seu login no Instagram: ")
 senha = getpass.getpass("Digite a sua senha: ")
-marcoBot = InstagramBot(login, senha)
-marcoBot.login()
+bot = InstagramBot(login, senha)
+bot.login()
