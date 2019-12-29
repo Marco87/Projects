@@ -1,4 +1,4 @@
-from pdf2image import convert_from_path
+from pdf2image import convert_from_path, convert_from_bytes
 
 img = convert_from_path("data/2019 | Marketing de Conteúdo.pdf", dpi=200)
 
