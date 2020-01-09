@@ -30,6 +30,7 @@ Ctrl + Enter Inserir linha abaixo
 Ctrl + Shift + Enter Inserir linha acima
 
 Ctrl + Shift + \ Ir para o suporte correspondente
+
 Ctrl +] / [linha Indent / outdent
 
 Home / End Ir para o começo / fim da linha
@@ -67,14 +68,23 @@ Alt + Z Toggle quebra automática de palavras
 
 ## Navegação
 Ctrl + T Mostrar todos os símbolos
+
 Ctrl + G Ir para linha ...
+
 Ctrl + P Ir para arquivo ...
+
 Ctrl + Shift + O Ir para o símbolo ...
+
 Ctrl + Shift + M Mostrar painel de problemas
+
 F8 Ir para o próximo erro ou aviso
+
 Shift + F8 Ir para erro ou aviso anterior
+
 Ctrl + Shift + Tab Navegar pelo histórico do grupo de editor
+
 Alt + ← / → Retroceder / avançar
+
 Ctrl + M Toggle Tab move o foco
 
 
