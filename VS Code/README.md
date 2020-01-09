@@ -104,18 +104,28 @@ Ctrl + K Ctrl + D Move a última seleção para a próxima Find match
 Alt + C / R / W Alternar maiúsculas / minúsculas / regex / palavra inteira
 
 
-Multi-cursor e seleção
+## Multi-cursor e seleção
 Alt + Clique no cursor Inserir
+
 Ctrl + Alt + ↑ / ↓ Inserir cursor acima / abaixo
+
 Ctrl + U Desfazer a última operação do cursor
+
 Shift + Alt + I Insere o cursor no final de cada linha selecionada
+
 Ctrl + I Seleciona a linha atual
+
 Ctrl + Shift + L Seleciona todas as ocorrências da seleção atual
+
 Ctrl + F2 Seleciona todas as ocorrências da palavra atual
+
 Shift + Alt + → Expandir seleção
+
 Shift + Alt + ← Seleção de encolhimento
-Shift + Alt +
-(arraste o mouse)
+
+Shift + Alt + (arraste o mouse)
+
+
 Seleção de coluna (caixa)
 Ctrl + Shift + Alt
 + (tecla de seta)
