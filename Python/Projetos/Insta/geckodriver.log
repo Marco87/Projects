@@ -290,3 +290,15 @@ v@https://www.instagram.com/static/bundles/es6/ConsumerUICommons.js/d69d8c0c6921
 1575492724224	Marionette	INFO	Listening on port 35819
 1575492724308	Marionette	WARN	TLS certificate errors will be ignored for this session
 1575492745738	Marionette	INFO	Stopped listening on port 35819
+1578596275497	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebL4qfl"
+1578596276226	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1578596276227	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1578596276227	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1578596276227	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1578596278728	Marionette	INFO	Listening on port 39697
+1578596278808	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
+GeckoDriver.prototype.get@chrome://marionette/content/driver.js:1140:3
+
+1578596352926	Marionette	ERROR	[21] No reply from Marionette:Register
+1578596357519	Marionette	INFO	Stopped listening on port 39697
