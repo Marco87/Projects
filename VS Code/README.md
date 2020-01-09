@@ -126,24 +126,37 @@ Shift + Alt + ← Seleção de encolhimento
 Shift + Alt + (arraste o mouse)
 
 
-Seleção de coluna (caixa)
-Ctrl + Shift + Alt
-+ (tecla de seta)
-Seleção de coluna (caixa)
-Ctrl + Shift + Alt
-+ PgUp / PgDn
+## Seleção de coluna (caixa)
+Ctrl + Shift + Alt + (tecla de seta)
+
+
+## Seleção de coluna (caixa)
+Ctrl + Shift + Alt + PgUp / PgDn
+
 Ctrl + Sugestão de acionamento de espaço
+
 Ctrl + Shift + Espaço Dicas do parâmetro do acionador
+
 Shift + Alt + F Formatar documento
+
 Ctrl + K Ctrl + F Seleção de formato
+
 F12 Ir para definição
+
 Alt + F12 Peek Definition
+
 Ctrl + K F12 Abrir Definição para o lado
+
 Ctrl + Conserto rápido
+
 Shift + F12 Mostrar referências
+
 F2 Renomear Símbolo
+
 Ctrl + K Ctrl + X Cortar espaços em branco à direita
+
 Ctrl + K M Alterar idioma do arquivo
+
 
 Gerenciamento de editor
 Ctrl + F4, Ctrl + W Fechar editor
