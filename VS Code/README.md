@@ -1,5 +1,9 @@
 # Atalhos do VS Code
 
+
+<img src="https://www.microsofttech.com.br/pt-br/microsofttech/wp-content/uploads/2019/05/VS-CODE.png">
+
+
 ## Geral
 Ctrl + Shift + P, paleta de comando F1 Show
 
