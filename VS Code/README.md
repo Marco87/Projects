@@ -206,22 +206,37 @@ Ctrl + K R Revela o arquivo ativo no Explorer
 Ctrl + K O Mostra o arquivo ativo em uma nova janela / instância
 
 
-Exibição
+## Exibição
 F11 Alternar tela cheia
+
 Shift + Alt + 0 Alternar o layout do editor (horizontal / vertical)
+
 Ctrl + = / - Zoom in / out
+
 Ctrl + B Alterna a visibilidade da barra lateral
+
 Ctrl + Shift + E Mostrar o Explorer / Alternar o foco
+
 Ctrl + Shift + F Mostrar pesquisa
+
 Ctrl + Shift + G Mostrar controle de código-fonte
+
 Ctrl + Shift + D Mostrar depuração
+
 Ctrl + Shift + X Mostrar extensões
+
 Ctrl + Shift + H Substituir nos arquivos
+
 Ctrl + Shift + J Toggle Detalhes da pesquisa
+
 Ctrl + Shift + U Mostrar painel de saída
+
 Ctrl + Shift + V Abra a pré-visualização do Markdown
+
 Ctrl + K V Abre a pré-visualização do Markdown para o lado
+
 Ctrl + KZ Modo Zen (Esc Esc para sair)
+
 
 Depurar
 F9 Alternar ponto de interrupção
