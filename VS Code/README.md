@@ -88,13 +88,19 @@ Alt + ← / → Retroceder / avançar
 Ctrl + M Toggle Tab move o foco
 
 
-Pesquise e substitua
+## Pesquise e substitua
 Ctrl + F Encontrar
+
 Ctrl + H Substituir
+
 F3 / Shift + F3 Encontrar próximo / anterior
+
 Alt + Enter Seleciona todas as ocorrências de Encontrar correspondência
+
 Ctrl + D Adicionar seleção ao próximo Encontrar jogo
+
 Ctrl + K Ctrl + D Move a última seleção para a próxima Find match
+
 Alt + C / R / W Alternar maiúsculas / minúsculas / regex / palavra inteira
 
 
