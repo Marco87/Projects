@@ -158,14 +158,21 @@ Ctrl + K Ctrl + X Cortar espaços em branco à direita
 Ctrl + K M Alterar idioma do arquivo
 
 
-Gerenciamento de editor
+## Gerenciamento de editor
 Ctrl + F4, Ctrl + W Fechar editor
+
 Ctrl + K F Fechar pasta
+
 Ctrl + \ Split editor
+
 Ctrl + 1/2/3 Concentre-se em 1
-2º, 3º ou 3º grupo de editores
+
+
+## 2º, 3º ou 3º grupo de editores
 Ctrl + K Ctrl + ← / → Concentra-se no grupo de editores anterior / seguinte
+
 Ctrl + Shift + PgUp / PgDn Mover editor para a esquerda / direita
+
 Ctrl + K ← / → Mover o grupo do editor ativo
 
 
