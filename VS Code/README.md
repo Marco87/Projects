@@ -176,21 +176,35 @@ Ctrl + Shift + PgUp / PgDn Mover editor para a esquerda / direita
 Ctrl + K ← / → Mover o grupo do editor ativo
 
 
-Gerenciamento de arquivos
+## Gerenciamento de arquivos
 Ctrl + N Novo Arquivo
+
 Ctrl + O Abrir arquivo ...
+
 Ctrl + S Salvar
+
 Ctrl + Shift + S Salvar como ...
+
 Ctrl + K S Salvar tudo
+
 Ctrl + F4 Close
+
 Ctrl + K Ctrl + W Fechar tudo
+
 Ctrl + Shift + T reabrir editor fechado
+
 Ctrl + K Enter Manter o editor do modo de visualização aberto
+
 Ctrl + Tab Aberto ao lado
+
 Ctrl + Shift + Tab Abrir anterior
+
 Ctrl + K P Caminho de cópia do arquivo ativo
+
 Ctrl + K R Revela o arquivo ativo no Explorer
+
 Ctrl + K O Mostra o arquivo ativo em uma nova janela / instância
+
 
 Exibição
 F11 Alternar tela cheia
