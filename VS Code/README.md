@@ -238,12 +238,17 @@ Ctrl + K V Abre a pré-visualização do Markdown para o lado
 Ctrl + KZ Modo Zen (Esc Esc para sair)
 
 
-Depurar
+## Depurar
 F9 Alternar ponto de interrupção
+
 F5 Iniciar / Continuar
+
 Shift + F5 Stop
+
 F11 / Shift + F11 Passo para dentro / fora
+
 F10 Passar por cima
+
 Ctrl + K Ctrl + I Mostrar o cursor
 
 
