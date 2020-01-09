@@ -252,11 +252,17 @@ F10 Passar por cima
 Ctrl + K Ctrl + I Mostrar o cursor
 
 
-Terminal integrado
+## Terminal integrado
 Ctrl + `Mostrar terminal integrado
+
 Ctrl + Shift + `Criar novo terminal
+
 Ctrl + C Copiar seleção
+
 Ctrl + V Cole no terminal ativo
+
 Ctrl + ↑ / ↓ Rola para cima / baixo
+
 Shift + PgUp / PgDn Rola a página para cima / baixo
+
 Ctrl + Home / End Rola para cima / baixo
