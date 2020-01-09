@@ -1,4 +1,4 @@
-# Atalhos do VS Code!
+# Atalhos do VS Code
 
 ## Geral
 Ctrl + Shift + P, paleta de comando F1 Show
