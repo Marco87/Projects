@@ -1,7 +1,7 @@
-https://wiki.python.org.br/EstruturaDeDecisao
+https://wiki.python.org.br/EstruturaDeRepeticao
 
 
-## 02 - Estrutura de Decisão:
+## 03 - Estrutura de Repetição:
 
 
 1 - Faça um Programa que peça dois números e imprima o maior deles.
