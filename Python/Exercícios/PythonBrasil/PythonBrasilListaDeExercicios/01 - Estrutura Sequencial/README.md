@@ -1,5 +1,7 @@
 https://wiki.python.org.br/EstruturaSequencial
 
+<img src="https://www.alura.com.br/artigos/assets/uploads/2018/04/python-code.png">
+
 
 ## 01 - Estrutura Sequencial:
 
