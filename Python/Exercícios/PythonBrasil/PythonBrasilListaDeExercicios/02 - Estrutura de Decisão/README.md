@@ -1,5 +1,7 @@
 https://wiki.python.org.br/EstruturaDeDecisao
 
+<img src="https://gaunte.com/images/blog/porque-python.jpg">
+
 
 ## 02 - Estrutura de Decisão:
 
