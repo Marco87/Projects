@@ -1,5 +1,7 @@
 https://wiki.python.org.br/EstruturaDeRepeticao
 
+<img src="https://www.imperva.com/blog/wp-content/uploads/sites/9/2018/09/Python-2.jpg">
+
 
 ## 03 - Estrutura de Repetição:
 
