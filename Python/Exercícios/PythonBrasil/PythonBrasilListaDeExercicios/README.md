@@ -1,6 +1,8 @@
 ## Lista de Exercícios de Python
 Exercícios de introdução à linguagem Python
 
+<img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/114798028/original/36f0ca130873344ad0c2d2428b056e608e17ff9c/do-python-coding-and-jenkins-setup.png">
+
 
 ### Site:
 
