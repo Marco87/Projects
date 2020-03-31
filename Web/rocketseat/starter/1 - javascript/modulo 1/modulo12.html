@@ -6,22 +6,16 @@
 </head>
 
 <body>
-    <label id="txtnome"></label>
+    <input type="text" id="txtn1"><br><br>
+    <input type="text" id="txtn2"><br><br>
+    <input type="btn" onclick="retornarPares()">
 </body>
 <script>
-    exibirEndereco(prompt("Digite o seu nome: "));
-    function exibirEndereco(nome) {
-        var endereco = {
-            rua: "Travessa 16 de Maio",
-            numero: 6,
-            bairro: "Quintino Bocaiúva",
-            cidade: "Rio de Janeiro",
-            uf: "RJ"
-        }
-        document.getElementById("txtnome").innerHTML = "Dados sobre " + nome
-        + "<br><br>Rua: " + endereco.rua + "<br>Número: " + endereco.numero + 
-        "<br>Bairro: " + endereco.bairro + "<br>Cidade: " + endereco.cidade +
-        "<br>UF: " + endereco.uf;
+    function retornarPares() {
+        var x = document.getElementById("txtn1").value;
+        var y = document.getElementById("txtn2").value;
+
+        alert("Os valores digitados foram: " + x + " e " + y);
     } 
 </script>
 
