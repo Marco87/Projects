@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Starter - Módulo 1</title>
+    <link rel="shortcut icon" href="rocketseat.ico" type="image/x-icon">
+</head>
+
+<body>
+    <label id="txtnome"></label>
+</body>
+<script>
+    exibirEndereco(prompt("Digite o seu nome: "));
+    function exibirEndereco(nome) {
+        var endereco = {
+            rua: "Travessa 16 de Maio",
+            numero: 6,
+            bairro: "Quintino Bocaiúva",
+            cidade: "Rio de Janeiro",
+            uf: "RJ"
+        }
+        document.getElementById("txtnome").innerHTML = "Dados sobre " + nome
+        + "<br><br>Rua: " + endereco.rua + "<br>Número: " + endereco.numero + 
+        "<br>Bairro: " + endereco.bairro + "<br>Cidade: " + endereco.cidade +
+        "<br>UF: " + endereco.uf;
+    } 
+</script>
+
+</html>
