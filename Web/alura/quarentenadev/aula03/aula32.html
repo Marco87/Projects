@@ -17,7 +17,11 @@
 </body>
 <script>
     function calcularLitros() {
-        
+        kml = document.getElementById("txtcarro").value;
+        tempo = document.getElementById("txttempo").value;
+        kmh = document.getElementById("txtvelmed").value;
+
+        document.getElementById("txtlitros").innerHTML = "Quantidade de litros: " + (kmh * tempo)/kml + " litros";
     }
 </script>
 
