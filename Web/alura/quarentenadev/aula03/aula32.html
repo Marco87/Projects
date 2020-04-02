@@ -21,7 +21,7 @@
         horas = document.getElementById("txthoras").value;
         kmh = document.getElementById("txtkmh").value;
 
-        var informacoes = "KM/H: " + kmh + "<br>Horas de viagem: " + horas + "<br>KM/H: " + kmh;
+        var informacoes = "KM/L: " + kml + "<br>Horas de viagem: " + horas + "<br>KM/H: " + kmh;
 
         document.getElementById("txtlitros").innerHTML = informacoes + "<br><br>" + "Quantidade de litros: " + (kmh * horas)/kml + " litros";
     }
