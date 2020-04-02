@@ -14,7 +14,8 @@
 </body>
 <script>
     nome = prompt("Digite o seu nome: ");
-    function exibirTexto(nome) {
+    var cont = 0;
+    function exibirTexto(nome, cont) {
         var texto = ['Oi',
             nome,
             'como',
@@ -24,9 +25,9 @@
             'linha',
             '?'];
         if (cont < texto.length) {
-            document.getElementById("txttexto").innerHTML = ;
+            document.getElementById("txttexto").innerHTML =+ texto[cont] ;
         } else {
-
+            alert("Acabou!");
         }
     }
 </script>
