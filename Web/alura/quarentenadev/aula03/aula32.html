@@ -9,30 +9,15 @@
 </head>
 
 <body>
-    <p><label id="txttexto"></label></p>
-
+    <input type="text" id="txtcarro"><br><br>
+    <input type="text" id="txttempo"><br><br>
+    <input type="text" id="txtvelmed"><br><br><br><br>
+    <input type="button" id="btncalcular" onclick="calcularLitros()">
+    <p><label id="txtlitros"></label></p>
 </body>
 <script>
-    nome = prompt("Digite o seu nome: ");
-    var cont = 0;
-    exibirTexto(nome, cont);
-    function exibirTexto(nome, cont) {
-        var texto = ['Oi',
-            nome,
-            'como',
-            'você',
-            'está',
-            'pulando',
-            'linha',
-            '?'];
-
-        var palavra="";
-        while (cont < texto.length) {
-            alert(palavra += texto[cont] + "\n");
-            document.getElementById("txttexto").innerHTML += texto[cont] + "<br/>";
-            cont++;
-        }
-        alert("Acabou!");
+    function calcularLitros() {
+        
     }
 </script>
 
