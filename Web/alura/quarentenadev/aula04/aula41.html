@@ -15,18 +15,16 @@
     <p><label id="txtvalor"></label></p>
 </body>
 <script>
-    //2 + (distancia * 1.4 + min * 0.26)
     function calcularCorrida() {
         distancia = document.getElementById("txdistancia").value;
         minutos = document.getElementById("txtminutos").value;
-        
+
         var valor = 2 + (distancia * 1.4 + minutos * 0.26);
 
         document.getElementById("txtvalor").innerHTML = "Valor da corrida: R$ " + valor;
 
         document.getElementById("txtdistancia").value = "";
         document.getElementById("txtminutos").value = "";
-
     }
 </script>
 
