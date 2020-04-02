@@ -9,17 +9,17 @@
 </head>
 
 <body>
-    <input type="text" id="txtcarro" placeholder="km/l"><br><br>
-    <input type="text" id="txttempo" placeholder="Tempo da sua viagem"><br><br>
-    <input type="text" id="txtvelmed" placeholder="km/h"><br><br><br><br>
+    <input type="text" id="txtkml" placeholder="km/l"><br><br>
+    <input type="text" id="txthoras" placeholder="Horas de viagem"><br><br>
+    <input type="text" id="txtkmh" placeholder="km/h"><br><br><br><br>
     <input type="button" id="btncalcular" value="Calcular" onclick="calcularLitros()">
     <p><label id="txtlitros"></label></p>
 </body>
 <script>
     function calcularLitros() {
-        kml = document.getElementById("txtcarro").value;
-        tempo = document.getElementById("txttempo").value;
-        kmh = document.getElementById("txtvelmed").value;
+        kml = document.getElementById("txtkml").value;
+        horas = document.getElementById("txthoras").value;
+        kmh = document.getElementById("txtkmh").value;
 
         document.getElementById("txtlitros").innerHTML = "Quantidade de litros: " + (kmh * tempo)/kml + " litros";
     }
