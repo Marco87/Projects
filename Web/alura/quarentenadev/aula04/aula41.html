@@ -16,18 +16,16 @@
 </body>
 <script>
     //2 + (distancia * 1.4 + min * 0.26)
-    function calcularLitros() {
-        kml = document.getElementById("txtkml").value;
-        horas = document.getElementById("txthoras").value;
-        kmh = document.getElementById("txtkmh").value;
+    function calcularCorrida() {
+        distancia = document.getElementById("txdistancia").value;
+        minutos = document.getElementById("txtminutos").value;
+        
+        var valor = 2 + (distancia * 1.4 + minutos * 0.26);
 
-        var informacoes = "KM/L: " + kml + "<br>Horas de viagem: " + horas + "<br>KM/H: " + kmh;
+        document.getElementById("txtvalor").innerHTML = "Valor da corrida: R$ " + valor;
 
-        document.getElementById("txtlitros").innerHTML = informacoes + "<br><br>" + "Quantidade de litros: " + kmh * (horas/kml) + " litros";
-
-        document.getElementById("txtkml").value = "";
-        document.getElementById("txthoras").value = "";
-        document.getElementById("txtkmh").value = "";
+        document.getElementById("txtdistancia").value = "";
+        document.getElementById("txtminutos").value = "";
 
     }
 </script>
