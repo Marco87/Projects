@@ -2,18 +2,17 @@
 
 <head>
     <title>
-        Aula 4 - Litros por viagem
+        Aula 4 - Valor de corrida
     </title>
     <link rel="shortcut icon" href="alura.ico" type="image/x-icon">
 
 </head>
 
 <body>
-    <input type="text" id="txtkml" placeholder="km/l"><br><br>
-    <input type="text" id="txthoras" placeholder="Horas de viagem"><br><br>
-    <input type="text" id="txtkmh" placeholder="km/h"><br><br><br><br>
-    <input type="button" id="btncalcular" value="Calcular" onclick="calcularLitros()">
-    <p><label id="txtlitros"></label></p>
+    <input type="text" id="txtdistancia" placeholder="Distância percorrida"><br><br>
+    <input type="text" id="txtminutos" placeholder="Minutos de viagem"><br><br>
+    <input type="button" id="btncalcular" value="Calcular corrida" onclick="calcularCorrida()">
+    <p><label id="txtvalor"></label></p>
 </body>
 <script>
     //2 + (distancia * 1.4 + min * 0.26)
