@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>
+        Aula 2 - Cálculo de IMC
+    </title>
+    <link rel="shortcut icon" href="alura.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <p>O IMC ou índice de massa corporal, nos ajuda a identificar algumas caracteristicas como obesidade ou desnutrição.
+    </p>
+    <p>O IMC é calculado dividindo o peso pela altura elevada ao quadrado. Será que você consegue descobrir qual o seu
+        IMC?.</p>
+    <p>Se você digitou o seu peso e a sua altura, seu IMC está aparecendo logo abaixo:</p><br />
+    <p>Valor do IMC: <label id="txtimc"></label></p>
+    <p>Condição: <label id="txtcondicao"></label></p>
+
+</body>
+<script>
+    peso = prompt("Digite o seu peso: ");
+    altura = prompt("Digite a sua altura: ");
+    calcularImc(peso, altura);
+
+    function calcularImc(p, a) {
+        imc = p / (a * a);
+
+        if (imc < 17) {
+            condicao = "Muito abaixo do peso";
+        } else if (imc < 18.5) {
+            condicao = "Abaixo do peso";
+        } else if (imc < 25) {
+            condicao = "Peso normal";
+        } else if (imc < 30) {
+            condicao = "Acima do peso";
+        } else if (imc < 35) {
+            condicao = "Obesidade I";
+        } else if (imc < 40) {
+            condicao = "Obesidade II";
+        } else {
+            condicao = "Obesidade mórbida";
+        }
+
+        document.getElementById("txtimc").innerHTML = imc;
+        document.getElementById("txtcondicao").innerHTML = condicao;
+    }
+</script>
+
+</html>

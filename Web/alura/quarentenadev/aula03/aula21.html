@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>
+        Aula 2 - Capturando informações e variáveis
+    </title>
+    <link rel="shortcut icon" href="alura.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <p>Nosso coração bate aproximadamente 75 vezes por minuto.</p>
+    <p>Com essa informação, é possível calcular o número de batimentos do seu coração ao longo dos anos (estimativa).
+    </p>
+    <p><label id="txtidade"></label> batimentos ao longo da vida</p>
+    
+</body>
+<script>
+    calcularIdade(prompt("Digite a sua idade: "));
+    function calcularIdade(idade) {
+        var hora = 75 * 60;
+        var dia = hora * 24;
+        var mes = dia * 30;
+        var ano = dia * 365;
+        alert("Batimentos por hora: " + hora + "\nBatimentos por dia: " + dia +
+            "\nBatimentos por mês: " + mes + "\nBatimenos por ano: " + ano +
+            "\nBatimenos para quem tem " + idade + " anos de idade: " + idade * ano);
+        document.getElementById("txtidade").innerHTML = ano * idade;
+    }
+</script>
+
+</html>
