@@ -34,13 +34,21 @@
             }
         ];
 
+        var texto = "";
+
         for (var i = 0; i < usuarios.length; i++) {
             if (selecionado == usuarios[i].nome) {
-                alert(selecionado);
+                texto = "O " + selecionado + " possui as seguintes habilidades: ";
+                for (var j = 0; j < usuarios[i].habilidades.length; j++) {
+                    texto += usuarios[i].habilidades[j];
+                    if (j != usuarios[i].habilidades.length - 1){
+                        texto += ", ";
+                    }
+                }
             }
         }
 
-        //document.getElementById("txthabilidades").innerHTML = ;
+        document.getElementById("txthabilidades").innerHTML = texto;
     }
 </script>
 
