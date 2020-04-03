@@ -20,6 +20,9 @@
 </body>
 <script>
     function experiencia() {
+        var itens = document.getElementById("txtusuarios");
+        var selecionado = itens.options[itens.selectedIndex].text;
+
         var usuarios = [
             {
                 nome: "Diego",
@@ -30,8 +33,10 @@
                 habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
             }
         ];
-        //alert(usuarios[1].nome);
 
+        for (var i; i < usuarios.length; i++) {
+
+        }
 
         //document.getElementById("txthabilidades").innerHTML = ;
     }
