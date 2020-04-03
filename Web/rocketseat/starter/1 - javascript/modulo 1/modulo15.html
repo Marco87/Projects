@@ -9,7 +9,7 @@
 <body>
     <p>
         <select id="txtusuarios">
-            <option value="op0"></option>
+            <option value="op0" onchange="experiencia()" selected disabled hidden>Escolha uma das opções</option>
             <option value="op1">Diego</option>
             <option value="op2">Gabriel</option>
         </select>
@@ -30,6 +30,8 @@
                 habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
             }
         ];
+
+
 
         document.getElementById("txthabilidades").innerHTML = ;
     }
