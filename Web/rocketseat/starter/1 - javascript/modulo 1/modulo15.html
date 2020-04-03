@@ -8,8 +8,12 @@
 
 <body>
     <p>
-        <select id="txtusuarios"
-        
+        <select id="txtusuarios">
+            <option value="op0"></option>
+            <option value="op1">Diego</option>
+            <option value="op2">Gabriel</option>
+        </select>
+
         <label id="txthabilidades"></label>
     </p>
 
@@ -17,8 +21,18 @@
 <script>
 
     function experiencia() {
-        
-        document.getElementById("txtlabel").innerHTML = "Status: " + status;
+        var usuarios = [
+            {
+                nome: "Diego",
+                habilidades: ["JavaScript", "ReactJS", "Redux"]
+            },
+            {
+                nome: "Gabriel",
+                habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+            }
+        ];
+
+        document.getElementById("txthabilidades").innerHTML = ;
     } 
 </script>
 
