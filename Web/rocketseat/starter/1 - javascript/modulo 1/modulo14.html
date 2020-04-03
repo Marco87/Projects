@@ -10,8 +10,8 @@
     <p>
         <input type="text" id="txtnome" placeholder="Nome"><br><br>
         <input type="text" id="txtexp" placeholder="Anos de experiência"><br><br>
-        <input type="button" id="btnok" value="Ok" onclick="experiencia()"><br><br>
-
+        <input type="button" id="btnok" value="Ok" onclick="experiencia()"><br><br><br>
+        <label id="txtlabel"></label>
     </p>
 
 </body>
@@ -32,9 +32,12 @@
             status = "Intermediário";
         } else if (exp <= 6) {
             status = "Avançado";
-        } else {
+        } else if (exp >= 7) {
             status = "Jedi Master";
+        } else {
+            alert("Digite um valor número válido!");
         }
+        document.getElementById("txtlabel").innerHTML = "Status: " + status;
     } 
 </script>
 
