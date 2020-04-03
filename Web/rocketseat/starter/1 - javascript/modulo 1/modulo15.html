@@ -8,40 +8,16 @@
 
 <body>
     <p>
-        <input type="text" id="txtnome" placeholder="Nome"><br><br>
-        <input type="text" id="txtexp" placeholder="Anos de experiência"><br><br>
-        <input type="button" id="btnok" value="Ok" onclick="experiencia()"><br><br><br>
-        <label id="txtlabel"></label>
+        <select id="txtusuarios"
+        
+        <label id="txthabilidades"></label>
     </p>
 
 </body>
 <script>
 
     function experiencia() {
-        //De 0-1 ano: Iniciante
-        //De 1-3 anos: Intermediário
-        //De 3-6 anos: Avançado
-        //De 7 acima: Jedi Master
-        var nome = document.getElementById("txtnome").value;
-        var exp = document.getElementById("txtexp").value;
-        var status = "";
-
-        if (exp >= 0) {
-            if (exp <= 1) {
-                status = "Iniciante";
-            } else if (exp <= 3) {
-                status = "Intermediário";
-            } else if (exp <= 6) {
-                status = "Avançado";
-            } else if (exp >= 7) {
-                status = "Jedi Master";
-            }
-        } else if (exp < 0) {
-            alert("Digite um número positivo!");
-        } else {
-            alert("Digite um valor válido!");
-        }
-
+        
         document.getElementById("txtlabel").innerHTML = "Status: " + status;
     } 
 </script>
