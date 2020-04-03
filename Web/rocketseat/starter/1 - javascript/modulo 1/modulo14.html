@@ -26,17 +26,22 @@
         var exp = document.getElementById("txtexp").value;
         var status = "";
 
-        if (exp <= 1) {
-            status = "Iniciante";
-        } else if (exp <= 3) {
-            status = "Intermediário";
-        } else if (exp <= 6) {
-            status = "Avançado";
-        } else if (exp >= 7) {
-            status = "Jedi Master";
+        if (exp >= 0) {
+            if (exp <= 1) {
+                status = "Iniciante";
+            } else if (exp <= 3) {
+                status = "Intermediário";
+            } else if (exp <= 6) {
+                status = "Avançado";
+            } else if (exp >= 7) {
+                status = "Jedi Master";
+            }
+        } else if (exp < 0) {
+            alert("Digite um número positivo!");
         } else {
             alert("Digite um valor válido!");
         }
+
         document.getElementById("txtlabel").innerHTML = "Status: " + status;
     } 
 </script>
