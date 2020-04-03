@@ -14,19 +14,12 @@
 
 </body>
 <script>
-    temHabilidades();
+
     function temHabilidades() {
-        var skills = ["JavaScript", "ReactJS", "Reactive Native"];
-        var itens = document.getElementById("txtopcoes");
-        var selecionado = itens.options[itens.selectedIndex].text;
-        document.getElementById("txthabilidades").innerHTML = "";
-        for (var cont = 0; cont < skills.length; cont++) {
-            if (selecionado == skills[cont]) {
-                document.getElementById("txthabilidades").innerHTML += "<font color='red'>" + skills[cont] + "</font><br>";
-            } else {
-                document.getElementById("txthabilidades").innerHTML += skills[cont] + "<br>";
-            }
-        }
+//De 0-1 ano: Iniciante
+//De 1-3 anos: Intermediário
+//De 3-6 anos: Avançado
+//De 7 acima: Jedi Master    
     } 
 </script>
 
