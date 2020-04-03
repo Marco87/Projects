@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Starter - Módulo 1</title>
+    <link rel="shortcut icon" href="rocketseat.ico" type="image/x-icon">
+    <meta http-equiv=”Content-Type” content=”text/html; charset=iso-8859-1″>
+</head>
+
+<body>
+    <p>
+    <input type="text" id="txtnome" placeholder="Nome"><br>
+    <input type="text" id="txtexp" placeholder="Anos de experiência">
+    </p>
+
+</body>
+<script>
+    temHabilidades();
+    function temHabilidades() {
+        var skills = ["JavaScript", "ReactJS", "Reactive Native"];
+        var itens = document.getElementById("txtopcoes");
+        var selecionado = itens.options[itens.selectedIndex].text;
+        document.getElementById("txthabilidades").innerHTML = "";
+        for (var cont = 0; cont < skills.length; cont++) {
+            if (selecionado == skills[cont]) {
+                document.getElementById("txthabilidades").innerHTML += "<font color='red'>" + skills[cont] + "</font><br>";
+            } else {
+                document.getElementById("txthabilidades").innerHTML += skills[cont] + "<br>";
+            }
+        }
+    } 
+</script>
+
+</html>
