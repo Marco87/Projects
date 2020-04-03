@@ -35,19 +35,7 @@
         ];
 
         var texto = "";
-        /*
-        for (var i = 0; i < usuarios.length; i++) {
-            if (selecionado == usuarios[i].nome) {
-                texto = "O " + selecionado + " possui as seguintes habilidades: ";
-                for (var j = 0; j < usuarios[i].habilidades.length; j++) {
-                    texto += usuarios[i].habilidades[j];
-                    if (j != usuarios[i].habilidades.length - 1) {
-                        texto += ", ";
-                    }
-                }
-            }
-        }
-        */
+        
         for (const value of usuarios){
             if(value.nome == selecionado){
                 texto = "O " + value.nome + " possui as seguintes habilidades: ";
