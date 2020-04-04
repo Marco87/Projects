@@ -11,7 +11,7 @@ window.onload = function() {
              }
           }
  function cronometro () { 
-          timeActual = new Date(2020,04,04);
+          timeActual = new Date();
           acumularTime = timeActual - timeInicial;
           acumularTime2 = new Date();
           acumularTime2.setTime(acumularTime); 
