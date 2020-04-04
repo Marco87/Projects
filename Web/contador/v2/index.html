@@ -1,0 +1,27 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title>Contador - MAGEDDO </title>
+		<link rel="stylesheet" href="css/estilo.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/contador.js"></script>
+		
+		<script>
+			$(function(){
+			
+				var c = new Contador();
+				c.setDateVisual("#contador2", "14/06/2020");
+				c.setDateVisualComplete("#contador","14/06/2020/22/00/00");
+				
+			});
+		</script>
+		
+	</head>
+	<body>
+		<div id="contador"></div>
+		<div id="contador2"></div>
+		<div id="rodape">
+			<span>MAGEDDO - TODOS OS DIREITOS RESERVADOS - &copy; 2014<span>
+		</div>
+	</body>
+</html>
