@@ -10,23 +10,16 @@
 </head>
 
 <body>
-    <input type="text" id="txtdistancia" placeholder="Distância percorrida"><br><br>
-    <input type="text" id="txtminutos" placeholder="Minutos de viagem"><br><br>
-    <input type="button" id="btncalcular" value="Calcular corrida" onclick="calcularCorrida()">
-    <p><label id="txtvalor"></label></p>
+    <h1>Marco Aurélio Alencastro Pacheco</h1>
+    <p>Analista de Dados</p>
+    <h2></h2>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
 </body>
 <script>
-    function calcularCorrida() {
-        var distancia = document.getElementById("txtdistancia").value;
-        var minutos = document.getElementById("txtminutos").value;
-
-        var valor = 2 + (distancia * 1.4 + minutos * 0.26);
-
-        document.getElementById("txtvalor").innerHTML = "Valor da corrida: R$ " + valor.toFixed(2);
-
-        document.getElementById("txtdistancia").value = "";
-        document.getElementById("txtminutos").value = "";
-    }
 </script>
 
 </html>
