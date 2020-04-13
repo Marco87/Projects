@@ -16,10 +16,11 @@ text-decoration: underline;
     font-weight: bold;
 }
 
-imgcalc{
-
+.imgcalc{
+width: 500px;
 }
 
-titulocal{
-    
+.titulocalc{
+font-weight: bold;
+color: #ff4700;
 }
