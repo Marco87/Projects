@@ -20,6 +20,8 @@
         <br><br>
         <input type="button" id="btncalc" value="Calcular corrida" onclick="calcular()">
         <br><br>
+        <label id="txtvalor"></label>
+        <br><br>
         <select name="coresfundo" id="txtcores" class="txtcores" onchange="mudarcor()"
             placeholder="Escolha uma das opções">
             <option hidden>Escolha uma das opções</option>
@@ -36,6 +38,8 @@
         minutos = document.getElementById("txtmin").value;
 
         var valor = 2 + (distancia * 1.4 + minutos * 0.26);
+
+        document.getElementById("txtvalor").innerHTML = "O valor da corrida é: R$ " + valor;
     }
 
     function mudarcor() {
