@@ -47,7 +47,11 @@
     }
 
     function mudarcor() {
-        document.bgColor = "yellow";
+        selecionado = document.getElementById("txtcores");
+        corselecionada = selecionado.children[selecionado.selectedIndex].textContent;
+        
+        alert(corselecionada);
+        //document.bgColor = "";
     }
 </script>
 
