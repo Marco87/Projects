@@ -50,19 +50,19 @@
         selecionado = document.getElementById("txtcores");
         corselecionada = selecionado.children[selecionado.selectedIndex].textContent;
 
-cor = "";
+        cor = "";
 
         if (corselecionada == "Amarelo") {
-cor = "#ffd700";
+            cor = "#ffd700";
         } else if (corselecionada == "Azul") {
-cor = "#483D8B";
+            cor = "#483D8B";
         } else if (corselecionada == "Verde") {
-cor = "#66CDAA";
+            cor = "#66CDAA";
         } else if (corselecionada == "Branco") {
-cor = "#ffffff";
+            cor = "#ffffff";
         }
 
-        //document.bgColor = "";
+        document.bgColor = cor;
     }
 </script>
 
