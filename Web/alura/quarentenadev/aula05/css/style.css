@@ -30,7 +30,11 @@ color: #ff4700;
     color: #fff;
 }
 
-btncalc{
+.txtcalc::placeholder{
+    color: #ff4700;
+}
+
+#btncalc{
     background-color: #ff4700;
     color: #000;
 }
