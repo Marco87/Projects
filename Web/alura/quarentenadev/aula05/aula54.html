@@ -20,7 +20,8 @@
         <br><br>
         <input type="button" id="btncalc" value="Calcular corrida" onclick="calcular()">
         <br><br>
-        <select name="coresfundo" id="txtcores" class="txtcores" placeholder="Escolha uma das opções">
+        <select name="coresfundo" id="txtcores" class="txtcores" onchange="mudarcor()"
+            placeholder="Escolha uma das opções">
             <option hidden>Escolha uma das opções</option>
             <option value="op1">Amarelo</option>
             <option value="op2">Azul</option>
@@ -32,8 +33,12 @@
 <script>
     function calcular() {
         dist = document.getElementById("txtdist").value;
-        min = document.getElementById("txtdist").value;
+        min = document.getElementById("txtmin").value;
 
+        alert(dist * min);
+    }
+
+    function mudarcor() {
 
     }
 </script>
