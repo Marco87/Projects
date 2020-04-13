@@ -49,8 +49,19 @@
     function mudarcor() {
         selecionado = document.getElementById("txtcores");
         corselecionada = selecionado.children[selecionado.selectedIndex].textContent;
-        
-        alert(corselecionada);
+
+cor = "";
+
+        if (corselecionada == "Amarelo") {
+cor = "#ffd700";
+        } else if (corselecionada == "Azul") {
+cor = "#483D8B";
+        } else if (corselecionada == "Verde") {
+cor = "#66CDAA";
+        } else if (corselecionada == "Branco") {
+cor = "#ffffff";
+        }
+
         //document.bgColor = "";
     }
 </script>
