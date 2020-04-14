@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="folha">
-            <h1 id="txtnome">Nome:</h1>
+            <h1 id="txttitulo">Nome:</h1>
             <h2>Ficha Médica:</h2>
 
             <ul id="listaitens">
@@ -24,12 +24,12 @@
 </body>
 <script>
     function preencher() {
-        //nome = prompt("Digite o nome: ")
         nome = document.getElementById("txtnome").value;
         data = document.getElementById("txtdata").value;
-        sangue = document.getElementById("txtsangue").value;
-        document.getElementById("txtnome").innerHTML = "Nome: " + nome;
-        document.getElementById("listaitens").innerHTML = "<li>{$nome}</li><br><li>{$data}</li><li>{$sangue}</li>";
+        //sangue = document.getElementById("txtsangue").value;
+        document.getElementById("txttitulo").innerHTML = 'Nome: ' + nome;
+        document.getElementById("listaitens").innerHTML = "<li>" + nome + "</li><li>" + "data " + "</li><li>" + "sangue " + "</li>";
+
     }
 </script>
 
