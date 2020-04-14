@@ -10,10 +10,17 @@
 <body>
     <div id="texto" class="texto">
         <p id="resultado">Clique no botão para participar do sorteio de uma corrida grátis</p>
+        <br>
     </div>
-    <input type="button" id="btnconfirmar" value="Corrida de Graça">
+    <input type="button" id="btnconfirmar" value="Corrida de Graça" onclick="confirmar()">
 </body>
 <script>
+    function confirmar() {
+        numero = Math.round(Math.random());
+        alert(numero);
+
+    }
+
 </script>
 
 </html>

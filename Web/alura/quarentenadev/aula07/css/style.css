@@ -2,9 +2,19 @@ body{
     background-image: url("../img/map.png");
 }
 
+
+.texto{
+    margin: 50px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
 #btnconfirmar{
     color: #fff;
-    background-color: blue;
-    width: 100%;
+    background-color: #85a8fc;
+    text-align: center;
     font-size: 24px;
+    width: 100%;
+    padding: 50px;
 }
