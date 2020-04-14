@@ -10,10 +10,16 @@
 <body>
     <div class="container">
         <div class="folha">
-            <h1>Nome:</h1>
-            <h2>Marco</h2>
+            <h1 id="txtnome">Nome:</h1>
+            <h2>Ficha</h2>
         </div>
     </div>
 </body>
-
+<script>
+    preencher();
+    function preencher(){
+        nome = prompt("Digite o nome: ")
+        document.getElementById("txtnome").innerHTML = "Nome: " + nome;
+    }
+</script>
 </html>
