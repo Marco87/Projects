@@ -11,12 +11,9 @@
     <div class="container">
         <div class="folha">
             <h1 id="txtnome">Nome:</h1>
-            <h2>Ficha</h2>
+            <h2>Ficha Médica:</h2>
             <input type="date" id="txtdata">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul id="listaitens">
             </ul>
         </div>
     </div>
@@ -25,9 +22,10 @@
     preencher();
     function preencher(){
         //nome = prompt("Digite o nome: ")
+        nome = "Marco";
         data = document.getElementById("txtdata").value;
         document.getElementById("txtnome").innerHTML = "Nome: " + nome;
-
+        document.getElementById("listaitens").innerHTML = "<li>Valor 1</li>";
     }
 </script>
 </html>
