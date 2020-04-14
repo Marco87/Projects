@@ -1,3 +1,8 @@
 body{
-    background-image: url("img/map.png");
+    background-image: url("../img/map.png");
+}
+
+#btnconfirmar{
+    color: #fff;
+    background-color: blue;
 }
