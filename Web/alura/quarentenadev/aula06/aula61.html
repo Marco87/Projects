@@ -13,13 +13,18 @@
             <h1 id="txtnome">Nome:</h1>
             <h2>Ficha</h2>
             <input type="date" id="txtdata">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
     </div>
 </body>
 <script>
     preencher();
     function preencher(){
-        nome = prompt("Digite o nome: ")
+        //nome = prompt("Digite o nome: ")
         data = document.getElementById("txtdata").value;
         document.getElementById("txtnome").innerHTML = "Nome: " + nome;
 
