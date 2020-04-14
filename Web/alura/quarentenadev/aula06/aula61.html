@@ -14,9 +14,9 @@
             <h2>Ficha Médica:</h2>
 
             <ul id="listaitens">
-                <li><input type="text" id="txtnome" placeholder="Digite o seu nome"></li>
-                <li><label>Selecione a sua data de nascimento: </label><input type="date" id="txtdata"></li>
-                <li><input type="txtsangue" placeholder="Digite o seu tipo sanguíneo"></li>
+                <li><input type="text" id="txtnome" placeholder="Digite o seu nome" class="txt"></li>
+                <li><label>Selecione a sua data de nascimento: </label><input type="date" id="txtdata" class="txt"></li>
+                <li><input type="txtsangue" placeholder="Digite o seu tipo sanguíneo" class="txt"></li>
             </ul>
             <input type="button" id="btnok" value="Confirmar" onclick="preencher()">
         </div>
@@ -27,8 +27,7 @@
         nome = document.getElementById("txtnome").value;
         data = document.getElementById("txtdata").value;
         document.getElementById("txttitulo").innerHTML = 'Nome: ' + nome;
-        document.getElementById("listaitens").innerHTML = "</li><li>Data de Nascimenbto: " + data + "</li><li>Tipo Sanguíneo: " + sangue + "</li>";
-
+        document.getElementById("listaitens").innerHTML = "<li>Data de Nascimenbto: " + data + "</li><li>Tipo Sanguíneo: " + sangue + "</li>";
     }
 </script>
 
