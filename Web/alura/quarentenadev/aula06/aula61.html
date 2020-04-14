@@ -12,14 +12,18 @@
         <div class="folha">
             <h1 id="txtnome">Nome:</h1>
             <h2>Ficha Médica:</h2>
-            <input type="date" id="txtdata">
+            
             <ul id="listaitens">
+                <li><input type="text" id="txtnome" placeholder="Digite o seu nome"></li>
+                <li><label>Selecione a sua data de nascimento: </label><input type="date" id="txtdata"></li>
+                <li><input type="txtsangue" placeholder="Digite o seu tipo sanguíneo"></li>
+                
             </ul>
+            <input type="button" id="btnok" value="Confirmar" onclick="preencher()">
         </div>
     </div>
 </body>
 <script>
-    preencher();
     function preencher(){
         //nome = prompt("Digite o nome: ")
         nome = "Marco";
