@@ -12,3 +12,9 @@
     margin-top: 50px;
     background-color: #fff;
 }
+
+#btnok{
+    background-color: #ff4700;
+    color: #fff;
+    border-radius: 5px;
+}

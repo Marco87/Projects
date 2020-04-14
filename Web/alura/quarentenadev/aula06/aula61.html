@@ -25,10 +25,11 @@
 <script>
     function preencher() {
         //nome = prompt("Digite o nome: ")
-        nome = "Marco";
+        nome = document.getElementById("txtnome").value;
         data = document.getElementById("txtdata").value;
+        sangue = document.getElementById("txtsangue").value;
         document.getElementById("txtnome").innerHTML = "Nome: " + nome;
-        document.getElementById("listaitens").innerHTML = "<li>Valor 1</li>";
+        document.getElementById("listaitens").innerHTML = "<li>{$nome}</li><br><li>{$data}</li><li>{$sangue}</li>";
     }
 </script>
 
