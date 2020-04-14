@@ -16,9 +16,24 @@
 </body>
 <script>
     function confirmar() {
-        numero = Math.round(Math.random());
-        alert(numero);
+        limite = 10;
+        numero = Math.round(Math.random() * limite);
+        palpite = prompt("Digite um número (entre 1 e 10) para participar do sorteio");
 
+        resultado = "";
+
+        if (palpite < 0 || palpite > limite) {
+            prompt("Digite um número (entre 1 e 10) para participar do sorteio");
+        }
+        if (palpite != numero) {
+            resultado = "Você errou!"
+            alert(resultado);
+        }
+        if (palpite == numero) {
+            resultado = "Parabéns, você acertou!"
+            alert(resultado);
+        }
+        document.getElementById("resultado").innerHTML = resultado;
     }
 
 </script>
