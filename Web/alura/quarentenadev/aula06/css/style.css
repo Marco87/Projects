@@ -1,8 +1,14 @@
 .container{
-    background-color: #fff;
+    background-color: #ff0;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    
 }
 
 .folha{
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 50px;
+    background-color: #ff00ff;
 }

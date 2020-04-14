@@ -12,6 +12,7 @@
         <div class="folha">
             <h1 id="txtnome">Nome:</h1>
             <h2>Ficha</h2>
+            <input type="date" id="txtdata">
         </div>
     </div>
 </body>
@@ -19,7 +20,10 @@
     preencher();
     function preencher(){
         nome = prompt("Digite o nome: ")
+        data = document.getElementById("txtdata").value;
         document.getElementById("txtnome").innerHTML = "Nome: " + nome;
+
+        alert(data);
     }
 </script>
 </html>
