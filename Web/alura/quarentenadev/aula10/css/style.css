@@ -1,150 +1,273 @@
-* {
-    color: #121212;
+@import "https://caelum.github.io/quarentenadev/certificado.css?";
+
+
+html {
+  overflow: auto;
+}
+
+a { 
+  color: inherit;
+  text-decoration: none;
+  transition: color .2s ease;
+}
+
+a:hover {
+  color: #454545;
+}
+
+body {
+  position: relative;
+  
+  text-align: left;
+  color: #525f6b;
+  
+  overflow: hidden;
+}
+
+body:after {
+  content: "Certificado";
+  
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  
+  transform-origin: 100% 100%;
+  transform: 
+    rotateZ(-90deg) 
+    translateX(150%);
+
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 1.25em;
+  
+  color: #F4F4F4;
+}
+
+h1, p, h2, footer { 
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+h1 {
+  margin-bottom: .25em;
+  padding-top: 1em;
+  padding-bottom: .5em;
+  padding-right: 25%;
+  
+  font-weight: bold;
+  font-family: 'Helvetica';
+  font-size: 1.3em;
+  letter-spacing: -.087em;
+
+  border-bottom: 3px solid orange;
+  background-color: #e7edf2;
+  color: #4a535a;
+  color: rgba(0,0,0,.6);
+}
+
+h1:after {
+  content: '_';
+}
+
+p {
+  font-size: .75em;
+}
+
+
+p a {
+  background: orange;
+  color: white;
+
+  padding: 0.087em 0.2175em;
+
+  text-transform: uppercase;
+  letter-spacing: 0.087em;
+  font-weight: normal;
+}
+
+p a:hover {
+  color: whitesmoke;
+  text-decoration: none;
+  background-image: linear-gradient(
+    rgba(255,255,255,.1),
+    rgba(255,255,255,.1)
+  );
+}
+
+p a:before {
+  content: '#';
+}
+
+p a:hover:before {
+  font-weight: bold;
+}
+
+
+p span {
+  display: block;
+  margin-top: .5em;
+  font-size: .75em;
+  letter-spacing: -0.075em;
+  
+  color: #AFAFB0;
+}
+
+
+p span br ~ * {
+
+}
+
+
+h2 {
+  font-size: .75em;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+  
+  color: #48CCCA;
+}
+
+ol {
+  max-height: 14.25em;
+  margin-left: 2rem;
+  padding-top: 1.5em;
+/*   padding-right: 1.5em; */
+  border-right: 3em solid white;
+  
+  column-width: 15em;
+  column-gap: 2.5em;
+/*   display: flex; */
+/*   flex-direction: column; */
+/*   flex-wrap: wrap; */
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 2.5em;
+  
+  word-break: break-all;
+  font-size: .5em;
+  text-align: left;
+  list-style-position: outside;
+}
+
+li {
+  break-inside: avoid;
+  line-height: 1.25;
+  margin-left: 3em;
+  margin-right: 1em;
+  scroll-snap-align: start;
+  box-sizing: border-box;
+}
+
+li + li {
+  margin-top: .25em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div {
+  width: 9rem;
+  height: 9rem;
+  line-height: 9rem;
+  
+  font-size: .3em;
+  display: block;
+  margin: auto;
+  border: 1px solid #999;
+}
+
+footer {
+  position: absolute;
+  padding-top: .125em;
+  padding-bottom: .5em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  
+  text-align: left;
+  
+  background: inherit;
+}
+
+footer figure {
+  font-size: .4em;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer figcaption {
+  text-align: center;
+  padding-top: .25em;
+  border-top: .025em solid orange;
+}
+
+footer img {
+  width: 10.5em;
+}
+
+
+footer a {
+  font-size: 1em;
+  text-decoration: none;
+  color:   lightgrey;
+  
+  display: inline-flex;
+  align-items: center;
+}
+
+footer a[href*='alura']:hover {
+  color: #414040;
+}
+
+footer a[href*='caelum']:hover {
+  color: #241f20;
+}
+
+footer a svg {
+  width: 1em;
+  height: 1em;
+}
+
+footer a span {
+  font-size: 0.5em;
+  margin-left: .75em;
+}
+
+footer > * + * {
+  margin-left: 2em;
+}
+
+body {
+  height: auto !important;
+ !important;
+}
+
+
+@media print {
+  @page {
+    size: landscape;
+    margin: 0;
+    size: A4 landscape;
   }
   
-  
-  html {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(10,0,200,.25);
+  html.paginaCertificado {
+    background: none;
   }
   
-  body {
-    width: 280px;
-    height: 620px;
-    padding: 50px 1em;
-    box-sizing: border-box;
-    overflow: hidden;
-    position:  relative;
-   
-    font-family: Helvetica, Arial, sans-serif;
-    
-    color: #454545;
-    border-radius: 40px;
-    border: 10px solid currentColor;
-    background-image:
-      linear-gradient(
-        currentColor 50px, 
-        transparent 50px, 
-        transparent calc(100% - 50px), 
-        currentColor calc(100% - 50px), 
-        currentColor
-      ),
-      linear-gradient(
-        90deg, 
-        rgba(0,0,0,.2) 2px, 
-        transparent 5px, 
-        transparent calc(100% - 5px), 
-        rgba(0,0,0,.2) calc(100% - 2px)
-      ),
-       linear-gradient(
-        to bottom,
-        transparent, 
-        transparent calc(100% - 55px), 
-        rgba(0,0,0,.2) calc(100% - 52px),
-        rgba(0,0,0,.2) calc(100% - 52px)
-      ),
-      url('https://miro.medium.com/max/4064/1*qYUvh-EtES8dtgKiBRiLsA.png');
-    
-    background-size: 
-      100% 100%, 
-      100% 100%, 
-      100% 100%,
-      cover;
-    
-    background-position: 
-       0 0,
-       0 0,
-       0 0,
-       cover;
-      
-     background-repeat: no-repeat;
+  html.paginaCertificado body {
+      max-width: 2048px;
+      max-height: none  ;
+      font-size: 3.5vw;
   }
   
-  input {
-    border: none;
-    border-bottom: 2px solid #cacaca;
-    display: block;
-    width: calc(100% + 2rem);
-    height: 2.5em;
-    line-height: 2.5em;
-    position: relative;
-    left: -1rem;
-    z-index: 1;
-  
-    padding-left: 5.2em;
-    
-    font-size: 15px;
-    font-weight: lighter;
-    
-    box-sizing: border-box;
+  html.paginaCertificado ol {
+    height: auto;
+    max-height: none;
   }
-  
-  input:last-of-type {
-    border-bottom: none;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
-      
-    margin-bottom: 1em;
-  }
-  
-  label {
-    display: block;
-    height: 0;
-    
-    position: relative;
-    z-index: 999;
-    
-    font-size: .6em;
-    text-transform: uppercase;
-    line-height: calc(2.5em / .6);
-  
-  }
-  
-  button {
-    width: 100%;
-    padding: 1.5em 0;
-    position: absolute;
-    bottom: 50px;
-    left: 0;
-    
-    cursor: pointer;
-    
-    font-size: 1em;
-    font-weight: bold;
-    text-transform: uppercase;
-    
-    border: none;
-    
-    transition: .2s ease;
-    color: #fff;
-    background-color: #0059EB;
-    box-shadow: 0 -2px 10px 2px rgba(0,0,0,.25);
-  }
-  
-  button:hover {
-  /*   background-image: linear-gradient(
-      rgba(255,255,255,.25),
-      rgba(255,255,255,.25)
-    ) */
-    background-color: #4082f0;
-  }
-  
-  button:active {
-    background-color: #3072e0;
-    font-size: .98em;
-    transition: .1s easeout;
-  }
-  
-  p {
-    background: #FFF;
-    padding: 1em 2em;
-    height: 275px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 12px 2px rgba(0,0,0,.25);
-  }
-  
+}
