@@ -1,0 +1,28 @@
+let
+    DataInício = #date(2016, 1, 1),
+    DataFim = #date(2019, 12, 31),
+    QdeDias = Duration.Days(DataFim - DataInício),
+    ListaDatas = List.Dates(DataInício,QdeDias,#duration(1,0,0,0)),
+    #"Convertido para Tabela" = Table.FromList(ListaDatas, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+in
+    #"Convertido para Tabela"
+
+
+
+
+
+let
+    dataMin = List.Min(dados_covid[data]),
+    dataMax = List.Max(dados_covid[data]),
+    qtdDias = Duration.Days(dataMax - dataMin) + 1,
+    listaDatas = List.Dates(dataMin, qtdDias, #duration(1,0,0,0)),
+    #"Convertido para Tabela" = Table.FromList(listaDatas, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+    #"Colunas Renomeadas" = Table.RenameColumns(#"Convertido para Tabela",{{"Column1", "data"}}),
+    #"Tipo Alterado" = Table.TransformColumnTypes(#"Colunas Renomeadas",{{"data", type date}}),
+    #"Nome do Mês Inserido" = Table.AddColumn(#"Tipo Alterado", "Nome do Mês", each Date.MonthName([data]), type text),
+    #"Colocar Cada Palavra Em Maiúscula" = Table.TransformColumns(#"Nome do Mês Inserido",{{"Nome do Mês", Text.Proper, type text}}),
+    #"Colunas Renomeadas1" = Table.RenameColumns(#"Colocar Cada Palavra Em Maiúscula",{{"Nome do Mês", "dataMes"}}),
+    #"Mês Inserido" = Table.AddColumn(#"Colunas Renomeadas1", "Mês", each Date.Month([data]), Int64.Type),
+    #"Colunas Renomeadas2" = Table.RenameColumns(#"Mês Inserido",{{"Mês", "dataMesNum"}})
+in
+    #"Colunas Renomeadas2"

@@ -1,0 +1,72 @@
+let
+// Criando Range de Data Entre 01/01/2016 e Hoje
+Fonte = #date(2016, 1, 1),
+ListaDatas = List.Dates(Fonte,Number.From(DateTime.LocalNow())-Number.From(Fonte),#duration(1,0,0,0)),
+#"ConverteTabela"= Table.FromList(ListaDatas, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+
+// Renomeando e formatando a coluna para Data
+#"Renomeia Coluna para Data" = Table.RenameColumns(ConverteTabela,{{"Column1", "Data"}}),
+#"Formata Coluna como Data" = Table.TransformColumnTypes(#"Renomeia Coluna para Data",{{"Data", type date}}),
+
+// Dia
+DiaNum = Table.AddColumn(#"Formata Coluna como Data", "DiaNum", each Date.Day([Data]), Int64.Type),
+DiaComZero = Table.AddColumn(DiaNum, "DiaComZero", each Text.PadStart(Text.From(Date.Day([Data])),2,"0"), type text),
+DiaNome = Table.AddColumn(DiaComZero, "DiaNome", each "Dia " & [DiaComZero] , type text),
+DiaAno = Table.AddColumn(DiaNome, "DiaAno", each Date.DayOfYear([Data]), type text),
+
+// Mês
+MesNum = Table.AddColumn(DiaAno, "MesNum", each Date.Month([Data]), Int64.Type),
+MesComZero = Table.AddColumn(MesNum, "MesComZero", each Text.PadStart(Text.From(Date.Month([Data])),2,"0"), type text),
+MesNome = Table.AddColumn(MesComZero, "MesNome", each Date.MonthName([Data]), type text),
+MesNomeAbrev = Table.AddColumn(MesNome, "MesNomeAbrev", each Date.ToText([Data],"MMM"), type text),
+MesNomeAbrevAno = Table.AddColumn(MesNomeAbrev, "MesNomeAbrevAno", each Date.ToText([Data],"MMM-yyyy"), type text),
+MesExtenso = Table.AddColumn(MesNomeAbrevAno, "Mes Extenso", each "Mês " & [MesComZero]),
+
+// Ano
+Ano = Table.AddColumn(MesExtenso, "Ano", each Date.Year([Data])),
+#"Ano/Mes" = Table.AddColumn(Ano, "Ano/Mes", each Date.ToText([Data],"yyyy/MM"), type text),
+
+// Semana
+DiaSemana = Table.AddColumn(#"Ano/Mes", "DiaSemana", each Date.DayOfWeek([Data]), type text),
+DiaSemanaAbrev = Table.AddColumn(DiaSemana, "DiaSemanaAbrev", each Date.ToText([Data],"ddd"), type text),
+DiaSemanaNome = Table.AddColumn(DiaSemanaAbrev, "DiaSemanaNome", each Date.ToText([Data],"dddd"), type text),
+SemanaAno = Table.AddColumn(DiaSemanaNome, "SemanaAno", each Text.PadStart(Text.From(Date.WeekOfYear([Data])),2,"0"), type text),
+#"Semana, Ano" = Table.AddColumn(SemanaAno, "Semana, Ano", each "Semana " & [SemanaAno] & ", " & Text.From([Ano]), type text),
+SemanaExtenso = Table.AddColumn(#"Semana, Ano", "SemanaExtenso", each "Semana " & [SemanaAno], type text),
+SemanaMes = Table.AddColumn(SemanaExtenso, "SemanaMes", each Date.WeekOfMonth([Data])),
+
+// Bimestre
+Bimestre = Table.AddColumn(SemanaMes, "Bimestre",
+each if [MesNum] <= 2 then 1
+else if [MesNum] <= 4 then 2
+else if [MesNum] <= 6 then 3
+else if [MesNum] <= 8 then 4
+else if [MesNum] <= 10 then 5
+else 6),
+
+// Semestre
+Semestre = Table.AddColumn(Bimestre, "Semestre",
+each if [MesNum] <= 6 then 1
+else 2),
+
+// Trimestre
+TrimestreNum = Table.AddColumn(Semestre, "TrimestreNum", each Date.QuarterOfYear([Data])),
+TrimestreNom = Table.AddColumn(TrimestreNum, "TrimestreNom", each Number.ToText([TrimestreNum]) & "º" & " – Trimestre", type text),
+
+// Data Inicio e Fim mês
+InicioMes = Table.AddColumn(TrimestreNom, "InicioMes", each Date.StartOfMonth([Data])),
+FimMes = Table.AddColumn(InicioMes, "FimMes", each Date.EndOfMonth([Data])),
+
+//Calendário Ano
+#"Calendario Ano" = Table.AddColumn(FimMes, "Calendario Ano", each "Calendário " & Text.From([Ano]), type text),
+
+//Flags
+FlagFinalSemana = Table.AddColumn(#"Calendario Ano", "FinalSemana", each if([DiaSemana] = 0 or [DiaSemana] = 6) then "Sim" else "Não", type text),
+FlagHoje = Table.AddColumn(FlagFinalSemana, "FlagHoje", each Date.IsInCurrentDay([Data]), type logical),
+FlagMesAtual = Table.AddColumn(FlagHoje, "FlagMesAtual", each Date.IsInCurrentMonth([Data]), type logical),
+FlagTrimestreAtual = Table.AddColumn(FlagMesAtual, "FlagTrimestreAtual", each Date.IsInCurrentQuarter([Data]), type logical),
+FlagSemanaAtual = Table.AddColumn(FlagTrimestreAtual, "FlagSemanaAtual", each Date.IsInCurrentWeek([Data]), type logical),
+FlagAnoAtual = Table.AddColumn(FlagSemanaAtual, "FlagAnoAtual", each Date.IsInCurrentYear([Data]), type logical),
+FlagYTD = Table.AddColumn(FlagAnoAtual, "YTD", each if [FlagAnoAtual] = true and [Data] <= Date.From(DateTime.LocalNow()) then true else false, type logical)
+in
+FlagYTD

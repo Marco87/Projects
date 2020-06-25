@@ -1,0 +1,13 @@
+Dados:
+https://brasil.io/dataset/covid19/caso?format=csv%27
+
+
+Análises:
+Ocorrências por estados (gráfico de barras e mapa)
+Ocorrências por data (gráfico de barras)
+Ocorrências por município (mapa do estado e filtro para selecionar os estados)
+
+
+Links:
+https://www.ufrgs.br/coronavirus/base/pesquisadores-do-inf-criam-site-com-ferramentas-de-analise-visual-de-dados-da-covid-19/
+https://prstecnologia.com/blog-tabela-calendario-e-necessaria-power-bi-como-criar.html
