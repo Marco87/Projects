@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Aula 6</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="img/alura.ico" type="img/ico">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="container">
+        <div class="folha">
+            <h1 id="txttitulo">Nome:</h1>
+            <h2>Ficha Médica:</h2>
+
+            <ul id="listaitens">
+                <li><input type="text" id="txtnome" placeholder="Digite o seu nome" class="txt"></li>
+                <li><label>Selecione a sua data de nascimento: </label><input type="date" id="txtdata" class="txt"></li>
+                <li><input type="text" id="txtsangue" placeholder="Digite o seu tipo sanguíneo" class="txt"></li>
+            </ul>
+            <input type="button" id="btnok" value="Confirmar" onclick="preencher()">
+        </div>
+    </div>
+</body>
+<script>
+    function preencher() {
+        nome = document.getElementById("txtnome").value;
+        data = document.getElementById("txtdata").value;
+        sangue = document.getElementById("txtsangue").value;
+
+        document.getElementById("txttitulo").innerHTML = 'Nome: ' + nome;
+        document.getElementById("listaitens").innerHTML = "<li>Data de Nascimento: " + data + " </li><li>Tipo Sanguíneo: " + sangue + "</li>";
+    }
+</script>
+
+</html>

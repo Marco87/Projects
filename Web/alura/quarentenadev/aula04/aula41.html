@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
+    <title>
+        Aula 4 - Valor de corrida
+    </title>
+    <link rel="shortcut icon" href="alura.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <input type="text" id="txtdistancia" placeholder="Distância percorrida"><br><br>
+    <input type="text" id="txtminutos" placeholder="Minutos de viagem"><br><br>
+    <input type="button" id="btncalcular" value="Calcular corrida" onclick="calcularCorrida()">
+    <p><label id="txtvalor"></label></p>
+</body>
+<script>
+    function calcularCorrida() {
+        var distancia = document.getElementById("txtdistancia").value;
+        var minutos = document.getElementById("txtminutos").value;
+
+        var valor = 2 + (distancia * 1.4 + minutos * 0.26);
+
+        document.getElementById("txtvalor").innerHTML = "Valor da corrida: R$ " + valor.toFixed(2);
+
+        document.getElementById("txtdistancia").value = "";
+        document.getElementById("txtminutos").value = "";
+    }
+</script>
+
+</html>

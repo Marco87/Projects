@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Starter - Módulo 1</title>
+    <link rel="shortcut icon" href="rocketseat.ico" type="image/x-icon">
+    <meta http-equiv=”Content-Type” content=”text/html; charset=iso-8859-1″>
+</head>
+
+<body>
+    <input type="text" id="txtn1"><br><br>
+    <input type="text" id="txtn2"><br><br>
+    <input type="button" onclick="retornarPares()" value="Ok">
+</body>
+<script>
+    function retornarPares() {
+        var x = document.getElementById("txtn1").value;
+        var y = document.getElementById("txtn2").value;
+
+        var maior = 0;
+        var menor = 0;
+        if (x > y) {
+            maior = x;
+            menor = y;
+        } else if (y > x) {
+            maior = y;
+            menor = x;
+        } else {
+            maior = menor = x;
+        }
+
+        if (maior != menor) {
+            for (var i = menor; i <= maior; i++) {
+                if (i % 2 == 0)
+                    document.write(i + "<br>");
+            }
+        } else {
+            alert("Digite dois números diferentes!")
+        }
+        document.getElementById("txtn1").value = "";
+        document.getElementById("txtn2").value = "";
+    } 
+</script>
+
+</html>

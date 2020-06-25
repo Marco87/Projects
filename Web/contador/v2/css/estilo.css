@@ -1,0 +1,64 @@
+* {
+    margin: 0 auto;
+}
+
+#rodape {
+    background: none repeat scroll 0 0 rgb(204, 204, 204);
+    color: rgb(70, 70, 70);
+    font-size: 22px;
+    margin-top: 100px;
+    text-align: center;
+}
+.dia {
+  background: url("../img/numbers.jpg") repeat scroll 0 0 transparent;
+  display: inline-block;
+  height: 92px;
+  margin: 0 auto;
+  min-width: 48px;
+}
+.number-1 {
+}
+
+
+.number-2 {
+    background-position: -56px 0px;
+}
+.number-3 {
+    background-position: -112px 0px;
+}
+.number-4 {
+    background-position: -165px 0px;
+}
+.number-5 {
+    background-position: -226px 0px;
+}
+.number-6 {
+    background-position: 0px -109px;
+}
+.number-7 {
+    background-position: -58px -109px;
+}
+.number-8 {
+    background-position: -108px -109px;
+}
+.number-9 {
+    background-position: -175px -109px;
+}
+.number-0 {
+    background-position: -234px -109px;
+}
+
+
+.number-space {
+    background: none repeat scroll 0 0 transparent;
+}
+.number-two-points:before {
+    color: red;
+    content: ":";
+    font-size: 100px;
+    display: block;
+}
+.number-two-points {
+    background: none;
+    height: auto;
+}

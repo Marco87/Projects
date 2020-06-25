@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Aula 6</title>
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <link rel="icon" href="img/alura.ico" type="img/ico">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1 id="tagh1"> Nome: </h1>
+
+    <h2> Ficha </h2>
+    <ul id="lista">
+
+    </ul>
+</body>
+<script>
+    Nome = prompt("Nome completo")
+    tagh1.innerHTML = "Nome:" + Nome
+    nascimento = "05/03/1997"
+    temcondicao = confirm("Tem condição pré-existente")
+
+    if (temcondicao) { estadodesaude = "Sim" }
+    // false==false resultado: true
+    if (temcondicao == false) { estadodesaude = "Nao" }
+
+    lista.innerHTML =
+        `<li> Data Nascimento: ${nascimento} </li>
+   <li> Idade: 23 anos </li>
+   <li> Tem condição pré-existente: ${estadodesaude} </li>
+   <li> Precisa de acompanhamento médico </li>`
+
+</script>
+
+</html>

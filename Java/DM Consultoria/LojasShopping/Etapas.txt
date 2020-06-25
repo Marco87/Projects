@@ -1,0 +1,41 @@
+		Estrutura
+Jboss ou Widfly
+REST
+Jax-RS
+Maven
+JUnit
+EJB3
+JPA
+Postman
+BD em memória (Apache Derby ou H2)
+
+
+		Tabela
+	Loja:
+idLoja
+nomeLoja
+cnpjLoja
+segmentoLoja
+pisoLoja
+numeroLoja
+dataSaidaLoja
+
+
+		Etapas
+*Pesquisar sobre REST
+*Ver exemplos
+*Ver tutoriais
+*Instalar/Configurar o servidor (JBoss)
+*Instalar/Configurar o Maven
+*Instalar/Configurar JUnit
+*Instalar/Configurar o H2
+*Instalar/Configurar o Postman
+
+
+		Cronograma
+--> 01/08 - Noite livre					*		*		N
+--> 02/08 - Manhã/tarde livres			M		T		*
+--> 03/08 - Dia livre					M		T		N
+--> 04/08 - Tarde parcialmente livre	*		T		*
+--> 05/08 - Dia livre 					M		T		N
+--> 06/08 - Entrega			
