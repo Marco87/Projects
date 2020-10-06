@@ -706,3 +706,196 @@ java.lang.RuntimeException: Finished restoring information for: /home/marco/anac
 
 !ENTRY org.python.pydev.shared_core 4 4 2020-01-15 15:31:00.236
 !MESSAGE Info: Rebuilding internal caches: /home/marco/Projects/Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ola/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+!SESSION 2020-10-05 19:39:31.239 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=14.0.1
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 4 567 2020-10-05 19:39:51.130
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2020-10-05 19:39:51.130
+!MESSAGE Could not read metadata for 'Ola'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Ola)[567]: java.lang.Exception: The project description file (.project) for 'Ola' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1557)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:571)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:330)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:472)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:425)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2020-10-05 19:39:51.132
+!MESSAGE The project description file (.project) for 'Ola' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'Ola' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1557)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:571)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:330)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:472)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:425)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-10-05 19:40:29.226
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-10-05 19:40:29.226
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.226
+!MESSAGE Software being installed: Eclipse XSL Developer Tools 1.3.900.v202005251734 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v202005251734)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.226
+!MESSAGE Missing requirement: Structured Source Editor 1.7.100.v202008192217 (org.eclipse.wst.sse.ui 1.7.100.v202008192217) requires 'osgi.bundle; org.eclipse.ui.workbench [3.117.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-10-05 19:40:29.226
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.226
+!MESSAGE From: Eclipse XSL Developer Tools 1.3.900.v202005251734 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v202005251734)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.226
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xsl.ui [1.2.100.v202004230532,1.2.100.v202004230532]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-10-05 19:40:29.226
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.226
+!MESSAGE From: XSL Editor and Validation 1.2.100.v202004230532 (org.eclipse.wst.xsl.ui 1.2.100.v202004230532)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.226
+!MESSAGE To: osgi.bundle; org.eclipse.wst.sse.ui [1.7.0,2.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-10-05 19:40:29.351
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-10-05 19:40:29.351
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.351
+!MESSAGE Software being installed: Eclipse XSL Developer Tools 1.3.900.v202005251734 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v202005251734)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.351
+!MESSAGE Missing requirement: Structured Source Editor 1.7.100.v202008192217 (org.eclipse.wst.sse.ui 1.7.100.v202008192217) requires 'osgi.bundle; org.eclipse.ui.workbench [3.117.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-10-05 19:40:29.351
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.351
+!MESSAGE From: Eclipse XSL Developer Tools 1.3.900.v202005251734 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v202005251734)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.351
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xsl.ui [1.2.100.v202004230532,1.2.100.v202004230532]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-10-05 19:40:29.351
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.351
+!MESSAGE From: XSL Editor and Validation 1.2.100.v202004230532 (org.eclipse.wst.xsl.ui 1.2.100.v202004230532)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.351
+!MESSAGE To: osgi.bundle; org.eclipse.wst.sse.ui [1.7.0,2.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-10-05 19:40:29.661
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-10-05 19:40:29.661
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.661
+!MESSAGE Software being installed: Eclipse XSL Developer Tools 1.3.900.v202005251734 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v202005251734)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.661
+!MESSAGE Missing requirement: Structured Source Editor 1.7.100.v202008192217 (org.eclipse.wst.sse.ui 1.7.100.v202008192217) requires 'osgi.bundle; org.eclipse.ui.workbench [3.117.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-10-05 19:40:29.661
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.661
+!MESSAGE From: Eclipse XSL Developer Tools 1.3.900.v202005251734 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v202005251734)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.661
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xsl.ui [1.2.100.v202004230532,1.2.100.v202004230532]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-10-05 19:40:29.661
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.661
+!MESSAGE From: XSL Editor and Validation 1.2.100.v202004230532 (org.eclipse.wst.xsl.ui 1.2.100.v202004230532)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.661
+!MESSAGE To: osgi.bundle; org.eclipse.wst.sse.ui [1.7.0,2.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-10-05 19:40:29.669
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-10-05 19:40:29.670
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.670
+!MESSAGE Software being installed: Eclipse XSL Developer Tools 1.3.900.v202005251734 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v202005251734)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.670
+!MESSAGE Missing requirement: Structured Source Editor 1.7.100.v202008192217 (org.eclipse.wst.sse.ui 1.7.100.v202008192217) requires 'osgi.bundle; org.eclipse.ui.workbench [3.117.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-10-05 19:40:29.670
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.670
+!MESSAGE From: Eclipse XSL Developer Tools 1.3.900.v202005251734 (org.eclipse.wst.xsl.feature.feature.group 1.3.900.v202005251734)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.670
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xsl.ui [1.2.100.v202004230532,1.2.100.v202004230532]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-10-05 19:40:29.670
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.670
+!MESSAGE From: XSL Editor and Validation 1.2.100.v202004230532 (org.eclipse.wst.xsl.ui 1.2.100.v202004230532)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-10-05 19:40:29.670
+!MESSAGE To: osgi.bundle; org.eclipse.wst.sse.ui [1.7.0,2.0.0)
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-05 19:40:46.876
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob
