@@ -1,7 +1,0 @@
-Criar tabela calendário:
-https://www.prstecnologia.com/blog-tabela-calendario-e-necessaria-power-bi-como-criar.html
-
-Selecionar entre infectados e mortos
-Infectados por mês (linha)
-Infectados por estado (mapa)
-Infectados por região (mapa/barra)

@@ -1,8 +1,0 @@
-let
-    DataInício = #date(2016, 1, 1),
-    DataFim = #date(2019, 12, 31),
-    QdeDias = Duration.Days(DataFim - DataInício),
-    ListaDatas = List.Dates(DataInício,QdeDias,#duration(1,0,0,0)),
-    #"Convertido para Tabela" = Table.FromList(ListaDatas, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
-in
-    #"Convertido para Tabela"
