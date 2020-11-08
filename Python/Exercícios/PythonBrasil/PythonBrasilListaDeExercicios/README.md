@@ -25,7 +25,7 @@ https://www.concrete.com.br/2017/07/21/introducao-ao-python-com-jupyter/
 
 Os seguintes atalhos estão implementados por default para célula no modo comando:
 
-Ctrl-Enter: executa a célula;
+<b>Ctrl-Enter:</b> executa a célula;
 
 Shift-Enter: executa a célula e cria uma nova célula abaixo no modo de comando;
 
