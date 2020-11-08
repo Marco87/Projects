@@ -25,37 +25,37 @@ https://www.concrete.com.br/2017/07/21/introducao-ao-python-com-jupyter/
 
 Os seguintes atalhos estão implementados por default para célula no modo comando:
 
-<b>Ctrl-Enter:</b> executa a célula;
+<b>Ctrl + Enter:</b> executa a célula;
 
-Shift-Enter: executa a célula e cria uma nova célula abaixo no modo de comando;
+<b>Shift + Enter:</b> executa a célula e cria uma nova célula abaixo no modo de comando;
 
-Alt-Enter: executa a célula e cria uma nova célula abaixo no modo de edição;
+<b>Alt + Enter:</b> executa a célula e cria uma nova célula abaixo no modo de edição;
 
-Y: muda a célula para o tipo código;
+<b>Esc + Y:</b> muda a célula para o tipo código;
 
-M: muda a célula para o tipo markdown;
+<b>Esc + M:</b> muda a célula para o tipo markdown;
 
-A: insere célula acima;
+<b>Esc + A:</b> insere célula acima;
 
-B: insere célula abaixo;
+<b>Esc + B:</b> insere célula abaixo;
 
-X: recorta a célula;
+<b>Esc + X:</b> recorta a célula;
 
-C: copia a célula;
+<b>Esc + C:</b> copia a célula;
 
-V: cola a célula do clipboard abaixo;
+<b>Esc + V:</b> cola a célula do clipboard abaixo;
 
-shift-V: cola a célula do clipboard acima;
+<b>shift + V:</b> cola a célula do clipboard acima;
 
-D, D: deleta uma célula;
+<b>D, D:</b> deleta uma célula;
 
-Z: desfaz o apagar célula; e
+<b>Esc + Z:</b> desfaz o apagar célula; e
 
-L: ativa a enumeração das linhas.
+<b>Esc + L:</b> ativa a enumeração das linhas.
 
 
 #### Os seguintes atalhos estão implementados por default para célula no modo de edição:
 
-Tab: autocompleta durante a digitação; e
+<b>Tab:</b> autocompleta durante a digitação; e
 
-Shift-Tab: abre uma minijanela com parte da documentação sobre a parte do código durante a documentação.
+<b>Shift+Tab:</b> abre uma minijanela com parte da documentação sobre a parte do código durante a documentação.
