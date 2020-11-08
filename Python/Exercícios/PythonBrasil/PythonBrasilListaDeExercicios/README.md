@@ -20,6 +20,7 @@ https://www.concrete.com.br/2017/07/21/introducao-ao-python-com-jupyter/
 
 ### Atalhos do Jupyter:
 
+<img src="https://conceitos.com/wp-content/uploads/geral/Atalho.jpg">
 
 #### Atalhos do teclado
 
