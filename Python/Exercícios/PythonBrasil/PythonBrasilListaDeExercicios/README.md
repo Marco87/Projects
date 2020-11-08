@@ -45,7 +45,7 @@ Os seguintes atalhos estão implementados por default para célula no modo coman
 
 <b>Esc + V:</b> cola a célula do clipboard abaixo;
 
-<b>shift + V:</b> cola a célula do clipboard acima;
+<b>Shift + V:</b> cola a célula do clipboard acima;
 
 <b>D, D:</b> deleta uma célula;
 
