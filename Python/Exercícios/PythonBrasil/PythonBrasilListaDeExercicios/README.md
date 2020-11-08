@@ -16,6 +16,10 @@ https://letscode-academy.com/blog/introducao-ao-jupyter-notebook/
 
 https://www.concrete.com.br/2017/07/21/introducao-ao-python-com-jupyter/
 
+https://support.zendesk.com/hc/pt-br/articles/203691016-Formata%C3%A7%C3%A3o-de-texto-com-Markdown
+
+http://www.robertocolistete.net/ICF/2012-2/ipynb/FormatandoNotebook/FormatandoNotebook.pdf
+
 
 
 ### Atalhos do Jupyter:
@@ -53,6 +57,24 @@ Os seguintes atalhos estão implementados por default para célula no modo coman
 <b>Esc + Z:</b> desfaz o apagar célula; e
 
 <b>Esc + L:</b> ativa a enumeração das linhas.
+
+<b>*:</> texto em itálico (sem espaço entre o asterisco e o(s)caractere(s)).
+
+<b>**:</b> texto negrito (sem espaço entre o asterisco e o(s)caractere(s)).
+
+<b>#: </b> cabeçalho nível um.
+
+<b>##: </b> cabeçalho nível dois.
+
+<b>###: </b> cabeçalho nível três.
+
+<b>---:</b> régua azul.
+
+<b>>:</b> citação (a citação termina com uma linha em branco).
+
+<b>*, + ou -:</b> lista não ordenada (para acrescentar um subitem, adicione dois espaços após o sinal).
+
+<b>![title](link da imagem):</b> imagem
 
 
 #### Os seguintes atalhos estão implementados por default para célula no modo de edição:
