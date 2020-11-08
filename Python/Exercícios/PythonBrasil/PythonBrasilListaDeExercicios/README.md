@@ -74,6 +74,8 @@ Os seguintes atalhos estão implementados por default para célula no modo coman
 
 <b>*, + ou -:</b> lista não ordenada (para acrescentar um subitem, adicione dois espaços após o sinal).
 
+<b>```:</b> bloco de código (criar uma quebra de linha antes e depois do código, e inserir estes sinais antes e depois do bloco).
+
 <b>![title](link da imagem):</b> imagem
 
 
