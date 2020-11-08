@@ -58,7 +58,7 @@ Os seguintes atalhos estão implementados por default para célula no modo coman
 
 <b>Esc + L:</b> ativa a enumeração das linhas.
 
-<b>*:</> texto em itálico (sem espaço entre o asterisco e o(s)caractere(s)).
+<b>*:</b> texto em itálico (sem espaço entre o asterisco e o(s)caractere(s)).
 
 <b>**:</b> texto negrito (sem espaço entre o asterisco e o(s)caractere(s)).
 
