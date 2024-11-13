@@ -1,0 +1,42 @@
+﻿X,Y,OBJECTID,Cod,Nome,Flg_ATM,Flg_Bicicletario,Flg_Elevador,Flg_Linha1,Flg_Linha2,Obs,Flg_Ativa,Status,Data_Inc,Flg_Linha4,Integra_Trem,Integra_Onibus,Integra_BRT,Corredor,Integra_VLT,Onibus,Flg_Metro_Superficie,Metro_Superficie,Data_Inauguracao
+667866.267300000414252,7477003.1978,1,1,Pavuna,Sim,Sim,Sim,Não,Sim,,Sim,,,Não,Sim,Não,Não,,Não,,Não,,1998
+668510.990199999883771,7475927.7961,2,2,Engenheiro Rubens Paiva,Sim,Sim,Sim,Não,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1998
+669405.092799999751151,7475003.9493,3,3,Acari / Fazenda Botafogo,Não,Não,Não,Não,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1998
+670051.923999999649823,7474226.2867,4,4,Coelho Neto,Sim,Não,Não,Não,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1998
+671002.254599999636412,7472974.1567,5,5,Colégio,Sim,Sim,Não,Não,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1998
+672080.212899999693036,7472378.852,6,6,Irajá,Sim,Sim,Sim,Não,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1998
+673122.702600000426173,7471689.973699999973,7,7,Vicente de Carvalho,Sim,Sim,Não,Não,Sim,,Sim,,,Não,Não,Não,Sim,Transcarioca,Não,,Não,,1996
+673758.395399999804795,7470759.0509,8,8,Tomaz Coelho,Não,Não,Sim,Não,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1996
+674711.348299999721348,7470144.879499999806,9,9,Engenho da Rainha,Sim,Não,Não,Não,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1991
+676143.228400000371039,7469385.3277,10,10,Inhauma,Sim,Sim,Sim,Não,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1983
+677318.712299999780953,7468847.9658,11,11,Del Castilho,Sim,Não,Sim,Não,Sim,,Sim,,,Não,Não,Sim,Não,,Não,"Fundão, Jacarepaguá, Barra",Não,,1983
+678502.904500000178814,7468584.256199999712,12,12,Maria da Graça,Sim,Não,Não,Não,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1983
+680119.002899999730289,7466858.3486,13,13,Triagem,Sim,Sim,Não,Não,Sim,,Sim,,,Não,Sim,Não,Não,,Não,,Não,,1988
+681175.589700000360608,7465429.274199999869,14,14,Maracanã,Sim,Não,Não,Não,Sim,,Sim,,,Não,Sim,Não,Não,,Não,,Não,,1981
+682402.7993,7465417.579199999571,15,15,São Cristóvão,Sim,Não,Não,Não,Sim,,Sim,,,Não,Sim,Não,Não,,Não,,Não,,1981
+683969.391900000162423,7464993.0449,16,16,Estácio,Sim,Sim,Sim,Sim,Não,Estação de transferência entre as Linhas 1 e 2,Sim,,,Não,Não,Sim,Não,,Não,"Caju, Rodoviária",Não,,1980
+681317.651399999856949,7463852.221199999563,17,17,Saens Peña,Sim,Não,Sim,Sim,Não,,Sim,,,Não,Não,Sim,Não,,Não,"Usina, Muda, Grajaú, Andaraí",Não,,1982
+682185.245099999942,7464224.2213,18,18,São Francisco Xavier,Sim,Sim,Não,Sim,Não,,Sim,,,Não,Não,Sim,Não,,Não,"Vila Isabel, Méier",Não,,1982
+682787.443799999542534,7464496.1809,19,19,Afonso Pena,Sim,Não,Não,Sim,Não,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1982
+685520.678399999625981,7465933.2532,20,21,Central,Sim,Não,Não,Sim,Sim,Estação com Posto de Gratuidade,Sim,,,Não,Sim,Não,Não,,Não,,Não,,1979
+686082.638799999840558,7466091.444199999794,21,22,Presidente Vargas,Sim,Não,Não,Sim,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1979
+686559.542899999767542,7466074.2361,22,23,Uruguaiana,Sim,Não,Não,Sim,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1980
+686955.956500000320375,7465624.675499999896,23,24,Carioca,Sim,Não,Sim,Sim,Sim,Estação com Achados e Perdidos,Sim,,,Não,Não,Não,Não,,Sim,,Não,,1981
+687176.632199999876,7465150.040099999867,24,25,Cinelândia,Sim,Não,Não,Sim,Sim,,Sim,,,Não,Não,Não,Não,,Sim,,Não,,1979
+687022.437300000339746,7464223.4888,25,26,Glória,Sim,Sim,Não,Sim,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1979
+687026.332299999892712,7463571.637699999847,26,27,Catete,Sim,Sim,Não,Sim,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1981
+686898.078200000338256,7462990.142599999905,27,28,Largo do Machado,Sim,Não,Sim,Sim,Sim,,Sim,,,Não,Não,Sim,Não,,Não,"Laranjeiras, Cosme Velho, Rodoviária",Não,,1981
+686772.2812,7462273.025799999945,28,29,Flamengo,Sim,Não,Sim,Sim,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1981
+686251.463299999945,7460775.9056,29,30,Botafogo,Sim,Não,Sim,Sim,Sim,,Sim,,,Não,Não,Sim,Não,,Não,Urca,Sim,Gávea,1981
+686529.013899999670684,7459289.255099999718,30,31,Cardeal Arcoverde,Sim,Não,Não,Sim,Não,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1998
+685943.4062,7459011.3777,31,32,Siqueira Campos,Sim,Sim,Não,Sim,Não,,Sim,,,Não,Não,Não,Não,,Não,,Não,,2003
+684622.182799999602139,7465369.7149,32,33,Praca Onze,Sim,Não,Não,Sim,Não,,Sim,,,Não,Não,Não,Não,,Não,,Não,,1979
+685192.923499999567866,7457967.7746,33,34,Cantagalo,Sim,Sim,Sim,Sim,Não,,Sim,,,Não,Não,Não,Não,,Não,,Não,,2007
+684012.509999999776483,7465505.199,34,35,Cidade Nova,Sim,Não,Sim,Não,Sim,,Sim,,,Não,Não,Não,Não,,Não,,Não,,2009
+684841.944799999706447,7457076.791299999692,35,36,Ipanema / General Osório,Sim,Sim,Não,Sim,Não,,Sim,,,Sim,Não,Não,Não,,Não,,Sim,Gávea,2009
+680545.782999999821186,7463019.647599999793,36,37,Uruguai,Não,Sim,Não,Sim,Não,,Sim,,,Não,Não,Não,Não,,Não,,Não,,2014
+683851.891200000420213,7457195.056599999778,37,38,Nossa Senhora da Paz,Sim,,Sim,Não,Não,Nova Linha 4,Sim,,,Sim,Não,Não,Não,,Não,,Não,,2016
+683051.419099999591708,7457311.3677,38,39,Jardim de Alah,Sim,,Sim,Não,Não,Nova Linha 4,Sim,,,Sim,Não,Não,Não,,Não,,Não,,2016
+682169.588399999774992,7457072.3528,39,40,Antero de Quental,Sim,,Sim,Não,Não,Nova Linha 4,Sim,,,Sim,Não,Não,Não,,Não,,Não,,2016
+679002.422899999655783,7456331.2311,40,41,São Conrado,Sim,,,Não,Não,Nova Linha 4,Sim,,,Sim,Não,Não,Não,,Não,,Não,,2016
+673150.420099999755621,7454775.1524,41,42,Jardim Oceânico,Sim,,Sim,Não,Não,Nova Linha 4,Sim,,,Sim,Não,Não,Sim,Transoeste,Não,,Não,,2016

@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">IMC</string>
-    <string name="peso">Digite o peso (em Kg)</string>
-    <string name="altura">Digite a altura (em Metros)</string>
-    <string name="calcular">Calcular o IMC</string>
-</resources>
